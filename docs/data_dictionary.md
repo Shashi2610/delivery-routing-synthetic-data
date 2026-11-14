@@ -270,10 +270,10 @@ Anomalies are injected after clean generation and recorded in `ground_truth/grou
 
 | Issue type | What is wrong | Tables and fields touched |
 |---|---|---|
-| ROUTE_CAPACITY_EXCEEDED | Summed delivery load on a route is over the vehicle's capacity on route_date | Route, RouteStop.delivery_id, Delivery.weight_kg / volume_m3 / units, VehicleCapacity.max_weight_kg / max_volume_m3 / max_units |
-| STOP_OMITTED_OR_DUPLICATED | A planned delivery has no stop, or a delivery appears twice in one route, or sequence_no has a gap | RouteStop.sequence_no, RouteStop.delivery_id, DeliveryStatusEvent |
+| ROUTE_CAPACITY_EXCEEDED | Summed delivery load on a route is over the vehicle's capacity on route_date | Route, RouteStop.delivery_id, Delivery.weight_kg / volume_m3 / units, Order.weight_kg (updated to match), VehicleCapacity.max_weight_kg / max_volume_m3 / max_units |
+| STOP_OMITTED_OR_DUPLICATED | A planned delivery has no stop, or a delivery appears twice in one route, or sequence_no has a gap | RouteStop.sequence_no, RouteStop.delivery_id, DeliveryStatusEvent, DeliveryOutcome (the row of an omitted stop is removed with it) |
 | ARRIVAL_BEFORE_PREVIOUS_DEPARTURE | A stop's arrival is earlier than the previous stop's departure | RouteStop.planned_arrival / planned_departure, DeliveryOutcome.actual_arrival / actual_departure |
-| DRIVER_SHIFT_EXCEEDED | Stops end after shift_end or driving exceeds max_driving_minutes | Shift.shift_end / max_driving_minutes, RouteStop.planned_arrival / planned_departure, DeliveryOutcome.actual_departure |
+| DRIVER_SHIFT_EXCEEDED | Stops end after shift_end or driving exceeds max_driving_minutes | Shift.shift_end / max_driving_minutes, RouteStop.planned_arrival / planned_departure, DeliveryOutcome.actual_departure, DeliveryStatusEvent.event_time (updated to match) |
 | COORDINATE_OUTSIDE_REGION | A site's coordinates are outside the region bounds | CustomerSite.lat / lon |
 
 ### ground_truth.csv fields
@@ -284,6 +284,12 @@ Anomalies are injected after clean generation and recorded in `ground_truth/grou
 | table | string | name of the affected table |
 | issue_type | enum | one of the five issue types above |
 | description | string | short plain-text explanation of what was changed |
+| field | string | changed column, or `row` when a whole row was added or deleted |
+| original_value | string | value before the change; for a deleted row the row's values; empty for an added row |
+| injected_value | string | value after the change, `deleted` for a deleted row, or the added row's values |
+| anomaly_id | string | ANOM-NNNN, shared by every row changed for the same injected anomaly |
+
+One injected anomaly can change more than one row, because derived values are kept consistent with the changed source value. Every changed row has its own line. The file is written only when anomalies are injected, and it is the only place that identifies them.
 
 The split of TravelTimeMatrix and TrafficScenario does not change the anomaly list. The arrival-before-departure and shift-exceeded checks use actual travel minutes, computed from both tables, but no anomaly is injected into either table.
 
