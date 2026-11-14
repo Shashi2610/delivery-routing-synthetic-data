@@ -8,73 +8,10 @@ import pandas as pd
 
 from generator import ids
 from generator.config import LATE_GRACE_MINUTES, REGION_BOUNDS
+from generator.schema import ENUMS, FOREIGN_KEYS, PRIMARY_KEYS, TABLES, UNIQUE_CONSTRAINTS, VEHICLE_TYPES
 from generator.travel import HOUR_BAND_BASE_FACTORS, HOUR_BAND_START_MINUTES
 
 ROOT = Path(__file__).parent
-
-TABLES = [
-    "customer_site", "vehicle", "vehicle_capacity", "driver", "shift", "travel_time_matrix",
-    "traffic_scenario", "order", "delivery", "time_window", "delivery_status_event",
-    "route", "route_stop", "delivery_outcome",
-]
-
-PRIMARY_KEYS = {
-    "customer_site": ["site_id"], "vehicle": ["vehicle_id"], "vehicle_capacity": ["capacity_id"],
-    "driver": ["driver_id"], "shift": ["shift_id"], "travel_time_matrix": ["from_site_id", "to_site_id"],
-    "traffic_scenario": ["scenario_id"], "order": ["order_id"], "delivery": ["delivery_id"],
-    "time_window": ["window_id"], "delivery_status_event": ["event_id"], "route": ["route_id"],
-    "route_stop": ["stop_id"], "delivery_outcome": ["outcome_id"],
-}
-
-UNIQUE_CONSTRAINTS = [
-    ("vehicle_capacity", ["vehicle_id", "effective_from"]),
-    ("time_window", ["delivery_id"]),
-    ("route_stop", ["route_id", "sequence_no"]),
-    ("delivery_outcome", ["stop_id"]),
-    ("delivery_outcome", ["delivery_id", "attempt_no"]),
-    ("delivery_status_event", ["delivery_id", "event_seq"]),
-    ("traffic_scenario", ["scenario_date", "hour_band"]),
-]
-
-FOREIGN_KEYS = [
-    ("customer_site", "hub_id", "customer_site", "site_id"),
-    ("order", "site_id", "customer_site", "site_id"),
-    ("delivery", "order_id", "order", "order_id"),
-    ("time_window", "delivery_id", "delivery", "delivery_id"),
-    ("delivery_status_event", "delivery_id", "delivery", "delivery_id"),
-    ("delivery_status_event", "route_id", "route", "route_id"),
-    ("vehicle", "home_hub_id", "customer_site", "site_id"),
-    ("vehicle_capacity", "vehicle_id", "vehicle", "vehicle_id"),
-    ("driver", "home_hub_id", "customer_site", "site_id"),
-    ("shift", "driver_id", "driver", "driver_id"),
-    ("shift", "vehicle_id", "vehicle", "vehicle_id"),
-    ("travel_time_matrix", "from_site_id", "customer_site", "site_id"),
-    ("travel_time_matrix", "to_site_id", "customer_site", "site_id"),
-    ("route", "shift_id", "shift", "shift_id"),
-    ("route", "hub_id", "customer_site", "site_id"),
-    ("route_stop", "route_id", "route", "route_id"),
-    ("route_stop", "delivery_id", "delivery", "delivery_id"),
-    ("delivery_outcome", "stop_id", "route_stop", "stop_id"),
-    ("delivery_outcome", "delivery_id", "delivery", "delivery_id"),
-]
-
-REASON_CODES = {"LATE_MISSED_WINDOW", "SHIFT_EXCEEDED", "CAPACITY", "SITE_CLOSED", "VEHICLE_RESTRICTED"}
-VEHICLE_TYPES = {"van", "truck", "refrigerated"}
-DELIVERY_STATUSES = {"planned", "assigned", "unserved", "in_transit", "delivered", "failed"}
-
-ENUMS = [
-    ("customer_site", "site_type", {"hub", "customer"}, False),
-    ("customer_site", "site_class", {"residential", "commercial", "industrial"}, False),
-    ("vehicle", "vehicle_type", VEHICLE_TYPES, False),
-    ("vehicle", "restriction_code", {"NONE", "NO_RESIDENTIAL", "DAYTIME_ONLY"}, False),
-    ("driver", "licence_class", {"standard", "heavy"}, False),
-    ("traffic_scenario", "hour_band", set(HOUR_BAND_BASE_FACTORS), False),
-    ("time_window", "priority", {"low", "normal", "high", "critical"}, False),
-    ("delivery_outcome", "status", {"delivered", "failed"}, False),
-    ("delivery_outcome", "reason_code", REASON_CODES, True),
-    ("delivery_status_event", "status", DELIVERY_STATUSES, False),
-    ("delivery_status_event", "reason_code", REASON_CODES, True),
-]
 
 ID_PATTERNS = {
     "customer_site": r"SITE-\d{6}",
