@@ -4,10 +4,8 @@ import numpy as np
 import pandas as pd
 
 from generator import ids
-from generator.config import HUB_SHARES, REGION_BOUNDS, START_DATE
-
-DATE_FORMAT = "%Y-%m-%d"
-TIMESTAMP_FORMAT = "%Y-%m-%dT%H:%M:%S"
+from generator.config import DATE_FORMAT, HUB_SHARES, REGION_BOUNDS, START_DATE, TIMESTAMP_FORMAT
+from generator.rng import pick
 
 HUB_MARGIN_SHARE = 0.20
 SITE_SPREAD_DEGREES = 0.03
@@ -39,10 +37,6 @@ SHIFT_LENGTH_MINUTES = (480, 540, 600)
 MAX_DRIVING_MINUTES = (360, 420, 480)
 BREAK_MINUTES = (30, 45, 60)
 BREAK_AFTER_DRIVING_MINUTES = (180, 240, 270)
-
-
-def pick(rng, shares, size):
-    return rng.choice(list(shares), size=size, p=list(shares.values()))
 
 
 def hub_ids(sites):
@@ -135,6 +129,12 @@ def build_sites(rng, customer_count):
     return pd.concat([hubs, customers], ignore_index=True)
 
 
+def draw_home_hubs(rng, sites, count):
+    hubs = hub_ids(sites)
+    extra = rng.choice(hubs, size=count - len(hubs), p=HUB_SHARES)
+    return rng.permutation(np.concatenate([hubs, extra]))
+
+
 def build_vehicles(rng, sites, count):
     vehicle_type = pick(rng, VEHICLE_TYPE_SHARES, count)
     restriction = np.empty(count, dtype=object)
@@ -144,7 +144,7 @@ def build_vehicles(rng, sites, count):
     return pd.DataFrame({
         "vehicle_id": [ids.vehicle_id(n) for n in range(1, count + 1)],
         "vehicle_type": vehicle_type,
-        "home_hub_id": rng.choice(hub_ids(sites), size=count, p=HUB_SHARES),
+        "home_hub_id": draw_home_hubs(rng, sites, count),
         "restriction_code": restriction,
         "commissioned_date": dates_before_start(rng, count, 30, 1500),
     })
@@ -221,6 +221,5 @@ def build_shifts(rng, drivers, vehicles, days):
     ]
     shifts = pd.concat(day_frames, ignore_index=True)
     years = pd.to_datetime(shifts["shift_start"]).dt.year
-    numbers = years.groupby(years).cumcount() + 1
-    shifts.insert(0, "shift_id", [ids.shift_id(year, number) for year, number in zip(years, numbers)])
+    shifts.insert(0, "shift_id", ids.assign_yearly(ids.shift_id, years))
     return shifts

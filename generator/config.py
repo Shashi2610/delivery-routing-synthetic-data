@@ -4,6 +4,9 @@ DEFAULT_SEED = 20261022
 
 START_DATE = date(2026, 11, 2)
 
+DATE_FORMAT = "%Y-%m-%d"
+TIMESTAMP_FORMAT = "%Y-%m-%dT%H:%M:%S"
+
 HUB_SHARES = (0.30, 0.25, 0.20, 0.15, 0.10)
 
 SCALES = {
@@ -17,3 +20,7 @@ REGION_BOUNDS = {
     "lon_min": -74.05,
     "lon_max": -73.75,
 }
+
+CIRCUITY_FACTOR = 1.3
+DISTANCE_BAND_EDGES_KM = (3, 10, 25)
+BAND_SPEEDS_KMH = (25, 35, 45, 55)

@@ -1,3 +1,13 @@
+import numpy as np
+import pandas as pd
+
+
+def assign_yearly(make_id, years):
+    years = pd.Series(np.asarray(years))
+    numbers = years.groupby(years).cumcount() + 1
+    return [make_id(year, number) for year, number in zip(years, numbers)]
+
+
 def plain_id(prefix, number):
     return f"{prefix}-{number:06d}"
 
