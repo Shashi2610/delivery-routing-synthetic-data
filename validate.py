@@ -553,9 +553,16 @@ def not_implemented_section():
     return "## Not implemented\n\n" + "\n".join(f"- {item}" for item in NOT_IMPLEMENTED)
 
 
+def display_path(path):
+    try:
+        return Path(path).resolve().relative_to(ROOT).as_posix()
+    except ValueError:
+        return Path(path).name
+
+
 def write_report(path, data_dir, results, detections, scores, has_ground_truth, passed):
     sections = [
-        f"# Validation report\n\nData folder: `{data_dir}`",
+        f"# Validation report\n\nData folder: `{display_path(data_dir)}`",
         summary_section(results, scores, has_ground_truth, passed),
         structural_section(results),
         detection_section(detections),

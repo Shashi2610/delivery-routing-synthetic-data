@@ -1,6 +1,6 @@
 # Validation report
 
-Data folder: `C:\Users\pc\OneDrive\Documents\delivery-routing-synthetic-data\data`
+Data folder: `data`
 
 ## Summary
 
