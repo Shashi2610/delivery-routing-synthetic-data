@@ -204,6 +204,7 @@ Not in the original list of 12. It holds the delivery lifecycle as append-only r
 | status | enum | Y | planned, assigned, unserved, in_transit, delivered, failed | none | no | must be an allowed transition from the previous event's status |
 | event_time | datetime | Y | within simulation period | local time | no | not before the previous event's event_time |
 | route_id | string | N | existing route_id | none | no | FK to Route.route_id; required for assigned and in_transit |
+| reason_code | enum | N | LATE_MISSED_WINDOW, SHIFT_EXCEEDED, CAPACITY, SITE_CLOSED, VEHICLE_RESTRICTED | none | no | required when status is unserved, null otherwise |
 
 ### 14. TrafficScenario (added)
 

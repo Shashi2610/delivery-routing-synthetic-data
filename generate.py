@@ -10,6 +10,7 @@ from generator.master_data import (
     build_vehicles,
 )
 from generator.rng import make_rng
+from generator.routing import plan_routes
 from generator.transactions import (
     build_orders_and_deliveries,
     build_status_events,
@@ -38,7 +39,7 @@ def build_tables(rng, sizes):
     orders, deliveries = build_orders_and_deliveries(rng, sites, sizes["deliveries"], sizes["days"])
     windows = build_time_windows(rng, deliveries, orders, sites)
     status_events = build_status_events(rng, deliveries, orders)
-    return {
+    tables = {
         "customer_site": sites,
         "vehicle": vehicles,
         "vehicle_capacity": capacities,
@@ -51,6 +52,8 @@ def build_tables(rng, sizes):
         "time_window": windows,
         "delivery_status_event": status_events,
     }
+    tables.update(plan_routes(tables))
+    return tables
 
 
 def with_lowercase_booleans(table):
@@ -67,10 +70,21 @@ def write_tables(tables):
         print(f"{name}: {len(table)}")
 
 
+def print_assignment_counts(status_events):
+    latest = status_events.loc[status_events.groupby("delivery_id")["event_seq"].idxmax()]
+    unserved = latest[latest["status"] == "unserved"]
+    print(f"assigned: {(latest['status'] == 'assigned').sum()}")
+    print(f"unserved: {len(unserved)}")
+    for reason, count in unserved["reason_code"].value_counts().sort_index().items():
+        print(f"unserved {reason}: {count}")
+
+
 def main():
     args = parse_args()
     rng = make_rng(args.seed)
-    write_tables(build_tables(rng, SCALES[args.scale]))
+    tables = build_tables(rng, SCALES[args.scale])
+    write_tables(tables)
+    print_assignment_counts(tables["delivery_status_event"])
 
 
 if __name__ == "__main__":

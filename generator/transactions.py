@@ -201,4 +201,5 @@ def build_status_events(rng, deliveries, orders):
         "status": "planned",
         "event_time": event_time.strftime(TIMESTAMP_FORMAT),
         "route_id": None,
+        "reason_code": None,
     })
