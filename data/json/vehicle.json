@@ -1,0 +1,72 @@
+[
+  {
+    "vehicle_id": "VEH-000001",
+    "vehicle_type": "van",
+    "home_hub_id": "SITE-000003",
+    "restriction_code": "DAYTIME_ONLY",
+    "commissioned_date": "2026-03-31"
+  },
+  {
+    "vehicle_id": "VEH-000002",
+    "vehicle_type": "truck",
+    "home_hub_id": "SITE-000002",
+    "restriction_code": "NO_RESIDENTIAL",
+    "commissioned_date": "2023-03-15"
+  },
+  {
+    "vehicle_id": "VEH-000003",
+    "vehicle_type": "van",
+    "home_hub_id": "SITE-000001",
+    "restriction_code": "NONE",
+    "commissioned_date": "2025-06-27"
+  },
+  {
+    "vehicle_id": "VEH-000004",
+    "vehicle_type": "van",
+    "home_hub_id": "SITE-000003",
+    "restriction_code": "NONE",
+    "commissioned_date": "2023-10-21"
+  },
+  {
+    "vehicle_id": "VEH-000005",
+    "vehicle_type": "van",
+    "home_hub_id": "SITE-000002",
+    "restriction_code": "NONE",
+    "commissioned_date": "2025-04-19"
+  },
+  {
+    "vehicle_id": "VEH-000006",
+    "vehicle_type": "van",
+    "home_hub_id": "SITE-000001",
+    "restriction_code": "NONE",
+    "commissioned_date": "2024-07-19"
+  },
+  {
+    "vehicle_id": "VEH-000007",
+    "vehicle_type": "van",
+    "home_hub_id": "SITE-000005",
+    "restriction_code": "NONE",
+    "commissioned_date": "2023-05-29"
+  },
+  {
+    "vehicle_id": "VEH-000008",
+    "vehicle_type": "van",
+    "home_hub_id": "SITE-000004",
+    "restriction_code": "NONE",
+    "commissioned_date": "2024-10-07"
+  },
+  {
+    "vehicle_id": "VEH-000009",
+    "vehicle_type": "refrigerated",
+    "home_hub_id": "SITE-000002",
+    "restriction_code": "NONE",
+    "commissioned_date": "2026-07-15"
+  },
+  {
+    "vehicle_id": "VEH-000010",
+    "vehicle_type": "truck",
+    "home_hub_id": "SITE-000001",
+    "restriction_code": "NONE",
+    "commissioned_date": "2026-01-21"
+  }
+]

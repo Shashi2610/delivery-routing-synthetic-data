@@ -1,0 +1,165 @@
+{
+  "synthetic": true,
+  "note": "All data in this dataset is synthetic and was generated locally. No external data sources were used.",
+  "seed": 20261022,
+  "scale": "starter",
+  "command": "python generate.py --seed 20261022 --scale starter",
+  "anomalies_injected": true,
+  "files": [
+    {
+      "path": "data/customer_site.csv",
+      "rows": 55,
+      "sha256": "7cb01f6cb4ca95df450eac8e705482b4838ead7eb06103dd63c55146a079f476"
+    },
+    {
+      "path": "data/delivery.csv",
+      "rows": 200,
+      "sha256": "a82ed290fec40297ac5bc40b30978167b75b9e751f78157736555eba3832bf2b"
+    },
+    {
+      "path": "data/delivery_outcome.csv",
+      "rows": 105,
+      "sha256": "ff20e66e44d482c6b636175cca7ad3a2ab8d55e3c38bf5d07bd22fb95c1409d9"
+    },
+    {
+      "path": "data/delivery_status_event.csv",
+      "rows": 614,
+      "sha256": "0f47f1399c2200a3fceb3a83b02f345d61c2d38029f711d59599a2ef27317f99"
+    },
+    {
+      "path": "data/driver.csv",
+      "rows": 12,
+      "sha256": "5e0754e191aa69768e55969b97f6aca8379b0e15e11ae222bcc8afcb005f122a"
+    },
+    {
+      "path": "data/json/customer_site.json",
+      "rows": 55,
+      "sha256": "6008924441da1d67da821c56e6ffa012382379a118f498f8adc6cb96f4460c82"
+    },
+    {
+      "path": "data/json/delivery.json",
+      "rows": 200,
+      "sha256": "58aa8f30e8b987a11ec74278c041f5a2dea03d209f0ec7acf300fd526070723b"
+    },
+    {
+      "path": "data/json/delivery_outcome.json",
+      "rows": 105,
+      "sha256": "ada987360bb16ed463ac3591725aa68a881d20aa2ba9fa05446832392a7ee34f"
+    },
+    {
+      "path": "data/json/delivery_status_event.json",
+      "rows": 614,
+      "sha256": "b2cb835006a533983cc0451db0d05bad30bc267e2dfdbe0d55cb023275c46a95"
+    },
+    {
+      "path": "data/json/driver.json",
+      "rows": 12,
+      "sha256": "563c62481d5990ac575095b1cc8c8c41cebeae1f5d621113f132436f70cd0549"
+    },
+    {
+      "path": "data/json/order.json",
+      "rows": 180,
+      "sha256": "8e953fa62aee0b157d26575d54e9a3f6c2e6b38144d3d6623c5e2774bdfbb1db"
+    },
+    {
+      "path": "data/json/route.json",
+      "rows": 29,
+      "sha256": "0fcbf1e2457d156a6ff64561d3d8917ecd837256a395922b87d2ceea0d093cdc"
+    },
+    {
+      "path": "data/json/route_stop.json",
+      "rows": 106,
+      "sha256": "2673da2247b320a76452c82e4f5fbec2b98a32b094800a93fadf825b2e8bc2fb"
+    },
+    {
+      "path": "data/json/shift.json",
+      "rows": 30,
+      "sha256": "2d37a2c9e69d5e0a15a4abb9932fbb5f45dfdd8ac41acd2cf0515e000a0c433c"
+    },
+    {
+      "path": "data/json/time_window.json",
+      "rows": 200,
+      "sha256": "c99d53534a0912b971327169aaeba5d95e6f978be85a32cc64b7e1d7360a3e1f"
+    },
+    {
+      "path": "data/json/traffic_scenario.json",
+      "rows": 15,
+      "sha256": "6bb0600b7e92c2ec5dc4c62629746043c2269ddef6021c69d0c30758eced2782"
+    },
+    {
+      "path": "data/json/travel_time_matrix.json",
+      "rows": 2970,
+      "sha256": "78cc6a910261085b0b03b965f6e73ae8019069f21342fc3d469c052a2d23ef4e"
+    },
+    {
+      "path": "data/json/vehicle.json",
+      "rows": 10,
+      "sha256": "89000845e4a81b78d1a9af3a95bcd8555156a020b03386bec7babfee2781062c"
+    },
+    {
+      "path": "data/json/vehicle_capacity.json",
+      "rows": 10,
+      "sha256": "482304a43ab527353b4f78b2bf3a5d402d21e5caa07634407b7a302258b3288d"
+    },
+    {
+      "path": "data/order.csv",
+      "rows": 180,
+      "sha256": "c431b1be9c9c4cdec10f28263e89607c04321268b3c5920eceeda755dcdeb639"
+    },
+    {
+      "path": "data/route.csv",
+      "rows": 29,
+      "sha256": "e1db83bdbd2566dde47301b270f73b08a106d29f1e5a5ee92f110a93b1f39aad"
+    },
+    {
+      "path": "data/route_stop.csv",
+      "rows": 106,
+      "sha256": "2a1bc06b32ac65cbd66aa003633822edbda62c1d3b12213a1bed5e3001d17066"
+    },
+    {
+      "path": "data/shift.csv",
+      "rows": 30,
+      "sha256": "c01dc593fef5d18453d337445f33debba74a69d7d53f360870c47e071f6464c2"
+    },
+    {
+      "path": "data/time_window.csv",
+      "rows": 200,
+      "sha256": "2048c58e1f2b355b751248b0d7fe1f45714589e982b4f2ae305c2e5578147415"
+    },
+    {
+      "path": "data/traffic_scenario.csv",
+      "rows": 15,
+      "sha256": "3ba16e9e940584b0bb734aeeefdd12d5471f2e61152bdee132c7a8d3f2b50646"
+    },
+    {
+      "path": "data/travel_time_matrix.csv",
+      "rows": 2970,
+      "sha256": "109cbfe949af9eb3812e82e8cb47feb816683295110d19fe0ba3c57b5b9de30c"
+    },
+    {
+      "path": "data/vehicle.csv",
+      "rows": 10,
+      "sha256": "e0fc70b26264249cf8bc65d772bd6c1185eab94e2cb611584b0072431823f000"
+    },
+    {
+      "path": "data/vehicle_capacity.csv",
+      "rows": 10,
+      "sha256": "5d421493b919708c0919d60b5d5a86086b07bf86d418cb7a03e0b3f81cad6c3d"
+    },
+    {
+      "path": "ground_truth/ground_truth.csv",
+      "rows": 23,
+      "sha256": "54177d07afc97529b8676df09e0e68cd9aaf6298026fdfc2b8f388de944678e7"
+    },
+    {
+      "path": "sql/schema.sql",
+      "rows": null,
+      "sha256": "dc9eca1756458644757fcc2b1b588cc5fb1c500882209d0184bc64dba6bebcb5"
+    },
+    {
+      "path": "sql/seed.sql",
+      "rows": 4536,
+      "sha256": "801d9988a4c141b0463e5345faebd7ad046afab77c0c451fcf458d0e8ff8633f"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "driver_id": "DRV-000001",
+    "home_hub_id": "SITE-000001",
+    "licence_class": "standard",
+    "hire_date": "2020-11-01"
+  },
+  {
+    "driver_id": "DRV-000002",
+    "home_hub_id": "SITE-000003",
+    "licence_class": "standard",
+    "hire_date": "2019-09-15"
+  },
+  {
+    "driver_id": "DRV-000003",
+    "home_hub_id": "SITE-000004",
+    "licence_class": "standard",
+    "hire_date": "2022-02-20"
+  },
+  {
+    "driver_id": "DRV-000004",
+    "home_hub_id": "SITE-000004",
+    "licence_class": "standard",
+    "hire_date": "2026-02-06"
+  },
+  {
+    "driver_id": "DRV-000005",
+    "home_hub_id": "SITE-000002",
+    "licence_class": "standard",
+    "hire_date": "2023-03-14"
+  },
+  {
+    "driver_id": "DRV-000006",
+    "home_hub_id": "SITE-000001",
+    "licence_class": "heavy",
+    "hire_date": "2021-02-11"
+  },
+  {
+    "driver_id": "DRV-000007",
+    "home_hub_id": "SITE-000002",
+    "licence_class": "heavy",
+    "hire_date": "2020-09-12"
+  },
+  {
+    "driver_id": "DRV-000008",
+    "home_hub_id": "SITE-000003",
+    "licence_class": "standard",
+    "hire_date": "2021-10-15"
+  },
+  {
+    "driver_id": "DRV-000009",
+    "home_hub_id": "SITE-000001",
+    "licence_class": "heavy",
+    "hire_date": "2019-12-08"
+  },
+  {
+    "driver_id": "DRV-000010",
+    "home_hub_id": "SITE-000004",
+    "licence_class": "standard",
+    "hire_date": "2026-02-27"
+  },
+  {
+    "driver_id": "DRV-000011",
+    "home_hub_id": "SITE-000003",
+    "licence_class": "standard",
+    "hire_date": "2022-08-14"
+  },
+  {
+    "driver_id": "DRV-000012",
+    "home_hub_id": "SITE-000002",
+    "licence_class": "standard",
+    "hire_date": "2026-05-19"
+  }
+]

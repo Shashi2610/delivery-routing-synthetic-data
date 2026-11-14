@@ -1,0 +1,1402 @@
+[
+  {
+    "window_id": "TW-2026-000001",
+    "delivery_id": "DEL-2026-000001",
+    "earliest_arrival": "2026-11-02T14:45:00",
+    "latest_arrival": "2026-11-02T17:15:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000002",
+    "delivery_id": "DEL-2026-000002",
+    "earliest_arrival": "2026-11-02T14:00:00",
+    "latest_arrival": "2026-11-02T15:30:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000003",
+    "delivery_id": "DEL-2026-000003",
+    "earliest_arrival": "2026-11-02T08:00:00",
+    "latest_arrival": "2026-11-02T15:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000004",
+    "delivery_id": "DEL-2026-000004",
+    "earliest_arrival": "2026-11-02T09:00:00",
+    "latest_arrival": "2026-11-02T15:00:00",
+    "priority": "high"
+  },
+  {
+    "window_id": "TW-2026-000005",
+    "delivery_id": "DEL-2026-000005",
+    "earliest_arrival": "2026-11-02T10:00:00",
+    "latest_arrival": "2026-11-02T17:00:00",
+    "priority": "low"
+  },
+  {
+    "window_id": "TW-2026-000006",
+    "delivery_id": "DEL-2026-000006",
+    "earliest_arrival": "2026-11-02T07:00:00",
+    "latest_arrival": "2026-11-02T14:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000007",
+    "delivery_id": "DEL-2026-000007",
+    "earliest_arrival": "2026-11-02T08:00:00",
+    "latest_arrival": "2026-11-02T15:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000008",
+    "delivery_id": "DEL-2026-000008",
+    "earliest_arrival": "2026-11-02T09:00:00",
+    "latest_arrival": "2026-11-02T15:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000009",
+    "delivery_id": "DEL-2026-000009",
+    "earliest_arrival": "2026-11-02T08:30:00",
+    "latest_arrival": "2026-11-02T11:00:00",
+    "priority": "high"
+  },
+  {
+    "window_id": "TW-2026-000010",
+    "delivery_id": "DEL-2026-000010",
+    "earliest_arrival": "2026-11-02T09:00:00",
+    "latest_arrival": "2026-11-02T09:30:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000011",
+    "delivery_id": "DEL-2026-000011",
+    "earliest_arrival": "2026-11-02T09:00:00",
+    "latest_arrival": "2026-11-02T10:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000012",
+    "delivery_id": "DEL-2026-000012",
+    "earliest_arrival": "2026-11-02T14:00:00",
+    "latest_arrival": "2026-11-02T16:30:00",
+    "priority": "low"
+  },
+  {
+    "window_id": "TW-2026-000013",
+    "delivery_id": "DEL-2026-000013",
+    "earliest_arrival": "2026-11-02T14:15:00",
+    "latest_arrival": "2026-11-02T16:45:00",
+    "priority": "critical"
+  },
+  {
+    "window_id": "TW-2026-000014",
+    "delivery_id": "DEL-2026-000014",
+    "earliest_arrival": "2026-11-02T08:45:00",
+    "latest_arrival": "2026-11-02T10:15:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000015",
+    "delivery_id": "DEL-2026-000015",
+    "earliest_arrival": "2026-11-02T07:00:00",
+    "latest_arrival": "2026-11-02T14:00:00",
+    "priority": "high"
+  },
+  {
+    "window_id": "TW-2026-000016",
+    "delivery_id": "DEL-2026-000016",
+    "earliest_arrival": "2026-11-02T13:00:00",
+    "latest_arrival": "2026-11-02T15:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000017",
+    "delivery_id": "DEL-2026-000017",
+    "earliest_arrival": "2026-11-02T09:00:00",
+    "latest_arrival": "2026-11-02T16:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000018",
+    "delivery_id": "DEL-2026-000018",
+    "earliest_arrival": "2026-11-02T08:00:00",
+    "latest_arrival": "2026-11-02T15:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000019",
+    "delivery_id": "DEL-2026-000019",
+    "earliest_arrival": "2026-11-02T08:30:00",
+    "latest_arrival": "2026-11-02T11:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000020",
+    "delivery_id": "DEL-2026-000020",
+    "earliest_arrival": "2026-11-02T08:00:00",
+    "latest_arrival": "2026-11-02T15:00:00",
+    "priority": "low"
+  },
+  {
+    "window_id": "TW-2026-000021",
+    "delivery_id": "DEL-2026-000021",
+    "earliest_arrival": "2026-11-02T14:00:00",
+    "latest_arrival": "2026-11-02T17:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000022",
+    "delivery_id": "DEL-2026-000022",
+    "earliest_arrival": "2026-11-02T09:15:00",
+    "latest_arrival": "2026-11-02T10:45:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000023",
+    "delivery_id": "DEL-2026-000023",
+    "earliest_arrival": "2026-11-02T09:45:00",
+    "latest_arrival": "2026-11-02T12:15:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000024",
+    "delivery_id": "DEL-2026-000024",
+    "earliest_arrival": "2026-11-02T14:15:00",
+    "latest_arrival": "2026-11-02T17:15:00",
+    "priority": "critical"
+  },
+  {
+    "window_id": "TW-2026-000025",
+    "delivery_id": "DEL-2026-000025",
+    "earliest_arrival": "2026-11-02T15:00:00",
+    "latest_arrival": "2026-11-02T16:30:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000026",
+    "delivery_id": "DEL-2026-000026",
+    "earliest_arrival": "2026-11-02T09:00:00",
+    "latest_arrival": "2026-11-02T09:45:00",
+    "priority": "high"
+  },
+  {
+    "window_id": "TW-2026-000027",
+    "delivery_id": "DEL-2026-000027",
+    "earliest_arrival": "2026-11-02T14:45:00",
+    "latest_arrival": "2026-11-02T17:15:00",
+    "priority": "low"
+  },
+  {
+    "window_id": "TW-2026-000028",
+    "delivery_id": "DEL-2026-000028",
+    "earliest_arrival": "2026-11-02T13:45:00",
+    "latest_arrival": "2026-11-02T16:45:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000029",
+    "delivery_id": "DEL-2026-000029",
+    "earliest_arrival": "2026-11-02T09:00:00",
+    "latest_arrival": "2026-11-02T11:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000030",
+    "delivery_id": "DEL-2026-000030",
+    "earliest_arrival": "2026-11-02T09:00:00",
+    "latest_arrival": "2026-11-02T11:00:00",
+    "priority": "low"
+  },
+  {
+    "window_id": "TW-2026-000031",
+    "delivery_id": "DEL-2026-000031",
+    "earliest_arrival": "2026-11-02T09:00:00",
+    "latest_arrival": "2026-11-02T11:15:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000032",
+    "delivery_id": "DEL-2026-000032",
+    "earliest_arrival": "2026-11-02T09:00:00",
+    "latest_arrival": "2026-11-02T12:00:00",
+    "priority": "high"
+  },
+  {
+    "window_id": "TW-2026-000033",
+    "delivery_id": "DEL-2026-000033",
+    "earliest_arrival": "2026-11-02T10:00:00",
+    "latest_arrival": "2026-11-02T17:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000034",
+    "delivery_id": "DEL-2026-000034",
+    "earliest_arrival": "2026-11-02T12:45:00",
+    "latest_arrival": "2026-11-02T15:15:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000035",
+    "delivery_id": "DEL-2026-000035",
+    "earliest_arrival": "2026-11-02T09:00:00",
+    "latest_arrival": "2026-11-02T11:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000036",
+    "delivery_id": "DEL-2026-000036",
+    "earliest_arrival": "2026-11-02T13:45:00",
+    "latest_arrival": "2026-11-02T16:15:00",
+    "priority": "high"
+  },
+  {
+    "window_id": "TW-2026-000037",
+    "delivery_id": "DEL-2026-000037",
+    "earliest_arrival": "2026-11-02T08:00:00",
+    "latest_arrival": "2026-11-02T15:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000038",
+    "delivery_id": "DEL-2026-000038",
+    "earliest_arrival": "2026-11-02T07:00:00",
+    "latest_arrival": "2026-11-02T15:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000039",
+    "delivery_id": "DEL-2026-000039",
+    "earliest_arrival": "2026-11-02T14:30:00",
+    "latest_arrival": "2026-11-02T16:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000040",
+    "delivery_id": "DEL-2026-000040",
+    "earliest_arrival": "2026-11-02T09:00:00",
+    "latest_arrival": "2026-11-02T14:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000041",
+    "delivery_id": "DEL-2026-000041",
+    "earliest_arrival": "2026-11-02T12:45:00",
+    "latest_arrival": "2026-11-02T15:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000042",
+    "delivery_id": "DEL-2026-000042",
+    "earliest_arrival": "2026-11-02T16:00:00",
+    "latest_arrival": "2026-11-02T18:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000043",
+    "delivery_id": "DEL-2026-000043",
+    "earliest_arrival": "2026-11-02T09:00:00",
+    "latest_arrival": "2026-11-02T11:45:00",
+    "priority": "high"
+  },
+  {
+    "window_id": "TW-2026-000044",
+    "delivery_id": "DEL-2026-000044",
+    "earliest_arrival": "2026-11-02T09:00:00",
+    "latest_arrival": "2026-11-02T10:45:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000045",
+    "delivery_id": "DEL-2026-000045",
+    "earliest_arrival": "2026-11-02T14:30:00",
+    "latest_arrival": "2026-11-02T16:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000046",
+    "delivery_id": "DEL-2026-000046",
+    "earliest_arrival": "2026-11-02T14:15:00",
+    "latest_arrival": "2026-11-02T16:15:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000047",
+    "delivery_id": "DEL-2026-000047",
+    "earliest_arrival": "2026-11-02T12:30:00",
+    "latest_arrival": "2026-11-02T14:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000048",
+    "delivery_id": "DEL-2026-000048",
+    "earliest_arrival": "2026-11-02T13:15:00",
+    "latest_arrival": "2026-11-02T14:45:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000049",
+    "delivery_id": "DEL-2026-000049",
+    "earliest_arrival": "2026-11-02T09:00:00",
+    "latest_arrival": "2026-11-02T10:30:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000050",
+    "delivery_id": "DEL-2026-000050",
+    "earliest_arrival": "2026-11-02T09:00:00",
+    "latest_arrival": "2026-11-02T09:45:00",
+    "priority": "critical"
+  },
+  {
+    "window_id": "TW-2026-000051",
+    "delivery_id": "DEL-2026-000051",
+    "earliest_arrival": "2026-11-02T13:30:00",
+    "latest_arrival": "2026-11-02T15:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000052",
+    "delivery_id": "DEL-2026-000052",
+    "earliest_arrival": "2026-11-02T13:30:00",
+    "latest_arrival": "2026-11-02T16:30:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000053",
+    "delivery_id": "DEL-2026-000053",
+    "earliest_arrival": "2026-11-02T13:45:00",
+    "latest_arrival": "2026-11-02T15:15:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000054",
+    "delivery_id": "DEL-2026-000054",
+    "earliest_arrival": "2026-11-02T09:00:00",
+    "latest_arrival": "2026-11-02T10:00:00",
+    "priority": "high"
+  },
+  {
+    "window_id": "TW-2026-000055",
+    "delivery_id": "DEL-2026-000055",
+    "earliest_arrival": "2026-11-02T10:00:00",
+    "latest_arrival": "2026-11-02T17:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000056",
+    "delivery_id": "DEL-2026-000056",
+    "earliest_arrival": "2026-11-02T15:00:00",
+    "latest_arrival": "2026-11-02T18:00:00",
+    "priority": "low"
+  },
+  {
+    "window_id": "TW-2026-000057",
+    "delivery_id": "DEL-2026-000057",
+    "earliest_arrival": "2026-11-02T10:00:00",
+    "latest_arrival": "2026-11-02T17:00:00",
+    "priority": "low"
+  },
+  {
+    "window_id": "TW-2026-000058",
+    "delivery_id": "DEL-2026-000058",
+    "earliest_arrival": "2026-11-02T08:00:00",
+    "latest_arrival": "2026-11-02T10:15:00",
+    "priority": "low"
+  },
+  {
+    "window_id": "TW-2026-000059",
+    "delivery_id": "DEL-2026-000059",
+    "earliest_arrival": "2026-11-02T07:45:00",
+    "latest_arrival": "2026-11-02T10:45:00",
+    "priority": "high"
+  },
+  {
+    "window_id": "TW-2026-000060",
+    "delivery_id": "DEL-2026-000060",
+    "earliest_arrival": "2026-11-02T09:00:00",
+    "latest_arrival": "2026-11-02T16:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000061",
+    "delivery_id": "DEL-2026-000061",
+    "earliest_arrival": "2026-11-02T08:45:00",
+    "latest_arrival": "2026-11-02T10:15:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000062",
+    "delivery_id": "DEL-2026-000062",
+    "earliest_arrival": "2026-11-02T09:00:00",
+    "latest_arrival": "2026-11-02T14:00:00",
+    "priority": "high"
+  },
+  {
+    "window_id": "TW-2026-000063",
+    "delivery_id": "DEL-2026-000063",
+    "earliest_arrival": "2026-11-02T08:00:00",
+    "latest_arrival": "2026-11-02T15:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000064",
+    "delivery_id": "DEL-2026-000064",
+    "earliest_arrival": "2026-11-02T13:30:00",
+    "latest_arrival": "2026-11-02T16:30:00",
+    "priority": "high"
+  },
+  {
+    "window_id": "TW-2026-000065",
+    "delivery_id": "DEL-2026-000065",
+    "earliest_arrival": "2026-11-02T09:00:00",
+    "latest_arrival": "2026-11-02T12:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000066",
+    "delivery_id": "DEL-2026-000066",
+    "earliest_arrival": "2026-11-02T09:00:00",
+    "latest_arrival": "2026-11-02T15:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000067",
+    "delivery_id": "DEL-2026-000067",
+    "earliest_arrival": "2026-11-02T14:15:00",
+    "latest_arrival": "2026-11-02T16:00:00",
+    "priority": "high"
+  },
+  {
+    "window_id": "TW-2026-000068",
+    "delivery_id": "DEL-2026-000068",
+    "earliest_arrival": "2026-11-02T14:30:00",
+    "latest_arrival": "2026-11-02T16:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000069",
+    "delivery_id": "DEL-2026-000069",
+    "earliest_arrival": "2026-11-02T09:00:00",
+    "latest_arrival": "2026-11-02T16:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000070",
+    "delivery_id": "DEL-2026-000070",
+    "earliest_arrival": "2026-11-02T12:00:00",
+    "latest_arrival": "2026-11-02T14:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000071",
+    "delivery_id": "DEL-2026-000071",
+    "earliest_arrival": "2026-11-03T13:00:00",
+    "latest_arrival": "2026-11-03T14:30:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000072",
+    "delivery_id": "DEL-2026-000072",
+    "earliest_arrival": "2026-11-03T09:15:00",
+    "latest_arrival": "2026-11-03T11:45:00",
+    "priority": "high"
+  },
+  {
+    "window_id": "TW-2026-000073",
+    "delivery_id": "DEL-2026-000073",
+    "earliest_arrival": "2026-11-03T07:45:00",
+    "latest_arrival": "2026-11-03T09:15:00",
+    "priority": "low"
+  },
+  {
+    "window_id": "TW-2026-000074",
+    "delivery_id": "DEL-2026-000074",
+    "earliest_arrival": "2026-11-03T13:30:00",
+    "latest_arrival": "2026-11-03T15:30:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000075",
+    "delivery_id": "DEL-2026-000075",
+    "earliest_arrival": "2026-11-03T15:00:00",
+    "latest_arrival": "2026-11-03T16:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000076",
+    "delivery_id": "DEL-2026-000076",
+    "earliest_arrival": "2026-11-04T10:00:00",
+    "latest_arrival": "2026-11-04T12:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000077",
+    "delivery_id": "DEL-2026-000077",
+    "earliest_arrival": "2026-11-03T12:45:00",
+    "latest_arrival": "2026-11-03T14:15:00",
+    "priority": "high"
+  },
+  {
+    "window_id": "TW-2026-000078",
+    "delivery_id": "DEL-2026-000078",
+    "earliest_arrival": "2026-11-03T15:00:00",
+    "latest_arrival": "2026-11-03T17:00:00",
+    "priority": "high"
+  },
+  {
+    "window_id": "TW-2026-000079",
+    "delivery_id": "DEL-2026-000079",
+    "earliest_arrival": "2026-11-03T09:00:00",
+    "latest_arrival": "2026-11-03T17:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000080",
+    "delivery_id": "DEL-2026-000080",
+    "earliest_arrival": "2026-11-04T09:00:00",
+    "latest_arrival": "2026-11-04T09:30:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000081",
+    "delivery_id": "DEL-2026-000081",
+    "earliest_arrival": "2026-11-03T09:45:00",
+    "latest_arrival": "2026-11-03T11:45:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000082",
+    "delivery_id": "DEL-2026-000082",
+    "earliest_arrival": "2026-11-03T13:00:00",
+    "latest_arrival": "2026-11-03T15:30:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000083",
+    "delivery_id": "DEL-2026-000083",
+    "earliest_arrival": "2026-11-04T14:45:00",
+    "latest_arrival": "2026-11-04T16:45:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000084",
+    "delivery_id": "DEL-2026-000084",
+    "earliest_arrival": "2026-11-04T13:45:00",
+    "latest_arrival": "2026-11-04T16:15:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000085",
+    "delivery_id": "DEL-2026-000085",
+    "earliest_arrival": "2026-11-03T09:00:00",
+    "latest_arrival": "2026-11-03T17:00:00",
+    "priority": "low"
+  },
+  {
+    "window_id": "TW-2026-000086",
+    "delivery_id": "DEL-2026-000086",
+    "earliest_arrival": "2026-11-03T08:00:00",
+    "latest_arrival": "2026-11-03T14:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000087",
+    "delivery_id": "DEL-2026-000087",
+    "earliest_arrival": "2026-11-04T14:45:00",
+    "latest_arrival": "2026-11-04T17:15:00",
+    "priority": "critical"
+  },
+  {
+    "window_id": "TW-2026-000088",
+    "delivery_id": "DEL-2026-000088",
+    "earliest_arrival": "2026-11-03T13:45:00",
+    "latest_arrival": "2026-11-03T15:45:00",
+    "priority": "low"
+  },
+  {
+    "window_id": "TW-2026-000089",
+    "delivery_id": "DEL-2026-000089",
+    "earliest_arrival": "2026-11-04T09:45:00",
+    "latest_arrival": "2026-11-04T12:45:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000090",
+    "delivery_id": "DEL-2026-000090",
+    "earliest_arrival": "2026-11-03T09:00:00",
+    "latest_arrival": "2026-11-03T11:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000091",
+    "delivery_id": "DEL-2026-000091",
+    "earliest_arrival": "2026-11-03T09:45:00",
+    "latest_arrival": "2026-11-03T11:45:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000092",
+    "delivery_id": "DEL-2026-000092",
+    "earliest_arrival": "2026-11-03T12:15:00",
+    "latest_arrival": "2026-11-03T13:45:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000093",
+    "delivery_id": "DEL-2026-000093",
+    "earliest_arrival": "2026-11-03T09:00:00",
+    "latest_arrival": "2026-11-03T14:00:00",
+    "priority": "high"
+  },
+  {
+    "window_id": "TW-2026-000094",
+    "delivery_id": "DEL-2026-000094",
+    "earliest_arrival": "2026-11-03T14:15:00",
+    "latest_arrival": "2026-11-03T15:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000095",
+    "delivery_id": "DEL-2026-000095",
+    "earliest_arrival": "2026-11-04T09:00:00",
+    "latest_arrival": "2026-11-04T16:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000096",
+    "delivery_id": "DEL-2026-000096",
+    "earliest_arrival": "2026-11-03T12:00:00",
+    "latest_arrival": "2026-11-03T15:00:00",
+    "priority": "low"
+  },
+  {
+    "window_id": "TW-2026-000097",
+    "delivery_id": "DEL-2026-000097",
+    "earliest_arrival": "2026-11-03T09:00:00",
+    "latest_arrival": "2026-11-03T11:00:00",
+    "priority": "high"
+  },
+  {
+    "window_id": "TW-2026-000098",
+    "delivery_id": "DEL-2026-000098",
+    "earliest_arrival": "2026-11-03T14:15:00",
+    "latest_arrival": "2026-11-03T16:45:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000099",
+    "delivery_id": "DEL-2026-000099",
+    "earliest_arrival": "2026-11-03T15:30:00",
+    "latest_arrival": "2026-11-03T17:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000100",
+    "delivery_id": "DEL-2026-000100",
+    "earliest_arrival": "2026-11-03T13:45:00",
+    "latest_arrival": "2026-11-03T16:45:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000101",
+    "delivery_id": "DEL-2026-000101",
+    "earliest_arrival": "2026-11-04T08:45:00",
+    "latest_arrival": "2026-11-04T11:15:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000102",
+    "delivery_id": "DEL-2026-000102",
+    "earliest_arrival": "2026-11-04T10:00:00",
+    "latest_arrival": "2026-11-04T18:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000103",
+    "delivery_id": "DEL-2026-000103",
+    "earliest_arrival": "2026-11-04T09:00:00",
+    "latest_arrival": "2026-11-04T14:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000104",
+    "delivery_id": "DEL-2026-000104",
+    "earliest_arrival": "2026-11-04T09:00:00",
+    "latest_arrival": "2026-11-04T14:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000105",
+    "delivery_id": "DEL-2026-000105",
+    "earliest_arrival": "2026-11-03T12:00:00",
+    "latest_arrival": "2026-11-03T13:30:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000106",
+    "delivery_id": "DEL-2026-000106",
+    "earliest_arrival": "2026-11-03T08:00:00",
+    "latest_arrival": "2026-11-03T09:45:00",
+    "priority": "low"
+  },
+  {
+    "window_id": "TW-2026-000107",
+    "delivery_id": "DEL-2026-000107",
+    "earliest_arrival": "2026-11-03T09:45:00",
+    "latest_arrival": "2026-11-03T11:45:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000108",
+    "delivery_id": "DEL-2026-000108",
+    "earliest_arrival": "2026-11-03T13:00:00",
+    "latest_arrival": "2026-11-03T15:30:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000109",
+    "delivery_id": "DEL-2026-000109",
+    "earliest_arrival": "2026-11-04T08:30:00",
+    "latest_arrival": "2026-11-04T11:00:00",
+    "priority": "low"
+  },
+  {
+    "window_id": "TW-2026-000110",
+    "delivery_id": "DEL-2026-000110",
+    "earliest_arrival": "2026-11-04T14:45:00",
+    "latest_arrival": "2026-11-04T16:15:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000111",
+    "delivery_id": "DEL-2026-000111",
+    "earliest_arrival": "2026-11-03T12:15:00",
+    "latest_arrival": "2026-11-03T13:45:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000112",
+    "delivery_id": "DEL-2026-000112",
+    "earliest_arrival": "2026-11-03T09:00:00",
+    "latest_arrival": "2026-11-03T10:30:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000113",
+    "delivery_id": "DEL-2026-000113",
+    "earliest_arrival": "2026-11-04T09:00:00",
+    "latest_arrival": "2026-11-04T09:30:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000114",
+    "delivery_id": "DEL-2026-000114",
+    "earliest_arrival": "2026-11-04T09:00:00",
+    "latest_arrival": "2026-11-04T09:45:00",
+    "priority": "low"
+  },
+  {
+    "window_id": "TW-2026-000115",
+    "delivery_id": "DEL-2026-000115",
+    "earliest_arrival": "2026-11-04T14:30:00",
+    "latest_arrival": "2026-11-04T17:30:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000116",
+    "delivery_id": "DEL-2026-000116",
+    "earliest_arrival": "2026-11-03T09:00:00",
+    "latest_arrival": "2026-11-03T15:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000117",
+    "delivery_id": "DEL-2026-000117",
+    "earliest_arrival": "2026-11-04T12:30:00",
+    "latest_arrival": "2026-11-04T14:30:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000118",
+    "delivery_id": "DEL-2026-000118",
+    "earliest_arrival": "2026-11-04T15:00:00",
+    "latest_arrival": "2026-11-04T16:30:00",
+    "priority": "high"
+  },
+  {
+    "window_id": "TW-2026-000119",
+    "delivery_id": "DEL-2026-000119",
+    "earliest_arrival": "2026-11-04T15:30:00",
+    "latest_arrival": "2026-11-04T17:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000120",
+    "delivery_id": "DEL-2026-000120",
+    "earliest_arrival": "2026-11-03T13:30:00",
+    "latest_arrival": "2026-11-03T15:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000121",
+    "delivery_id": "DEL-2026-000121",
+    "earliest_arrival": "2026-11-03T14:30:00",
+    "latest_arrival": "2026-11-03T16:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000122",
+    "delivery_id": "DEL-2026-000122",
+    "earliest_arrival": "2026-11-04T13:45:00",
+    "latest_arrival": "2026-11-04T15:15:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000123",
+    "delivery_id": "DEL-2026-000123",
+    "earliest_arrival": "2026-11-04T07:00:00",
+    "latest_arrival": "2026-11-04T09:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000124",
+    "delivery_id": "DEL-2026-000124",
+    "earliest_arrival": "2026-11-04T10:00:00",
+    "latest_arrival": "2026-11-04T15:00:00",
+    "priority": "high"
+  },
+  {
+    "window_id": "TW-2026-000125",
+    "delivery_id": "DEL-2026-000125",
+    "earliest_arrival": "2026-11-03T09:00:00",
+    "latest_arrival": "2026-11-03T16:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000126",
+    "delivery_id": "DEL-2026-000126",
+    "earliest_arrival": "2026-11-04T13:45:00",
+    "latest_arrival": "2026-11-04T16:45:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000127",
+    "delivery_id": "DEL-2026-000127",
+    "earliest_arrival": "2026-11-03T12:00:00",
+    "latest_arrival": "2026-11-03T14:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000128",
+    "delivery_id": "DEL-2026-000128",
+    "earliest_arrival": "2026-11-04T08:00:00",
+    "latest_arrival": "2026-11-04T16:00:00",
+    "priority": "low"
+  },
+  {
+    "window_id": "TW-2026-000129",
+    "delivery_id": "DEL-2026-000129",
+    "earliest_arrival": "2026-11-03T08:00:00",
+    "latest_arrival": "2026-11-03T16:00:00",
+    "priority": "low"
+  },
+  {
+    "window_id": "TW-2026-000130",
+    "delivery_id": "DEL-2026-000130",
+    "earliest_arrival": "2026-11-04T07:00:00",
+    "latest_arrival": "2026-11-04T14:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000131",
+    "delivery_id": "DEL-2026-000131",
+    "earliest_arrival": "2026-11-04T12:15:00",
+    "latest_arrival": "2026-11-04T14:15:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000132",
+    "delivery_id": "DEL-2026-000132",
+    "earliest_arrival": "2026-11-04T10:00:00",
+    "latest_arrival": "2026-11-04T16:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000133",
+    "delivery_id": "DEL-2026-000133",
+    "earliest_arrival": "2026-11-03T12:00:00",
+    "latest_arrival": "2026-11-03T15:00:00",
+    "priority": "critical"
+  },
+  {
+    "window_id": "TW-2026-000134",
+    "delivery_id": "DEL-2026-000134",
+    "earliest_arrival": "2026-11-03T08:00:00",
+    "latest_arrival": "2026-11-03T15:00:00",
+    "priority": "high"
+  },
+  {
+    "window_id": "TW-2026-000135",
+    "delivery_id": "DEL-2026-000135",
+    "earliest_arrival": "2026-11-04T08:00:00",
+    "latest_arrival": "2026-11-04T10:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000136",
+    "delivery_id": "DEL-2026-000136",
+    "earliest_arrival": "2026-11-03T12:00:00",
+    "latest_arrival": "2026-11-03T15:00:00",
+    "priority": "low"
+  },
+  {
+    "window_id": "TW-2026-000137",
+    "delivery_id": "DEL-2026-000137",
+    "earliest_arrival": "2026-11-03T15:00:00",
+    "latest_arrival": "2026-11-03T17:30:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000138",
+    "delivery_id": "DEL-2026-000138",
+    "earliest_arrival": "2026-11-03T08:00:00",
+    "latest_arrival": "2026-11-03T16:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000139",
+    "delivery_id": "DEL-2026-000139",
+    "earliest_arrival": "2026-11-03T14:30:00",
+    "latest_arrival": "2026-11-03T16:30:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000140",
+    "delivery_id": "DEL-2026-000140",
+    "earliest_arrival": "2026-11-03T07:00:00",
+    "latest_arrival": "2026-11-03T14:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000141",
+    "delivery_id": "DEL-2026-000141",
+    "earliest_arrival": "2026-11-04T10:00:00",
+    "latest_arrival": "2026-11-04T15:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000142",
+    "delivery_id": "DEL-2026-000142",
+    "earliest_arrival": "2026-11-03T09:00:00",
+    "latest_arrival": "2026-11-03T14:00:00",
+    "priority": "high"
+  },
+  {
+    "window_id": "TW-2026-000143",
+    "delivery_id": "DEL-2026-000143",
+    "earliest_arrival": "2026-11-04T13:15:00",
+    "latest_arrival": "2026-11-04T15:45:00",
+    "priority": "low"
+  },
+  {
+    "window_id": "TW-2026-000144",
+    "delivery_id": "DEL-2026-000144",
+    "earliest_arrival": "2026-11-03T09:00:00",
+    "latest_arrival": "2026-11-03T14:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000145",
+    "delivery_id": "DEL-2026-000145",
+    "earliest_arrival": "2026-11-04T07:00:00",
+    "latest_arrival": "2026-11-04T09:30:00",
+    "priority": "high"
+  },
+  {
+    "window_id": "TW-2026-000146",
+    "delivery_id": "DEL-2026-000146",
+    "earliest_arrival": "2026-11-03T09:30:00",
+    "latest_arrival": "2026-11-03T11:00:00",
+    "priority": "high"
+  },
+  {
+    "window_id": "TW-2026-000147",
+    "delivery_id": "DEL-2026-000147",
+    "earliest_arrival": "2026-11-03T15:00:00",
+    "latest_arrival": "2026-11-03T17:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000148",
+    "delivery_id": "DEL-2026-000148",
+    "earliest_arrival": "2026-11-03T08:00:00",
+    "latest_arrival": "2026-11-03T09:45:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000149",
+    "delivery_id": "DEL-2026-000149",
+    "earliest_arrival": "2026-11-03T14:30:00",
+    "latest_arrival": "2026-11-03T17:00:00",
+    "priority": "high"
+  },
+  {
+    "window_id": "TW-2026-000150",
+    "delivery_id": "DEL-2026-000150",
+    "earliest_arrival": "2026-11-04T14:45:00",
+    "latest_arrival": "2026-11-04T17:00:00",
+    "priority": "high"
+  },
+  {
+    "window_id": "TW-2026-000151",
+    "delivery_id": "DEL-2026-000151",
+    "earliest_arrival": "2026-11-04T09:45:00",
+    "latest_arrival": "2026-11-04T11:15:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000152",
+    "delivery_id": "DEL-2026-000152",
+    "earliest_arrival": "2026-11-04T12:00:00",
+    "latest_arrival": "2026-11-04T13:30:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000153",
+    "delivery_id": "DEL-2026-000153",
+    "earliest_arrival": "2026-11-03T09:15:00",
+    "latest_arrival": "2026-11-03T11:15:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000154",
+    "delivery_id": "DEL-2026-000154",
+    "earliest_arrival": "2026-11-03T12:00:00",
+    "latest_arrival": "2026-11-03T14:30:00",
+    "priority": "low"
+  },
+  {
+    "window_id": "TW-2026-000155",
+    "delivery_id": "DEL-2026-000155",
+    "earliest_arrival": "2026-11-03T08:00:00",
+    "latest_arrival": "2026-11-03T15:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000156",
+    "delivery_id": "DEL-2026-000156",
+    "earliest_arrival": "2026-11-03T10:00:00",
+    "latest_arrival": "2026-11-03T18:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000157",
+    "delivery_id": "DEL-2026-000157",
+    "earliest_arrival": "2026-11-03T12:45:00",
+    "latest_arrival": "2026-11-03T15:15:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000158",
+    "delivery_id": "DEL-2026-000158",
+    "earliest_arrival": "2026-11-03T08:00:00",
+    "latest_arrival": "2026-11-03T09:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000159",
+    "delivery_id": "DEL-2026-000159",
+    "earliest_arrival": "2026-11-03T10:00:00",
+    "latest_arrival": "2026-11-03T16:00:00",
+    "priority": "high"
+  },
+  {
+    "window_id": "TW-2026-000160",
+    "delivery_id": "DEL-2026-000160",
+    "earliest_arrival": "2026-11-03T09:30:00",
+    "latest_arrival": "2026-11-03T11:30:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000161",
+    "delivery_id": "DEL-2026-000161",
+    "earliest_arrival": "2026-11-04T07:00:00",
+    "latest_arrival": "2026-11-04T14:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000162",
+    "delivery_id": "DEL-2026-000162",
+    "earliest_arrival": "2026-11-03T09:00:00",
+    "latest_arrival": "2026-11-03T17:00:00",
+    "priority": "high"
+  },
+  {
+    "window_id": "TW-2026-000163",
+    "delivery_id": "DEL-2026-000163",
+    "earliest_arrival": "2026-11-04T08:45:00",
+    "latest_arrival": "2026-11-04T10:15:00",
+    "priority": "high"
+  },
+  {
+    "window_id": "TW-2026-000164",
+    "delivery_id": "DEL-2026-000164",
+    "earliest_arrival": "2026-11-04T09:00:00",
+    "latest_arrival": "2026-11-04T17:00:00",
+    "priority": "high"
+  },
+  {
+    "window_id": "TW-2026-000165",
+    "delivery_id": "DEL-2026-000165",
+    "earliest_arrival": "2026-11-03T09:00:00",
+    "latest_arrival": "2026-11-03T16:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000166",
+    "delivery_id": "DEL-2026-000166",
+    "earliest_arrival": "2026-11-03T12:30:00",
+    "latest_arrival": "2026-11-03T15:30:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000167",
+    "delivery_id": "DEL-2026-000167",
+    "earliest_arrival": "2026-11-04T12:00:00",
+    "latest_arrival": "2026-11-04T15:00:00",
+    "priority": "critical"
+  },
+  {
+    "window_id": "TW-2026-000168",
+    "delivery_id": "DEL-2026-000168",
+    "earliest_arrival": "2026-11-04T10:00:00",
+    "latest_arrival": "2026-11-04T17:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000169",
+    "delivery_id": "DEL-2026-000169",
+    "earliest_arrival": "2026-11-04T08:30:00",
+    "latest_arrival": "2026-11-04T10:30:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000170",
+    "delivery_id": "DEL-2026-000170",
+    "earliest_arrival": "2026-11-04T12:00:00",
+    "latest_arrival": "2026-11-04T15:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000171",
+    "delivery_id": "DEL-2026-000171",
+    "earliest_arrival": "2026-11-04T09:45:00",
+    "latest_arrival": "2026-11-04T11:45:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000172",
+    "delivery_id": "DEL-2026-000172",
+    "earliest_arrival": "2026-11-03T12:30:00",
+    "latest_arrival": "2026-11-03T15:30:00",
+    "priority": "low"
+  },
+  {
+    "window_id": "TW-2026-000173",
+    "delivery_id": "DEL-2026-000173",
+    "earliest_arrival": "2026-11-03T10:00:00",
+    "latest_arrival": "2026-11-03T11:30:00",
+    "priority": "high"
+  },
+  {
+    "window_id": "TW-2026-000174",
+    "delivery_id": "DEL-2026-000174",
+    "earliest_arrival": "2026-11-04T15:00:00",
+    "latest_arrival": "2026-11-04T18:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000175",
+    "delivery_id": "DEL-2026-000175",
+    "earliest_arrival": "2026-11-03T13:00:00",
+    "latest_arrival": "2026-11-03T16:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000176",
+    "delivery_id": "DEL-2026-000176",
+    "earliest_arrival": "2026-11-03T10:00:00",
+    "latest_arrival": "2026-11-03T16:00:00",
+    "priority": "low"
+  },
+  {
+    "window_id": "TW-2026-000177",
+    "delivery_id": "DEL-2026-000177",
+    "earliest_arrival": "2026-11-04T12:15:00",
+    "latest_arrival": "2026-11-04T13:45:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000178",
+    "delivery_id": "DEL-2026-000178",
+    "earliest_arrival": "2026-11-04T08:15:00",
+    "latest_arrival": "2026-11-04T11:15:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000179",
+    "delivery_id": "DEL-2026-000179",
+    "earliest_arrival": "2026-11-04T08:00:00",
+    "latest_arrival": "2026-11-04T10:30:00",
+    "priority": "critical"
+  },
+  {
+    "window_id": "TW-2026-000180",
+    "delivery_id": "DEL-2026-000180",
+    "earliest_arrival": "2026-11-04T13:45:00",
+    "latest_arrival": "2026-11-04T15:15:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000181",
+    "delivery_id": "DEL-2026-000181",
+    "earliest_arrival": "2026-11-04T08:00:00",
+    "latest_arrival": "2026-11-04T15:00:00",
+    "priority": "critical"
+  },
+  {
+    "window_id": "TW-2026-000182",
+    "delivery_id": "DEL-2026-000182",
+    "earliest_arrival": "2026-11-04T14:45:00",
+    "latest_arrival": "2026-11-04T17:45:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000183",
+    "delivery_id": "DEL-2026-000183",
+    "earliest_arrival": "2026-11-04T14:45:00",
+    "latest_arrival": "2026-11-04T17:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000184",
+    "delivery_id": "DEL-2026-000184",
+    "earliest_arrival": "2026-11-04T13:00:00",
+    "latest_arrival": "2026-11-04T14:30:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000185",
+    "delivery_id": "DEL-2026-000185",
+    "earliest_arrival": "2026-11-04T09:00:00",
+    "latest_arrival": "2026-11-04T17:00:00",
+    "priority": "critical"
+  },
+  {
+    "window_id": "TW-2026-000186",
+    "delivery_id": "DEL-2026-000186",
+    "earliest_arrival": "2026-11-04T08:00:00",
+    "latest_arrival": "2026-11-04T14:00:00",
+    "priority": "high"
+  },
+  {
+    "window_id": "TW-2026-000187",
+    "delivery_id": "DEL-2026-000187",
+    "earliest_arrival": "2026-11-04T14:45:00",
+    "latest_arrival": "2026-11-04T17:15:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000188",
+    "delivery_id": "DEL-2026-000188",
+    "earliest_arrival": "2026-11-04T09:00:00",
+    "latest_arrival": "2026-11-04T09:45:00",
+    "priority": "high"
+  },
+  {
+    "window_id": "TW-2026-000189",
+    "delivery_id": "DEL-2026-000189",
+    "earliest_arrival": "2026-11-04T13:15:00",
+    "latest_arrival": "2026-11-04T16:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000190",
+    "delivery_id": "DEL-2026-000190",
+    "earliest_arrival": "2026-11-04T10:00:00",
+    "latest_arrival": "2026-11-04T11:30:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000191",
+    "delivery_id": "DEL-2026-000191",
+    "earliest_arrival": "2026-11-04T08:00:00",
+    "latest_arrival": "2026-11-04T09:30:00",
+    "priority": "critical"
+  },
+  {
+    "window_id": "TW-2026-000192",
+    "delivery_id": "DEL-2026-000192",
+    "earliest_arrival": "2026-11-04T13:30:00",
+    "latest_arrival": "2026-11-04T16:30:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000193",
+    "delivery_id": "DEL-2026-000193",
+    "earliest_arrival": "2026-11-04T08:15:00",
+    "latest_arrival": "2026-11-04T09:45:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000194",
+    "delivery_id": "DEL-2026-000194",
+    "earliest_arrival": "2026-11-04T09:00:00",
+    "latest_arrival": "2026-11-04T10:30:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000195",
+    "delivery_id": "DEL-2026-000195",
+    "earliest_arrival": "2026-11-04T09:15:00",
+    "latest_arrival": "2026-11-04T10:45:00",
+    "priority": "high"
+  },
+  {
+    "window_id": "TW-2026-000196",
+    "delivery_id": "DEL-2026-000196",
+    "earliest_arrival": "2026-11-04T15:30:00",
+    "latest_arrival": "2026-11-04T17:00:00",
+    "priority": "high"
+  },
+  {
+    "window_id": "TW-2026-000197",
+    "delivery_id": "DEL-2026-000197",
+    "earliest_arrival": "2026-11-04T09:00:00",
+    "latest_arrival": "2026-11-04T14:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000198",
+    "delivery_id": "DEL-2026-000198",
+    "earliest_arrival": "2026-11-04T09:00:00",
+    "latest_arrival": "2026-11-04T10:00:00",
+    "priority": "normal"
+  },
+  {
+    "window_id": "TW-2026-000199",
+    "delivery_id": "DEL-2026-000199",
+    "earliest_arrival": "2026-11-04T09:00:00",
+    "latest_arrival": "2026-11-04T15:00:00",
+    "priority": "critical"
+  },
+  {
+    "window_id": "TW-2026-000200",
+    "delivery_id": "DEL-2026-000200",
+    "earliest_arrival": "2026-11-04T09:00:00",
+    "latest_arrival": "2026-11-04T17:00:00",
+    "priority": "critical"
+  }
+]

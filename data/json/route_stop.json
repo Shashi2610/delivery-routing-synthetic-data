@@ -1,0 +1,850 @@
+[
+  {
+    "stop_id": "STOP-RTE-2026-000001-001",
+    "route_id": "RTE-2026-000001",
+    "sequence_no": 1,
+    "delivery_id": "DEL-2026-000036",
+    "planned_arrival": "2026-11-02T13:45:00",
+    "planned_departure": "2026-11-02T13:53:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000001-002",
+    "route_id": "RTE-2026-000001",
+    "sequence_no": 2,
+    "delivery_id": "DEL-2026-000051",
+    "planned_arrival": "2026-11-02T13:53:00",
+    "planned_departure": "2026-11-02T13:58:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000001-003",
+    "route_id": "RTE-2026-000001",
+    "sequence_no": 3,
+    "delivery_id": "DEL-2026-000028",
+    "planned_arrival": "2026-11-02T13:58:00",
+    "planned_departure": "2026-11-02T14:10:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000001-004",
+    "route_id": "RTE-2026-000001",
+    "sequence_no": 4,
+    "delivery_id": "DEL-2026-000017",
+    "planned_arrival": "2026-11-02T14:14:00",
+    "planned_departure": "2026-11-02T14:33:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000001-005",
+    "route_id": "RTE-2026-000001",
+    "sequence_no": 5,
+    "delivery_id": "DEL-2026-000053",
+    "planned_arrival": "2026-11-02T14:43:00",
+    "planned_departure": "2026-11-02T14:57:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000001-006",
+    "route_id": "RTE-2026-000001",
+    "sequence_no": 6,
+    "delivery_id": "DEL-2026-000039",
+    "planned_arrival": "2026-11-02T14:57:00",
+    "planned_departure": "2026-11-02T15:04:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000001-007",
+    "route_id": "RTE-2026-000001",
+    "sequence_no": 7,
+    "delivery_id": "DEL-2026-000012",
+    "planned_arrival": "2026-11-02T15:04:00",
+    "planned_departure": "2026-11-02T15:21:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000001-008",
+    "route_id": "RTE-2026-000001",
+    "sequence_no": 8,
+    "delivery_id": "DEL-2026-000045",
+    "planned_arrival": "2026-11-02T15:24:00",
+    "planned_departure": "2026-11-02T15:37:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000002-001",
+    "route_id": "RTE-2026-000002",
+    "sequence_no": 1,
+    "delivery_id": "DEL-2026-000050",
+    "planned_arrival": "2026-11-02T09:00:00",
+    "planned_departure": "2026-11-02T09:14:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000002-002",
+    "route_id": "RTE-2026-000002",
+    "sequence_no": 2,
+    "delivery_id": "DEL-2026-000019",
+    "planned_arrival": "2026-11-02T09:25:00",
+    "planned_departure": "2026-11-02T09:37:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000002-003",
+    "route_id": "RTE-2026-000002",
+    "sequence_no": 3,
+    "delivery_id": "DEL-2026-000034",
+    "planned_arrival": "2026-11-02T12:45:00",
+    "planned_departure": "2026-11-02T13:08:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000002-004",
+    "route_id": "RTE-2026-000002",
+    "sequence_no": 4,
+    "delivery_id": "DEL-2026-000037",
+    "planned_arrival": "2026-11-02T13:15:00",
+    "planned_departure": "2026-11-02T13:42:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000002-005",
+    "route_id": "RTE-2026-000002",
+    "sequence_no": 5,
+    "delivery_id": "DEL-2026-000038",
+    "planned_arrival": "2026-11-02T13:58:00",
+    "planned_departure": "2026-11-02T14:03:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000003-001",
+    "route_id": "RTE-2026-000003",
+    "sequence_no": 1,
+    "delivery_id": "DEL-2026-000029",
+    "planned_arrival": "2026-11-02T09:00:00",
+    "planned_departure": "2026-11-02T09:21:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000003-002",
+    "route_id": "RTE-2026-000003",
+    "sequence_no": 2,
+    "delivery_id": "DEL-2026-000014",
+    "planned_arrival": "2026-11-02T09:26:00",
+    "planned_departure": "2026-11-02T09:48:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000003-003",
+    "route_id": "RTE-2026-000003",
+    "sequence_no": 3,
+    "delivery_id": "DEL-2026-000058",
+    "planned_arrival": "2026-11-02T09:55:00",
+    "planned_departure": "2026-11-02T10:07:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000003-004",
+    "route_id": "RTE-2026-000003",
+    "sequence_no": 4,
+    "delivery_id": "DEL-2026-000044",
+    "planned_arrival": "2026-11-02T10:22:00",
+    "planned_departure": "2026-11-02T10:37:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000003-005",
+    "route_id": "RTE-2026-000003",
+    "sequence_no": 5,
+    "delivery_id": "DEL-2026-000046",
+    "planned_arrival": "2026-11-02T14:15:00",
+    "planned_departure": "2026-11-02T14:31:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000004-001",
+    "route_id": "RTE-2026-000004",
+    "sequence_no": 1,
+    "delivery_id": "DEL-2026-000032",
+    "planned_arrival": "2026-11-02T09:00:00",
+    "planned_departure": "2026-11-02T09:17:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000004-002",
+    "route_id": "RTE-2026-000004",
+    "sequence_no": 2,
+    "delivery_id": "DEL-2026-000052",
+    "planned_arrival": "2026-11-02T13:30:00",
+    "planned_departure": "2026-11-02T13:40:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000004-003",
+    "route_id": "RTE-2026-000004",
+    "sequence_no": 3,
+    "delivery_id": "DEL-2026-000001",
+    "planned_arrival": "2026-11-02T14:45:00",
+    "planned_departure": "2026-11-02T14:58:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000004-004",
+    "route_id": "RTE-2026-000004",
+    "sequence_no": 4,
+    "delivery_id": "DEL-2026-000013",
+    "planned_arrival": "2026-11-02T15:03:00",
+    "planned_departure": "2026-11-02T15:18:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000004-005",
+    "route_id": "RTE-2026-000004",
+    "sequence_no": 5,
+    "delivery_id": "DEL-2026-000033",
+    "planned_arrival": "2026-11-02T15:18:00",
+    "planned_departure": "2026-11-02T15:35:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000004-006",
+    "route_id": "RTE-2026-000004",
+    "sequence_no": 6,
+    "delivery_id": "DEL-2026-000025",
+    "planned_arrival": "2026-11-02T15:35:00",
+    "planned_departure": "2026-11-02T15:45:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000005-001",
+    "route_id": "RTE-2026-000005",
+    "sequence_no": 1,
+    "delivery_id": "DEL-2026-000047",
+    "planned_arrival": "2026-11-02T12:30:00",
+    "planned_departure": "2026-11-02T12:51:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000005-002",
+    "route_id": "RTE-2026-000005",
+    "sequence_no": 2,
+    "delivery_id": "DEL-2026-000004",
+    "planned_arrival": "2026-11-02T12:51:00",
+    "planned_departure": "2026-11-02T13:12:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000005-003",
+    "route_id": "RTE-2026-000005",
+    "sequence_no": 3,
+    "delivery_id": "DEL-2026-000008",
+    "planned_arrival": "2026-11-02T13:12:00",
+    "planned_departure": "2026-11-02T13:28:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000005-004",
+    "route_id": "RTE-2026-000005",
+    "sequence_no": 4,
+    "delivery_id": "DEL-2026-000016",
+    "planned_arrival": "2026-11-02T13:28:00",
+    "planned_departure": "2026-11-02T13:41:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000006-001",
+    "route_id": "RTE-2026-000006",
+    "sequence_no": 1,
+    "delivery_id": "DEL-2026-000056",
+    "planned_arrival": "2026-11-02T15:00:00",
+    "planned_departure": "2026-11-02T15:12:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000006-002",
+    "route_id": "RTE-2026-000006",
+    "sequence_no": 2,
+    "delivery_id": "DEL-2026-000060",
+    "planned_arrival": "2026-11-02T15:24:00",
+    "planned_departure": "2026-11-02T15:39:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000006-003",
+    "route_id": "RTE-2026-000006",
+    "sequence_no": 3,
+    "delivery_id": "DEL-2026-000055",
+    "planned_arrival": "2026-11-02T15:39:00",
+    "planned_departure": "2026-11-02T15:50:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000007-001",
+    "route_id": "RTE-2026-000007",
+    "sequence_no": 1,
+    "delivery_id": "DEL-2026-000022",
+    "planned_arrival": "2026-11-02T09:15:00",
+    "planned_departure": "2026-11-02T09:28:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000007-003",
+    "route_id": "RTE-2026-000007",
+    "sequence_no": 3,
+    "delivery_id": "DEL-2026-000064",
+    "planned_arrival": "2026-11-02T13:46:00",
+    "planned_departure": "2026-11-02T13:56:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000007-004",
+    "route_id": "RTE-2026-000007",
+    "sequence_no": 4,
+    "delivery_id": "DEL-2026-000027",
+    "planned_arrival": "2026-11-02T14:45:00",
+    "planned_departure": "2026-11-02T14:57:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000007-005",
+    "route_id": "RTE-2026-000007",
+    "sequence_no": 5,
+    "delivery_id": "DEL-2026-000024",
+    "planned_arrival": "2026-11-02T15:04:00",
+    "planned_departure": "2026-11-02T15:23:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000008-001",
+    "route_id": "RTE-2026-000008",
+    "sequence_no": 1,
+    "delivery_id": "DEL-2026-000063",
+    "planned_arrival": "2026-11-02T09:17:00",
+    "planned_departure": "2026-11-02T09:35:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000008-002",
+    "route_id": "RTE-2026-000008",
+    "sequence_no": 2,
+    "delivery_id": "DEL-2026-000031",
+    "planned_arrival": "2026-11-02T09:39:00",
+    "planned_departure": "2026-11-02T10:13:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000008-003",
+    "route_id": "RTE-2026-000008",
+    "sequence_no": 3,
+    "delivery_id": "DEL-2026-000066",
+    "planned_arrival": "2026-11-02T10:13:00",
+    "planned_departure": "2026-11-02T10:26:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000008-004",
+    "route_id": "RTE-2026-000008",
+    "sequence_no": 4,
+    "delivery_id": "DEL-2026-000042",
+    "planned_arrival": "2026-11-02T16:00:00",
+    "planned_departure": "2026-11-02T16:16:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000009-001",
+    "route_id": "RTE-2026-000009",
+    "sequence_no": 1,
+    "delivery_id": "DEL-2026-000002",
+    "planned_arrival": "2026-11-02T14:00:00",
+    "planned_departure": "2026-11-02T14:06:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000009-002",
+    "route_id": "RTE-2026-000009",
+    "sequence_no": 2,
+    "delivery_id": "DEL-2026-000057",
+    "planned_arrival": "2026-11-02T14:11:00",
+    "planned_departure": "2026-11-02T14:27:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000010-001",
+    "route_id": "RTE-2026-000010",
+    "sequence_no": 1,
+    "delivery_id": "DEL-2026-000067",
+    "planned_arrival": "2026-11-02T14:15:00",
+    "planned_departure": "2026-11-02T14:35:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000010-002",
+    "route_id": "RTE-2026-000010",
+    "sequence_no": 2,
+    "delivery_id": "DEL-2026-000068",
+    "planned_arrival": "2026-11-02T14:35:00",
+    "planned_departure": "2026-11-02T14:54:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000011-001",
+    "route_id": "RTE-2026-000011",
+    "sequence_no": 1,
+    "delivery_id": "DEL-2026-000120",
+    "planned_arrival": "2026-11-03T13:30:00",
+    "planned_departure": "2026-11-03T13:41:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000011-002",
+    "route_id": "RTE-2026-000011",
+    "sequence_no": 2,
+    "delivery_id": "DEL-2026-000086",
+    "planned_arrival": "2026-11-03T13:46:00",
+    "planned_departure": "2026-11-03T14:18:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000012-001",
+    "route_id": "RTE-2026-000012",
+    "sequence_no": 1,
+    "delivery_id": "DEL-2026-000081",
+    "planned_arrival": "2026-11-03T09:45:00",
+    "planned_departure": "2026-11-03T10:00:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000012-002",
+    "route_id": "RTE-2026-000012",
+    "sequence_no": 2,
+    "delivery_id": "DEL-2026-000108",
+    "planned_arrival": "2026-11-03T13:00:00",
+    "planned_departure": "2026-11-03T13:13:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000012-003",
+    "route_id": "RTE-2026-000012",
+    "sequence_no": 3,
+    "delivery_id": "DEL-2026-000092",
+    "planned_arrival": "2026-11-03T13:18:00",
+    "planned_departure": "2026-11-03T13:37:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000012-004",
+    "route_id": "RTE-2026-000012",
+    "sequence_no": 4,
+    "delivery_id": "DEL-2026-000176",
+    "planned_arrival": "2026-11-03T13:37:00",
+    "planned_departure": "2026-11-03T14:19:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000012-005",
+    "route_id": "RTE-2026-000012",
+    "sequence_no": 5,
+    "delivery_id": "DEL-2026-000139",
+    "planned_arrival": "2026-11-03T14:30:00",
+    "planned_departure": "2026-11-03T14:38:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000012-006",
+    "route_id": "RTE-2026-000012",
+    "sequence_no": 6,
+    "delivery_id": "DEL-2026-000175",
+    "planned_arrival": "2026-11-03T14:48:00",
+    "planned_departure": "2026-11-03T14:58:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000013-001",
+    "route_id": "RTE-2026-000013",
+    "sequence_no": 1,
+    "delivery_id": "DEL-2026-000077",
+    "planned_arrival": "2026-11-03T12:45:00",
+    "planned_departure": "2026-11-03T12:57:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000013-002",
+    "route_id": "RTE-2026-000013",
+    "sequence_no": 2,
+    "delivery_id": "DEL-2026-000159",
+    "planned_arrival": "2026-11-03T13:05:00",
+    "planned_departure": "2026-11-03T13:23:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000013-004",
+    "route_id": "RTE-2026-000013",
+    "sequence_no": 4,
+    "delivery_id": "DEL-2026-000071",
+    "planned_arrival": "2026-11-03T14:13:00",
+    "planned_departure": "2026-11-03T14:35:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000014-001",
+    "route_id": "RTE-2026-000014",
+    "sequence_no": 1,
+    "delivery_id": "DEL-2026-000082",
+    "planned_arrival": "2026-11-03T13:00:00",
+    "planned_departure": "2026-11-03T13:12:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000014-002",
+    "route_id": "RTE-2026-000014",
+    "sequence_no": 2,
+    "delivery_id": "DEL-2026-000142",
+    "planned_arrival": "2026-11-03T13:12:00",
+    "planned_departure": "2026-11-03T13:25:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000014-003",
+    "route_id": "RTE-2026-000014",
+    "sequence_no": 3,
+    "delivery_id": "DEL-2026-000165",
+    "planned_arrival": "2026-11-03T13:25:00",
+    "planned_departure": "2026-11-03T13:44:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000015-001",
+    "route_id": "RTE-2026-000015",
+    "sequence_no": 1,
+    "delivery_id": "DEL-2026-000134",
+    "planned_arrival": "2026-11-03T08:00:00",
+    "planned_departure": "2026-11-03T08:17:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000015-002",
+    "route_id": "RTE-2026-000015",
+    "sequence_no": 2,
+    "delivery_id": "DEL-2026-000112",
+    "planned_arrival": "2026-11-03T09:00:00",
+    "planned_departure": "2026-11-03T09:11:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000015-003",
+    "route_id": "RTE-2026-000015",
+    "sequence_no": 3,
+    "delivery_id": "DEL-2026-000074",
+    "planned_arrival": "2026-11-03T13:30:00",
+    "planned_departure": "2026-11-03T13:48:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000015-004",
+    "route_id": "RTE-2026-000015",
+    "sequence_no": 4,
+    "delivery_id": "DEL-2026-000079",
+    "planned_arrival": "2026-11-03T13:48:00",
+    "planned_departure": "2026-11-03T13:57:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000016-001",
+    "route_id": "RTE-2026-000016",
+    "sequence_no": 1,
+    "delivery_id": "DEL-2026-000172",
+    "planned_arrival": "2026-11-03T12:30:00",
+    "planned_departure": "2026-11-03T12:46:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000016-002",
+    "route_id": "RTE-2026-000016",
+    "sequence_no": 2,
+    "delivery_id": "DEL-2026-000100",
+    "planned_arrival": "2026-11-03T13:45:00",
+    "planned_departure": "2026-11-03T14:14:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000017-001",
+    "route_id": "RTE-2026-000017",
+    "sequence_no": 1,
+    "delivery_id": "DEL-2026-000149",
+    "planned_arrival": "2026-11-03T14:30:00",
+    "planned_departure": "2026-11-03T14:47:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000018-001",
+    "route_id": "RTE-2026-000018",
+    "sequence_no": 1,
+    "delivery_id": "DEL-2026-000088",
+    "planned_arrival": "2026-11-03T13:45:00",
+    "planned_departure": "2026-11-03T13:59:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000018-002",
+    "route_id": "RTE-2026-000018",
+    "sequence_no": 2,
+    "delivery_id": "DEL-2026-000138",
+    "planned_arrival": "2026-11-03T14:05:00",
+    "planned_departure": "2026-11-03T14:39:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000018-003",
+    "route_id": "RTE-2026-000018",
+    "sequence_no": 3,
+    "delivery_id": "DEL-2026-000156",
+    "planned_arrival": "2026-11-03T14:39:00",
+    "planned_departure": "2026-11-03T14:51:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000018-004",
+    "route_id": "RTE-2026-000018",
+    "sequence_no": 4,
+    "delivery_id": "DEL-2026-000157",
+    "planned_arrival": "2026-11-03T14:51:00",
+    "planned_departure": "2026-11-03T15:07:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000018-005",
+    "route_id": "RTE-2026-000018",
+    "sequence_no": 5,
+    "delivery_id": "DEL-2026-000098",
+    "planned_arrival": "2026-11-03T15:27:00",
+    "planned_departure": "2026-11-03T15:42:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000019-001",
+    "route_id": "RTE-2026-000019",
+    "sequence_no": 1,
+    "delivery_id": "DEL-2026-000127",
+    "planned_arrival": "2026-11-03T12:00:00",
+    "planned_departure": "2026-11-03T12:09:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000020-001",
+    "route_id": "RTE-2026-000020",
+    "sequence_no": 1,
+    "delivery_id": "DEL-2026-000102",
+    "planned_arrival": "2026-11-04T10:00:00",
+    "planned_departure": "2026-11-04T10:16:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000020-002",
+    "route_id": "RTE-2026-000020",
+    "sequence_no": 2,
+    "delivery_id": "DEL-2026-000190",
+    "planned_arrival": "2026-11-04T10:22:00",
+    "planned_departure": "2026-11-04T10:37:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000020-003",
+    "route_id": "RTE-2026-000020",
+    "sequence_no": 3,
+    "delivery_id": "DEL-2026-000189",
+    "planned_arrival": "2026-11-04T13:15:00",
+    "planned_departure": "2026-11-04T13:42:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000020-004",
+    "route_id": "RTE-2026-000020",
+    "sequence_no": 4,
+    "delivery_id": "DEL-2026-000167",
+    "planned_arrival": "2026-11-04T13:47:00",
+    "planned_departure": "2026-11-04T13:53:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000020-005",
+    "route_id": "RTE-2026-000020",
+    "sequence_no": 5,
+    "delivery_id": "DEL-2026-000124",
+    "planned_arrival": "2026-11-04T14:03:00",
+    "planned_departure": "2026-11-04T14:19:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000021-001",
+    "route_id": "RTE-2026-000021",
+    "sequence_no": 1,
+    "delivery_id": "DEL-2026-000087",
+    "planned_arrival": "2026-11-04T14:45:00",
+    "planned_departure": "2026-11-04T15:01:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000021-002",
+    "route_id": "RTE-2026-000021",
+    "sequence_no": 2,
+    "delivery_id": "DEL-2026-000187",
+    "planned_arrival": "2026-11-04T15:08:00",
+    "planned_departure": "2026-11-04T15:26:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000021-003",
+    "route_id": "RTE-2026-000021",
+    "sequence_no": 3,
+    "delivery_id": "DEL-2026-000083",
+    "planned_arrival": "2026-11-04T15:30:00",
+    "planned_departure": "2026-11-04T15:43:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000021-004",
+    "route_id": "RTE-2026-000021",
+    "sequence_no": 4,
+    "delivery_id": "DEL-2026-000174",
+    "planned_arrival": "2026-11-04T15:43:00",
+    "planned_departure": "2026-11-04T15:52:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000022-001",
+    "route_id": "RTE-2026-000022",
+    "sequence_no": 1,
+    "delivery_id": "DEL-2026-000115",
+    "planned_arrival": "2026-11-04T14:30:00",
+    "planned_departure": "2026-11-04T14:59:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000022-002",
+    "route_id": "RTE-2026-000022",
+    "sequence_no": 2,
+    "delivery_id": "DEL-2026-000192",
+    "planned_arrival": "2026-11-04T15:14:00",
+    "planned_departure": "2026-11-04T15:48:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000023-001",
+    "route_id": "RTE-2026-000023",
+    "sequence_no": 1,
+    "delivery_id": "DEL-2026-000101",
+    "planned_arrival": "2026-11-04T08:45:00",
+    "planned_departure": "2026-11-04T09:01:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000023-002",
+    "route_id": "RTE-2026-000023",
+    "sequence_no": 2,
+    "delivery_id": "DEL-2026-000177",
+    "planned_arrival": "2026-11-04T12:15:00",
+    "planned_departure": "2026-11-04T12:28:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000023-003",
+    "route_id": "RTE-2026-000023",
+    "sequence_no": 3,
+    "delivery_id": "DEL-2026-000104",
+    "planned_arrival": "2026-11-04T12:37:00",
+    "planned_departure": "2026-11-04T12:49:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000023-004",
+    "route_id": "RTE-2026-000023",
+    "sequence_no": 4,
+    "delivery_id": "DEL-2026-000197",
+    "planned_arrival": "2026-11-04T12:49:00",
+    "planned_departure": "2026-11-04T13:07:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000023-005",
+    "route_id": "RTE-2026-000023",
+    "sequence_no": 5,
+    "delivery_id": "DEL-2026-000143",
+    "planned_arrival": "2026-11-04T13:15:00",
+    "planned_departure": "2026-11-04T13:32:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000024-001",
+    "route_id": "RTE-2026-000024",
+    "sequence_no": 1,
+    "delivery_id": "DEL-2026-000089",
+    "planned_arrival": "2026-11-04T09:45:00",
+    "planned_departure": "2026-11-04T10:20:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000024-002",
+    "route_id": "RTE-2026-000024",
+    "sequence_no": 2,
+    "delivery_id": "DEL-2026-000076",
+    "planned_arrival": "2026-11-04T10:20:00",
+    "planned_departure": "2026-11-04T10:37:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000025-001",
+    "route_id": "RTE-2026-000025",
+    "sequence_no": 1,
+    "delivery_id": "DEL-2026-000170",
+    "planned_arrival": "2026-11-04T12:00:00",
+    "planned_departure": "2026-11-04T12:34:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000025-002",
+    "route_id": "RTE-2026-000025",
+    "sequence_no": 2,
+    "delivery_id": "DEL-2026-000164",
+    "planned_arrival": "2026-11-04T12:45:00",
+    "planned_departure": "2026-11-04T12:57:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000026-001",
+    "route_id": "RTE-2026-000026",
+    "sequence_no": 1,
+    "delivery_id": "DEL-2026-000200",
+    "planned_arrival": "2026-11-04T09:00:00",
+    "planned_departure": "2026-11-04T09:11:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000026-002",
+    "route_id": "RTE-2026-000026",
+    "sequence_no": 2,
+    "delivery_id": "DEL-2026-000080",
+    "planned_arrival": "2026-11-04T09:23:00",
+    "planned_departure": "2026-11-04T09:37:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000026-003",
+    "route_id": "RTE-2026-000026",
+    "sequence_no": 3,
+    "delivery_id": "DEL-2026-000171",
+    "planned_arrival": "2026-11-04T09:45:00",
+    "planned_departure": "2026-11-04T09:59:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000026-004",
+    "route_id": "RTE-2026-000026",
+    "sequence_no": 4,
+    "delivery_id": "DEL-2026-000110",
+    "planned_arrival": "2026-11-04T14:45:00",
+    "planned_departure": "2026-11-04T15:04:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000026-005",
+    "route_id": "RTE-2026-000026",
+    "sequence_no": 5,
+    "delivery_id": "DEL-2026-000126",
+    "planned_arrival": "2026-11-04T15:08:00",
+    "planned_departure": "2026-11-04T15:21:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000026-006",
+    "route_id": "RTE-2026-000026",
+    "sequence_no": 6,
+    "delivery_id": "DEL-2026-000118",
+    "planned_arrival": "2026-11-04T15:41:00",
+    "planned_departure": "2026-11-04T15:54:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000027-001",
+    "route_id": "RTE-2026-000027",
+    "sequence_no": 1,
+    "delivery_id": "DEL-2026-000179",
+    "planned_arrival": "2026-11-04T08:17:00",
+    "planned_departure": "2026-11-04T08:34:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000027-002",
+    "route_id": "RTE-2026-000027",
+    "sequence_no": 2,
+    "delivery_id": "DEL-2026-000135",
+    "planned_arrival": "2026-11-04T08:34:00",
+    "planned_departure": "2026-11-04T08:48:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000027-003",
+    "route_id": "RTE-2026-000027",
+    "sequence_no": 3,
+    "delivery_id": "DEL-2026-000194",
+    "planned_arrival": "2026-11-04T09:00:00",
+    "planned_departure": "2026-11-04T09:34:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000028-001",
+    "route_id": "RTE-2026-000028",
+    "sequence_no": 1,
+    "delivery_id": "DEL-2026-000132",
+    "planned_arrival": "2026-11-04T10:00:00",
+    "planned_departure": "2026-11-04T10:20:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000028-002",
+    "route_id": "RTE-2026-000028",
+    "sequence_no": 2,
+    "delivery_id": "DEL-2026-000181",
+    "planned_arrival": "2026-11-04T10:29:00",
+    "planned_departure": "2026-11-04T10:35:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000028-003",
+    "route_id": "RTE-2026-000028",
+    "sequence_no": 3,
+    "delivery_id": "DEL-2026-000117",
+    "planned_arrival": "2026-11-04T12:30:00",
+    "planned_departure": "2026-11-04T12:51:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000028-004",
+    "route_id": "RTE-2026-000028",
+    "sequence_no": 4,
+    "delivery_id": "DEL-2026-000117",
+    "planned_arrival": "2026-11-04T12:51:00",
+    "planned_departure": "2026-11-04T13:12:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000029-001",
+    "route_id": "RTE-2026-000029",
+    "sequence_no": 1,
+    "delivery_id": "DEL-2026-000095",
+    "planned_arrival": "2026-11-04T09:00:00",
+    "planned_departure": "2026-11-04T09:18:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000029-002",
+    "route_id": "RTE-2026-000029",
+    "sequence_no": 2,
+    "delivery_id": "DEL-2026-000130",
+    "planned_arrival": "2026-11-04T09:39:00",
+    "planned_departure": "2026-11-04T10:04:00"
+  },
+  {
+    "stop_id": "STOP-RTE-2026-000029-003",
+    "route_id": "RTE-2026-000029",
+    "sequence_no": 3,
+    "delivery_id": "DEL-2026-000141",
+    "planned_arrival": "2026-11-04T10:04:00",
+    "planned_departure": "2026-11-04T10:30:00"
+  }
+]

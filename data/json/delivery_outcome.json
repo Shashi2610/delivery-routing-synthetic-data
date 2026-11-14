@@ -1,0 +1,1052 @@
+[
+  {
+    "outcome_id": "OUT-2026-000001",
+    "stop_id": "STOP-RTE-2026-000001-001",
+    "delivery_id": "DEL-2026-000036",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T13:45:00",
+    "actual_departure": "2026-11-02T13:53:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000002",
+    "stop_id": "STOP-RTE-2026-000001-002",
+    "delivery_id": "DEL-2026-000051",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T13:53:00",
+    "actual_departure": "2026-11-02T13:58:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000003",
+    "stop_id": "STOP-RTE-2026-000001-003",
+    "delivery_id": "DEL-2026-000028",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T13:58:00",
+    "actual_departure": "2026-11-02T14:09:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000004",
+    "stop_id": "STOP-RTE-2026-000001-004",
+    "delivery_id": "DEL-2026-000017",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T14:11:00",
+    "actual_departure": "2026-11-02T15:03:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000005",
+    "stop_id": "STOP-RTE-2026-000001-005",
+    "delivery_id": "DEL-2026-000053",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T15:08:00",
+    "actual_departure": "2026-11-02T15:37:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000006",
+    "stop_id": "STOP-RTE-2026-000001-006",
+    "delivery_id": "DEL-2026-000039",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T15:37:00",
+    "actual_departure": "2026-11-02T15:45:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000007",
+    "stop_id": "STOP-RTE-2026-000001-007",
+    "delivery_id": "DEL-2026-000012",
+    "attempt_no": 1,
+    "actual_arrival": null,
+    "actual_departure": null,
+    "status": "failed",
+    "reason_code": "SHIFT_EXCEEDED"
+  },
+  {
+    "outcome_id": "OUT-2026-000008",
+    "stop_id": "STOP-RTE-2026-000001-008",
+    "delivery_id": "DEL-2026-000045",
+    "attempt_no": 1,
+    "actual_arrival": null,
+    "actual_departure": null,
+    "status": "failed",
+    "reason_code": "SHIFT_EXCEEDED"
+  },
+  {
+    "outcome_id": "OUT-2026-000009",
+    "stop_id": "STOP-RTE-2026-000002-001",
+    "delivery_id": "DEL-2026-000050",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T09:00:00",
+    "actual_departure": "2026-11-02T09:21:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000010",
+    "stop_id": "STOP-RTE-2026-000002-002",
+    "delivery_id": "DEL-2026-000019",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T09:23:00",
+    "actual_departure": "2026-11-02T09:34:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000011",
+    "stop_id": "STOP-RTE-2026-000002-003",
+    "delivery_id": "DEL-2026-000034",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T12:45:00",
+    "actual_departure": "2026-11-02T13:37:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000012",
+    "stop_id": "STOP-RTE-2026-000002-004",
+    "delivery_id": "DEL-2026-000037",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T13:43:00",
+    "actual_departure": "2026-11-02T13:59:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000013",
+    "stop_id": "STOP-RTE-2026-000002-005",
+    "delivery_id": "DEL-2026-000038",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T14:20:00",
+    "actual_departure": "2026-11-02T14:24:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000014",
+    "stop_id": "STOP-RTE-2026-000003-001",
+    "delivery_id": "DEL-2026-000029",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T09:00:00",
+    "actual_departure": "2026-11-02T09:16:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000015",
+    "stop_id": "STOP-RTE-2026-000003-002",
+    "delivery_id": "DEL-2026-000014",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T09:23:00",
+    "actual_departure": "2026-11-02T09:52:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000016",
+    "stop_id": "STOP-RTE-2026-000003-003",
+    "delivery_id": "DEL-2026-000058",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T09:55:00",
+    "actual_departure": "2026-11-02T10:13:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000017",
+    "stop_id": "STOP-RTE-2026-000003-004",
+    "delivery_id": "DEL-2026-000044",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T11:07:00",
+    "actual_departure": "2026-11-02T11:07:00",
+    "status": "failed",
+    "reason_code": "LATE_MISSED_WINDOW"
+  },
+  {
+    "outcome_id": "OUT-2026-000018",
+    "stop_id": "STOP-RTE-2026-000003-005",
+    "delivery_id": "DEL-2026-000046",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T14:15:00",
+    "actual_departure": "2026-11-02T14:27:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000019",
+    "stop_id": "STOP-RTE-2026-000004-001",
+    "delivery_id": "DEL-2026-000032",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T09:00:00",
+    "actual_departure": "2026-11-02T09:17:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000020",
+    "stop_id": "STOP-RTE-2026-000004-002",
+    "delivery_id": "DEL-2026-000052",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T13:30:00",
+    "actual_departure": "2026-11-02T13:35:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000021",
+    "stop_id": "STOP-RTE-2026-000004-003",
+    "delivery_id": "DEL-2026-000001",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T14:45:00",
+    "actual_departure": "2026-11-02T14:54:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000022",
+    "stop_id": "STOP-RTE-2026-000004-004",
+    "delivery_id": "DEL-2026-000013",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T14:59:00",
+    "actual_departure": "2026-11-02T15:11:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000023",
+    "stop_id": "STOP-RTE-2026-000004-005",
+    "delivery_id": "DEL-2026-000033",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T15:11:00",
+    "actual_departure": "2026-11-02T15:29:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000024",
+    "stop_id": "STOP-RTE-2026-000004-006",
+    "delivery_id": "DEL-2026-000025",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T15:29:00",
+    "actual_departure": "2026-11-02T15:42:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000025",
+    "stop_id": "STOP-RTE-2026-000005-001",
+    "delivery_id": "DEL-2026-000047",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T12:30:00",
+    "actual_departure": "2026-11-02T12:54:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000026",
+    "stop_id": "STOP-RTE-2026-000005-002",
+    "delivery_id": "DEL-2026-000004",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T12:54:00",
+    "actual_departure": "2026-11-02T13:20:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000027",
+    "stop_id": "STOP-RTE-2026-000005-003",
+    "delivery_id": "DEL-2026-000008",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T13:20:00",
+    "actual_departure": "2026-11-02T13:31:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000028",
+    "stop_id": "STOP-RTE-2026-000005-004",
+    "delivery_id": "DEL-2026-000016",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T13:31:00",
+    "actual_departure": "2026-11-02T13:51:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000029",
+    "stop_id": "STOP-RTE-2026-000006-001",
+    "delivery_id": "DEL-2026-000056",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T15:00:00",
+    "actual_departure": "2026-11-02T15:16:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000030",
+    "stop_id": "STOP-RTE-2026-000006-002",
+    "delivery_id": "DEL-2026-000060",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T15:19:00",
+    "actual_departure": "2026-11-02T15:32:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000031",
+    "stop_id": "STOP-RTE-2026-000006-003",
+    "delivery_id": "DEL-2026-000055",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T15:19:00",
+    "actual_departure": "2026-11-02T15:42:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000032",
+    "stop_id": "STOP-RTE-2026-000007-001",
+    "delivery_id": "DEL-2026-000022",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T09:15:00",
+    "actual_departure": "2026-11-02T09:24:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000034",
+    "stop_id": "STOP-RTE-2026-000007-003",
+    "delivery_id": "DEL-2026-000064",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T13:57:00",
+    "actual_departure": "2026-11-02T14:09:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000035",
+    "stop_id": "STOP-RTE-2026-000007-004",
+    "delivery_id": "DEL-2026-000027",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T14:45:00",
+    "actual_departure": "2026-11-02T14:59:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000036",
+    "stop_id": "STOP-RTE-2026-000007-005",
+    "delivery_id": "DEL-2026-000024",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T15:03:00",
+    "actual_departure": "2026-11-02T15:17:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000037",
+    "stop_id": "STOP-RTE-2026-000008-001",
+    "delivery_id": "DEL-2026-000063",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T09:20:00",
+    "actual_departure": "2026-11-02T09:51:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000038",
+    "stop_id": "STOP-RTE-2026-000008-002",
+    "delivery_id": "DEL-2026-000031",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T09:52:00",
+    "actual_departure": "2026-11-02T10:27:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000039",
+    "stop_id": "STOP-RTE-2026-000008-003",
+    "delivery_id": "DEL-2026-000066",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T10:27:00",
+    "actual_departure": "2026-11-02T10:40:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000040",
+    "stop_id": "STOP-RTE-2026-000008-004",
+    "delivery_id": "DEL-2026-000042",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T16:00:00",
+    "actual_departure": "2026-11-02T18:38:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000041",
+    "stop_id": "STOP-RTE-2026-000009-001",
+    "delivery_id": "DEL-2026-000002",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T14:00:00",
+    "actual_departure": "2026-11-02T14:05:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000042",
+    "stop_id": "STOP-RTE-2026-000009-002",
+    "delivery_id": "DEL-2026-000057",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T13:56:00",
+    "actual_departure": "2026-11-02T14:20:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000043",
+    "stop_id": "STOP-RTE-2026-000010-001",
+    "delivery_id": "DEL-2026-000067",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T14:15:00",
+    "actual_departure": "2026-11-02T14:33:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000044",
+    "stop_id": "STOP-RTE-2026-000010-002",
+    "delivery_id": "DEL-2026-000068",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-02T14:33:00",
+    "actual_departure": "2026-11-02T14:59:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000045",
+    "stop_id": "STOP-RTE-2026-000011-001",
+    "delivery_id": "DEL-2026-000120",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-03T13:30:00",
+    "actual_departure": "2026-11-03T13:38:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000046",
+    "stop_id": "STOP-RTE-2026-000011-002",
+    "delivery_id": "DEL-2026-000086",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-03T13:42:00",
+    "actual_departure": "2026-11-03T14:14:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000047",
+    "stop_id": "STOP-RTE-2026-000012-001",
+    "delivery_id": "DEL-2026-000081",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-03T09:45:00",
+    "actual_departure": "2026-11-03T10:08:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000048",
+    "stop_id": "STOP-RTE-2026-000012-002",
+    "delivery_id": "DEL-2026-000108",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-03T13:00:00",
+    "actual_departure": "2026-11-03T13:13:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000049",
+    "stop_id": "STOP-RTE-2026-000012-003",
+    "delivery_id": "DEL-2026-000092",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-03T13:17:00",
+    "actual_departure": "2026-11-03T13:30:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000050",
+    "stop_id": "STOP-RTE-2026-000012-004",
+    "delivery_id": "DEL-2026-000176",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-03T13:30:00",
+    "actual_departure": "2026-11-03T14:14:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000051",
+    "stop_id": "STOP-RTE-2026-000012-005",
+    "delivery_id": "DEL-2026-000139",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-03T14:30:00",
+    "actual_departure": "2026-11-03T14:48:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000052",
+    "stop_id": "STOP-RTE-2026-000012-006",
+    "delivery_id": "DEL-2026-000175",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-03T14:52:00",
+    "actual_departure": "2026-11-03T16:34:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000053",
+    "stop_id": "STOP-RTE-2026-000013-001",
+    "delivery_id": "DEL-2026-000077",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-03T12:45:00",
+    "actual_departure": "2026-11-03T12:55:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000054",
+    "stop_id": "STOP-RTE-2026-000013-002",
+    "delivery_id": "DEL-2026-000159",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-03T13:04:00",
+    "actual_departure": "2026-11-03T13:18:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000056",
+    "stop_id": "STOP-RTE-2026-000013-004",
+    "delivery_id": "DEL-2026-000071",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-03T13:46:00",
+    "actual_departure": "2026-11-03T14:04:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000057",
+    "stop_id": "STOP-RTE-2026-000014-001",
+    "delivery_id": "DEL-2026-000082",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-03T13:00:00",
+    "actual_departure": "2026-11-03T13:20:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000058",
+    "stop_id": "STOP-RTE-2026-000014-002",
+    "delivery_id": "DEL-2026-000142",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-03T13:20:00",
+    "actual_departure": "2026-11-03T13:35:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000059",
+    "stop_id": "STOP-RTE-2026-000014-003",
+    "delivery_id": "DEL-2026-000165",
+    "attempt_no": 1,
+    "actual_arrival": null,
+    "actual_departure": null,
+    "status": "failed",
+    "reason_code": "SHIFT_EXCEEDED"
+  },
+  {
+    "outcome_id": "OUT-2026-000060",
+    "stop_id": "STOP-RTE-2026-000015-001",
+    "delivery_id": "DEL-2026-000134",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-03T08:00:00",
+    "actual_departure": "2026-11-03T08:27:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000061",
+    "stop_id": "STOP-RTE-2026-000015-002",
+    "delivery_id": "DEL-2026-000112",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-03T09:00:00",
+    "actual_departure": "2026-11-03T09:07:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000062",
+    "stop_id": "STOP-RTE-2026-000015-003",
+    "delivery_id": "DEL-2026-000074",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-03T13:30:00",
+    "actual_departure": "2026-11-03T13:50:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000063",
+    "stop_id": "STOP-RTE-2026-000015-004",
+    "delivery_id": "DEL-2026-000079",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-03T13:50:00",
+    "actual_departure": "2026-11-03T14:03:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000064",
+    "stop_id": "STOP-RTE-2026-000016-001",
+    "delivery_id": "DEL-2026-000172",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-03T12:30:00",
+    "actual_departure": "2026-11-03T12:46:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000065",
+    "stop_id": "STOP-RTE-2026-000016-002",
+    "delivery_id": "DEL-2026-000100",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-03T13:45:00",
+    "actual_departure": "2026-11-03T14:08:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000066",
+    "stop_id": "STOP-RTE-2026-000017-001",
+    "delivery_id": "DEL-2026-000149",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-03T14:30:00",
+    "actual_departure": "2026-11-03T14:39:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000067",
+    "stop_id": "STOP-RTE-2026-000018-001",
+    "delivery_id": "DEL-2026-000088",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-03T13:45:00",
+    "actual_departure": "2026-11-03T13:55:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000068",
+    "stop_id": "STOP-RTE-2026-000018-002",
+    "delivery_id": "DEL-2026-000138",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-03T14:07:00",
+    "actual_departure": "2026-11-03T14:27:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000069",
+    "stop_id": "STOP-RTE-2026-000018-003",
+    "delivery_id": "DEL-2026-000156",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-03T14:27:00",
+    "actual_departure": "2026-11-03T14:36:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000070",
+    "stop_id": "STOP-RTE-2026-000018-004",
+    "delivery_id": "DEL-2026-000157",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-03T14:36:00",
+    "actual_departure": "2026-11-03T14:49:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000071",
+    "stop_id": "STOP-RTE-2026-000018-005",
+    "delivery_id": "DEL-2026-000098",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-03T14:57:00",
+    "actual_departure": "2026-11-03T15:12:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000072",
+    "stop_id": "STOP-RTE-2026-000019-001",
+    "delivery_id": "DEL-2026-000127",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-03T12:00:00",
+    "actual_departure": "2026-11-03T12:10:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000073",
+    "stop_id": "STOP-RTE-2026-000020-001",
+    "delivery_id": "DEL-2026-000102",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-04T10:00:00",
+    "actual_departure": "2026-11-04T10:14:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000074",
+    "stop_id": "STOP-RTE-2026-000020-002",
+    "delivery_id": "DEL-2026-000190",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-04T10:25:00",
+    "actual_departure": "2026-11-04T10:40:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000075",
+    "stop_id": "STOP-RTE-2026-000020-003",
+    "delivery_id": "DEL-2026-000189",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-04T13:15:00",
+    "actual_departure": "2026-11-04T13:48:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000076",
+    "stop_id": "STOP-RTE-2026-000020-004",
+    "delivery_id": "DEL-2026-000167",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-04T14:05:00",
+    "actual_departure": "2026-11-04T14:10:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000077",
+    "stop_id": "STOP-RTE-2026-000020-005",
+    "delivery_id": "DEL-2026-000124",
+    "attempt_no": 1,
+    "actual_arrival": null,
+    "actual_departure": null,
+    "status": "failed",
+    "reason_code": "SHIFT_EXCEEDED"
+  },
+  {
+    "outcome_id": "OUT-2026-000078",
+    "stop_id": "STOP-RTE-2026-000021-001",
+    "delivery_id": "DEL-2026-000087",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-04T14:45:00",
+    "actual_departure": "2026-11-04T15:02:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000079",
+    "stop_id": "STOP-RTE-2026-000021-002",
+    "delivery_id": "DEL-2026-000187",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-04T15:24:00",
+    "actual_departure": "2026-11-04T15:40:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000080",
+    "stop_id": "STOP-RTE-2026-000021-003",
+    "delivery_id": "DEL-2026-000083",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-04T15:49:00",
+    "actual_departure": "2026-11-04T16:04:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000081",
+    "stop_id": "STOP-RTE-2026-000021-004",
+    "delivery_id": "DEL-2026-000174",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-04T16:04:00",
+    "actual_departure": "2026-11-04T16:14:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000082",
+    "stop_id": "STOP-RTE-2026-000022-001",
+    "delivery_id": "DEL-2026-000115",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-04T14:30:00",
+    "actual_departure": "2026-11-04T14:58:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000083",
+    "stop_id": "STOP-RTE-2026-000022-002",
+    "delivery_id": "DEL-2026-000192",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-04T15:47:00",
+    "actual_departure": "2026-11-04T16:35:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000084",
+    "stop_id": "STOP-RTE-2026-000023-001",
+    "delivery_id": "DEL-2026-000101",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-04T08:45:00",
+    "actual_departure": "2026-11-04T08:57:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000085",
+    "stop_id": "STOP-RTE-2026-000023-002",
+    "delivery_id": "DEL-2026-000177",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-04T12:15:00",
+    "actual_departure": "2026-11-04T12:29:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000086",
+    "stop_id": "STOP-RTE-2026-000023-003",
+    "delivery_id": "DEL-2026-000104",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-04T14:24:00",
+    "actual_departure": "2026-11-04T14:24:00",
+    "status": "failed",
+    "reason_code": "LATE_MISSED_WINDOW"
+  },
+  {
+    "outcome_id": "OUT-2026-000087",
+    "stop_id": "STOP-RTE-2026-000023-004",
+    "delivery_id": "DEL-2026-000197",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-04T14:24:00",
+    "actual_departure": "2026-11-04T14:24:00",
+    "status": "failed",
+    "reason_code": "LATE_MISSED_WINDOW"
+  },
+  {
+    "outcome_id": "OUT-2026-000088",
+    "stop_id": "STOP-RTE-2026-000023-005",
+    "delivery_id": "DEL-2026-000143",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-04T14:24:00",
+    "actual_departure": "2026-11-04T16:23:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000089",
+    "stop_id": "STOP-RTE-2026-000024-001",
+    "delivery_id": "DEL-2026-000089",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-04T09:45:00",
+    "actual_departure": "2026-11-04T10:11:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000090",
+    "stop_id": "STOP-RTE-2026-000024-002",
+    "delivery_id": "DEL-2026-000076",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-04T09:56:00",
+    "actual_departure": "2026-11-04T10:34:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000091",
+    "stop_id": "STOP-RTE-2026-000025-001",
+    "delivery_id": "DEL-2026-000170",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-04T12:00:00",
+    "actual_departure": "2026-11-04T12:24:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000092",
+    "stop_id": "STOP-RTE-2026-000025-002",
+    "delivery_id": "DEL-2026-000164",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-04T12:35:00",
+    "actual_departure": "2026-11-04T12:45:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000093",
+    "stop_id": "STOP-RTE-2026-000026-001",
+    "delivery_id": "DEL-2026-000200",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-04T09:00:00",
+    "actual_departure": "2026-11-04T09:08:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000094",
+    "stop_id": "STOP-RTE-2026-000026-002",
+    "delivery_id": "DEL-2026-000080",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-04T09:19:00",
+    "actual_departure": "2026-11-04T09:38:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000095",
+    "stop_id": "STOP-RTE-2026-000026-003",
+    "delivery_id": "DEL-2026-000171",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-04T09:45:00",
+    "actual_departure": "2026-11-04T09:58:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000096",
+    "stop_id": "STOP-RTE-2026-000026-004",
+    "delivery_id": "DEL-2026-000110",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-04T14:45:00",
+    "actual_departure": "2026-11-04T14:57:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000097",
+    "stop_id": "STOP-RTE-2026-000026-005",
+    "delivery_id": "DEL-2026-000126",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-04T15:05:00",
+    "actual_departure": "2026-11-04T15:15:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000098",
+    "stop_id": "STOP-RTE-2026-000026-006",
+    "delivery_id": "DEL-2026-000118",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-04T15:50:00",
+    "actual_departure": "2026-11-04T16:01:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000099",
+    "stop_id": "STOP-RTE-2026-000027-001",
+    "delivery_id": "DEL-2026-000179",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-04T08:11:00",
+    "actual_departure": "2026-11-04T08:32:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000100",
+    "stop_id": "STOP-RTE-2026-000027-002",
+    "delivery_id": "DEL-2026-000135",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-04T08:32:00",
+    "actual_departure": "2026-11-04T08:48:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000101",
+    "stop_id": "STOP-RTE-2026-000027-003",
+    "delivery_id": "DEL-2026-000194",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-04T09:00:00",
+    "actual_departure": "2026-11-04T09:24:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000102",
+    "stop_id": "STOP-RTE-2026-000028-001",
+    "delivery_id": "DEL-2026-000132",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-04T10:00:00",
+    "actual_departure": "2026-11-04T10:35:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000103",
+    "stop_id": "STOP-RTE-2026-000028-002",
+    "delivery_id": "DEL-2026-000181",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-04T10:41:00",
+    "actual_departure": "2026-11-04T10:47:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000104",
+    "stop_id": "STOP-RTE-2026-000028-003",
+    "delivery_id": "DEL-2026-000117",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-04T12:30:00",
+    "actual_departure": "2026-11-04T13:01:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000105",
+    "stop_id": "STOP-RTE-2026-000029-001",
+    "delivery_id": "DEL-2026-000095",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-04T09:00:00",
+    "actual_departure": "2026-11-04T09:20:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000106",
+    "stop_id": "STOP-RTE-2026-000029-002",
+    "delivery_id": "DEL-2026-000130",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-04T09:55:00",
+    "actual_departure": "2026-11-04T10:14:00",
+    "status": "delivered",
+    "reason_code": null
+  },
+  {
+    "outcome_id": "OUT-2026-000107",
+    "stop_id": "STOP-RTE-2026-000029-003",
+    "delivery_id": "DEL-2026-000141",
+    "attempt_no": 1,
+    "actual_arrival": "2026-11-04T10:14:00",
+    "actual_departure": "2026-11-04T10:24:00",
+    "status": "delivered",
+    "reason_code": null
+  }
+]

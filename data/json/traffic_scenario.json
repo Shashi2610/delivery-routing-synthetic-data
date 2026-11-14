@@ -1,0 +1,107 @@
+[
+  {
+    "scenario_id": "SCN-2026-000001",
+    "scenario_date": "2026-11-02",
+    "hour_band": "00-06",
+    "traffic_factor": 0.89,
+    "is_incident": false
+  },
+  {
+    "scenario_id": "SCN-2026-000002",
+    "scenario_date": "2026-11-02",
+    "hour_band": "06-10",
+    "traffic_factor": 1.36,
+    "is_incident": false
+  },
+  {
+    "scenario_id": "SCN-2026-000003",
+    "scenario_date": "2026-11-02",
+    "hour_band": "10-16",
+    "traffic_factor": 1.1,
+    "is_incident": false
+  },
+  {
+    "scenario_id": "SCN-2026-000004",
+    "scenario_date": "2026-11-02",
+    "hour_band": "16-20",
+    "traffic_factor": 1.51,
+    "is_incident": false
+  },
+  {
+    "scenario_id": "SCN-2026-000005",
+    "scenario_date": "2026-11-02",
+    "hour_band": "20-24",
+    "traffic_factor": 1.02,
+    "is_incident": false
+  },
+  {
+    "scenario_id": "SCN-2026-000006",
+    "scenario_date": "2026-11-03",
+    "hour_band": "00-06",
+    "traffic_factor": 0.91,
+    "is_incident": false
+  },
+  {
+    "scenario_id": "SCN-2026-000007",
+    "scenario_date": "2026-11-03",
+    "hour_band": "06-10",
+    "traffic_factor": 1.42,
+    "is_incident": false
+  },
+  {
+    "scenario_id": "SCN-2026-000008",
+    "scenario_date": "2026-11-03",
+    "hour_band": "10-16",
+    "traffic_factor": 1.03,
+    "is_incident": false
+  },
+  {
+    "scenario_id": "SCN-2026-000009",
+    "scenario_date": "2026-11-03",
+    "hour_band": "16-20",
+    "traffic_factor": 1.48,
+    "is_incident": false
+  },
+  {
+    "scenario_id": "SCN-2026-000010",
+    "scenario_date": "2026-11-03",
+    "hour_band": "20-24",
+    "traffic_factor": 0.95,
+    "is_incident": false
+  },
+  {
+    "scenario_id": "SCN-2026-000011",
+    "scenario_date": "2026-11-04",
+    "hour_band": "00-06",
+    "traffic_factor": 0.92,
+    "is_incident": false
+  },
+  {
+    "scenario_id": "SCN-2026-000012",
+    "scenario_date": "2026-11-04",
+    "hour_band": "06-10",
+    "traffic_factor": 1.79,
+    "is_incident": true
+  },
+  {
+    "scenario_id": "SCN-2026-000013",
+    "scenario_date": "2026-11-04",
+    "hour_band": "10-16",
+    "traffic_factor": 1.29,
+    "is_incident": true
+  },
+  {
+    "scenario_id": "SCN-2026-000014",
+    "scenario_date": "2026-11-04",
+    "hour_band": "16-20",
+    "traffic_factor": 1.93,
+    "is_incident": true
+  },
+  {
+    "scenario_id": "SCN-2026-000015",
+    "scenario_date": "2026-11-04",
+    "hour_band": "20-24",
+    "traffic_factor": 1.02,
+    "is_incident": false
+  }
+]

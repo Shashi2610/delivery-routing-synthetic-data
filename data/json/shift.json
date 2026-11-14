@@ -1,0 +1,302 @@
+[
+  {
+    "shift_id": "SHF-2026-000001",
+    "driver_id": "DRV-000001",
+    "vehicle_id": "VEH-000001",
+    "shift_start": "2026-11-02T09:00:00",
+    "shift_end": "2026-11-02T18:00:00",
+    "max_driving_minutes": 420,
+    "break_minutes_required": 60,
+    "break_after_driving_minutes": 180
+  },
+  {
+    "shift_id": "SHF-2026-000002",
+    "driver_id": "DRV-000007",
+    "vehicle_id": "VEH-000002",
+    "shift_start": "2026-11-02T08:30:00",
+    "shift_end": "2026-11-02T17:30:00",
+    "max_driving_minutes": 360,
+    "break_minutes_required": 60,
+    "break_after_driving_minutes": 240
+  },
+  {
+    "shift_id": "SHF-2026-000003",
+    "driver_id": "DRV-000005",
+    "vehicle_id": "VEH-000003",
+    "shift_start": "2026-11-02T06:30:00",
+    "shift_end": "2026-11-02T15:30:00",
+    "max_driving_minutes": 420,
+    "break_minutes_required": 30,
+    "break_after_driving_minutes": 240
+  },
+  {
+    "shift_id": "SHF-2026-000004",
+    "driver_id": "DRV-000002",
+    "vehicle_id": "VEH-000004",
+    "shift_start": "2026-11-02T06:30:00",
+    "shift_end": "2026-11-02T16:30:00",
+    "max_driving_minutes": 360,
+    "break_minutes_required": 30,
+    "break_after_driving_minutes": 180
+  },
+  {
+    "shift_id": "SHF-2026-000005",
+    "driver_id": "DRV-000011",
+    "vehicle_id": "VEH-000005",
+    "shift_start": "2026-11-02T07:00:00",
+    "shift_end": "2026-11-02T16:00:00",
+    "max_driving_minutes": 420,
+    "break_minutes_required": 60,
+    "break_after_driving_minutes": 180
+  },
+  {
+    "shift_id": "SHF-2026-000006",
+    "driver_id": "DRV-000009",
+    "vehicle_id": "VEH-000006",
+    "shift_start": "2026-11-02T06:00:00",
+    "shift_end": "2026-11-02T16:00:00",
+    "max_driving_minutes": 360,
+    "break_minutes_required": 45,
+    "break_after_driving_minutes": 240
+  },
+  {
+    "shift_id": "SHF-2026-000007",
+    "driver_id": "DRV-000003",
+    "vehicle_id": "VEH-000007",
+    "shift_start": "2026-11-02T08:00:00",
+    "shift_end": "2026-11-02T16:00:00",
+    "max_driving_minutes": 420,
+    "break_minutes_required": 45,
+    "break_after_driving_minutes": 180
+  },
+  {
+    "shift_id": "SHF-2026-000008",
+    "driver_id": "DRV-000012",
+    "vehicle_id": "VEH-000008",
+    "shift_start": "2026-11-02T09:00:00",
+    "shift_end": "2026-11-02T19:00:00",
+    "max_driving_minutes": 420,
+    "break_minutes_required": 30,
+    "break_after_driving_minutes": 180
+  },
+  {
+    "shift_id": "SHF-2026-000009",
+    "driver_id": "DRV-000010",
+    "vehicle_id": "VEH-000009",
+    "shift_start": "2026-11-02T08:00:00",
+    "shift_end": "2026-11-02T18:00:00",
+    "max_driving_minutes": 420,
+    "break_minutes_required": 60,
+    "break_after_driving_minutes": 270
+  },
+  {
+    "shift_id": "SHF-2026-000010",
+    "driver_id": "DRV-000006",
+    "vehicle_id": "VEH-000010",
+    "shift_start": "2026-11-02T07:30:00",
+    "shift_end": "2026-11-02T16:30:00",
+    "max_driving_minutes": 360,
+    "break_minutes_required": 60,
+    "break_after_driving_minutes": 180
+  },
+  {
+    "shift_id": "SHF-2026-000011",
+    "driver_id": "DRV-000012",
+    "vehicle_id": "VEH-000001",
+    "shift_start": "2026-11-03T07:00:00",
+    "shift_end": "2026-11-03T15:00:00",
+    "max_driving_minutes": 420,
+    "break_minutes_required": 60,
+    "break_after_driving_minutes": 270
+  },
+  {
+    "shift_id": "SHF-2026-000012",
+    "driver_id": "DRV-000006",
+    "vehicle_id": "VEH-000002",
+    "shift_start": "2026-11-03T06:00:00",
+    "shift_end": "2026-11-03T14:00:00",
+    "max_driving_minutes": 480,
+    "break_minutes_required": 60,
+    "break_after_driving_minutes": 240
+  },
+  {
+    "shift_id": "SHF-2026-000013",
+    "driver_id": "DRV-000011",
+    "vehicle_id": "VEH-000003",
+    "shift_start": "2026-11-03T08:30:00",
+    "shift_end": "2026-11-03T18:30:00",
+    "max_driving_minutes": 480,
+    "break_minutes_required": 60,
+    "break_after_driving_minutes": 180
+  },
+  {
+    "shift_id": "SHF-2026-000014",
+    "driver_id": "DRV-000008",
+    "vehicle_id": "VEH-000004",
+    "shift_start": "2026-11-03T07:30:00",
+    "shift_end": "2026-11-03T17:30:00",
+    "max_driving_minutes": 480,
+    "break_minutes_required": 60,
+    "break_after_driving_minutes": 270
+  },
+  {
+    "shift_id": "SHF-2026-000015",
+    "driver_id": "DRV-000001",
+    "vehicle_id": "VEH-000005",
+    "shift_start": "2026-11-03T06:30:00",
+    "shift_end": "2026-11-03T14:30:00",
+    "max_driving_minutes": 480,
+    "break_minutes_required": 45,
+    "break_after_driving_minutes": 240
+  },
+  {
+    "shift_id": "SHF-2026-000016",
+    "driver_id": "DRV-000007",
+    "vehicle_id": "VEH-000006",
+    "shift_start": "2026-11-03T07:00:00",
+    "shift_end": "2026-11-03T16:00:00",
+    "max_driving_minutes": 420,
+    "break_minutes_required": 30,
+    "break_after_driving_minutes": 270
+  },
+  {
+    "shift_id": "SHF-2026-000017",
+    "driver_id": "DRV-000005",
+    "vehicle_id": "VEH-000007",
+    "shift_start": "2026-11-03T08:00:00",
+    "shift_end": "2026-11-03T18:00:00",
+    "max_driving_minutes": 480,
+    "break_minutes_required": 60,
+    "break_after_driving_minutes": 240
+  },
+  {
+    "shift_id": "SHF-2026-000018",
+    "driver_id": "DRV-000004",
+    "vehicle_id": "VEH-000008",
+    "shift_start": "2026-11-03T06:00:00",
+    "shift_end": "2026-11-03T14:00:00",
+    "max_driving_minutes": 480,
+    "break_minutes_required": 60,
+    "break_after_driving_minutes": 240
+  },
+  {
+    "shift_id": "SHF-2026-000019",
+    "driver_id": "DRV-000003",
+    "vehicle_id": "VEH-000009",
+    "shift_start": "2026-11-03T06:30:00",
+    "shift_end": "2026-11-03T14:30:00",
+    "max_driving_minutes": 360,
+    "break_minutes_required": 60,
+    "break_after_driving_minutes": 270
+  },
+  {
+    "shift_id": "SHF-2026-000020",
+    "driver_id": "DRV-000009",
+    "vehicle_id": "VEH-000010",
+    "shift_start": "2026-11-03T06:30:00",
+    "shift_end": "2026-11-03T14:30:00",
+    "max_driving_minutes": 480,
+    "break_minutes_required": 45,
+    "break_after_driving_minutes": 180
+  },
+  {
+    "shift_id": "SHF-2026-000021",
+    "driver_id": "DRV-000012",
+    "vehicle_id": "VEH-000001",
+    "shift_start": "2026-11-04T08:00:00",
+    "shift_end": "2026-11-04T18:00:00",
+    "max_driving_minutes": 480,
+    "break_minutes_required": 45,
+    "break_after_driving_minutes": 240
+  },
+  {
+    "shift_id": "SHF-2026-000022",
+    "driver_id": "DRV-000007",
+    "vehicle_id": "VEH-000002",
+    "shift_start": "2026-11-04T07:30:00",
+    "shift_end": "2026-11-04T16:30:00",
+    "max_driving_minutes": 420,
+    "break_minutes_required": 30,
+    "break_after_driving_minutes": 240
+  },
+  {
+    "shift_id": "SHF-2026-000023",
+    "driver_id": "DRV-000008",
+    "vehicle_id": "VEH-000003",
+    "shift_start": "2026-11-04T09:00:00",
+    "shift_end": "2026-11-04T18:00:00",
+    "max_driving_minutes": 360,
+    "break_minutes_required": 60,
+    "break_after_driving_minutes": 240
+  },
+  {
+    "shift_id": "SHF-2026-000024",
+    "driver_id": "DRV-000009",
+    "vehicle_id": "VEH-000004",
+    "shift_start": "2026-11-04T08:00:00",
+    "shift_end": "2026-11-04T18:00:00",
+    "max_driving_minutes": 420,
+    "break_minutes_required": 45,
+    "break_after_driving_minutes": 270
+  },
+  {
+    "shift_id": "SHF-2026-000025",
+    "driver_id": "DRV-000004",
+    "vehicle_id": "VEH-000005",
+    "shift_start": "2026-11-04T07:00:00",
+    "shift_end": "2026-11-04T16:00:00",
+    "max_driving_minutes": 480,
+    "break_minutes_required": 60,
+    "break_after_driving_minutes": 240
+  },
+  {
+    "shift_id": "SHF-2026-000026",
+    "driver_id": "DRV-000003",
+    "vehicle_id": "VEH-000006",
+    "shift_start": "2026-11-04T06:00:00",
+    "shift_end": "2026-11-04T15:00:00",
+    "max_driving_minutes": 360,
+    "break_minutes_required": 30,
+    "break_after_driving_minutes": 180
+  },
+  {
+    "shift_id": "SHF-2026-000027",
+    "driver_id": "DRV-000002",
+    "vehicle_id": "VEH-000007",
+    "shift_start": "2026-11-04T08:30:00",
+    "shift_end": "2026-11-04T17:30:00",
+    "max_driving_minutes": 480,
+    "break_minutes_required": 60,
+    "break_after_driving_minutes": 270
+  },
+  {
+    "shift_id": "SHF-2026-000028",
+    "driver_id": "DRV-000005",
+    "vehicle_id": "VEH-000008",
+    "shift_start": "2026-11-04T07:00:00",
+    "shift_end": "2026-11-04T15:00:00",
+    "max_driving_minutes": 360,
+    "break_minutes_required": 30,
+    "break_after_driving_minutes": 270
+  },
+  {
+    "shift_id": "SHF-2026-000029",
+    "driver_id": "DRV-000001",
+    "vehicle_id": "VEH-000009",
+    "shift_start": "2026-11-04T08:30:00",
+    "shift_end": "2026-11-04T18:30:00",
+    "max_driving_minutes": 420,
+    "break_minutes_required": 45,
+    "break_after_driving_minutes": 180
+  },
+  {
+    "shift_id": "SHF-2026-000030",
+    "driver_id": "DRV-000006",
+    "vehicle_id": "VEH-000010",
+    "shift_start": "2026-11-04T09:00:00",
+    "shift_end": "2026-11-04T19:00:00",
+    "max_driving_minutes": 480,
+    "break_minutes_required": 45,
+    "break_after_driving_minutes": 180
+  }
+]

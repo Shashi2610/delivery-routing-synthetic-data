@@ -1,0 +1,1602 @@
+[
+  {
+    "delivery_id": "DEL-2026-000001",
+    "order_id": "ORD-2026-000001",
+    "weight_kg": 124.89,
+    "volume_m3": 1.151,
+    "units": 9,
+    "service_minutes": 13
+  },
+  {
+    "delivery_id": "DEL-2026-000002",
+    "order_id": "ORD-2026-000002",
+    "weight_kg": 35.95,
+    "volume_m3": 0.588,
+    "units": 6,
+    "service_minutes": 6
+  },
+  {
+    "delivery_id": "DEL-2026-000003",
+    "order_id": "ORD-2026-000003",
+    "weight_kg": 239.74,
+    "volume_m3": 2.145,
+    "units": 16,
+    "service_minutes": 22
+  },
+  {
+    "delivery_id": "DEL-2026-000004",
+    "order_id": "ORD-2026-000004",
+    "weight_kg": 218.1,
+    "volume_m3": 3.362,
+    "units": 15,
+    "service_minutes": 21
+  },
+  {
+    "delivery_id": "DEL-2026-000005",
+    "order_id": "ORD-2026-000005",
+    "weight_kg": 67.89,
+    "volume_m3": 0.817,
+    "units": 13,
+    "service_minutes": 13
+  },
+  {
+    "delivery_id": "DEL-2026-000006",
+    "order_id": "ORD-2026-000006",
+    "weight_kg": 143.25,
+    "volume_m3": 1.491,
+    "units": 22,
+    "service_minutes": 24
+  },
+  {
+    "delivery_id": "DEL-2026-000007",
+    "order_id": "ORD-2026-000006",
+    "weight_kg": 78.97,
+    "volume_m3": 1.029,
+    "units": 9,
+    "service_minutes": 19
+  },
+  {
+    "delivery_id": "DEL-2026-000008",
+    "order_id": "ORD-2026-000007",
+    "weight_kg": 132.48,
+    "volume_m3": 2.782,
+    "units": 11,
+    "service_minutes": 16
+  },
+  {
+    "delivery_id": "DEL-2026-000009",
+    "order_id": "ORD-2026-000008",
+    "weight_kg": 500.0,
+    "volume_m3": 4.0,
+    "units": 40,
+    "service_minutes": 40
+  },
+  {
+    "delivery_id": "DEL-2026-000010",
+    "order_id": "ORD-2026-000009",
+    "weight_kg": 37.98,
+    "volume_m3": 0.267,
+    "units": 4,
+    "service_minutes": 13
+  },
+  {
+    "delivery_id": "DEL-2026-000011",
+    "order_id": "ORD-2026-000009",
+    "weight_kg": 135.25,
+    "volume_m3": 1.224,
+    "units": 22,
+    "service_minutes": 17
+  },
+  {
+    "delivery_id": "DEL-2026-000012",
+    "order_id": "ORD-2026-000010",
+    "weight_kg": 456.83,
+    "volume_m3": 1.951,
+    "units": 27,
+    "service_minutes": 17
+  },
+  {
+    "delivery_id": "DEL-2026-000013",
+    "order_id": "ORD-2026-000011",
+    "weight_kg": 53.32,
+    "volume_m3": 0.421,
+    "units": 7,
+    "service_minutes": 15
+  },
+  {
+    "delivery_id": "DEL-2026-000014",
+    "order_id": "ORD-2026-000012",
+    "weight_kg": 114.68,
+    "volume_m3": 1.683,
+    "units": 12,
+    "service_minutes": 22
+  },
+  {
+    "delivery_id": "DEL-2026-000015",
+    "order_id": "ORD-2026-000013",
+    "weight_kg": 26.22,
+    "volume_m3": 0.244,
+    "units": 4,
+    "service_minutes": 16
+  },
+  {
+    "delivery_id": "DEL-2026-000016",
+    "order_id": "ORD-2026-000014",
+    "weight_kg": 44.02,
+    "volume_m3": 0.491,
+    "units": 4,
+    "service_minutes": 13
+  },
+  {
+    "delivery_id": "DEL-2026-000017",
+    "order_id": "ORD-2026-000015",
+    "weight_kg": 114.56,
+    "volume_m3": 0.907,
+    "units": 25,
+    "service_minutes": 19
+  },
+  {
+    "delivery_id": "DEL-2026-000018",
+    "order_id": "ORD-2026-000016",
+    "weight_kg": 52.51,
+    "volume_m3": 0.552,
+    "units": 6,
+    "service_minutes": 10
+  },
+  {
+    "delivery_id": "DEL-2026-000019",
+    "order_id": "ORD-2026-000017",
+    "weight_kg": 61.08,
+    "volume_m3": 0.84,
+    "units": 9,
+    "service_minutes": 12
+  },
+  {
+    "delivery_id": "DEL-2026-000020",
+    "order_id": "ORD-2026-000018",
+    "weight_kg": 162.2,
+    "volume_m3": 1.368,
+    "units": 27,
+    "service_minutes": 18
+  },
+  {
+    "delivery_id": "DEL-2026-000021",
+    "order_id": "ORD-2026-000019",
+    "weight_kg": 84.86,
+    "volume_m3": 0.814,
+    "units": 11,
+    "service_minutes": 15
+  },
+  {
+    "delivery_id": "DEL-2026-000022",
+    "order_id": "ORD-2026-000020",
+    "weight_kg": 57.84,
+    "volume_m3": 1.183,
+    "units": 7,
+    "service_minutes": 13
+  },
+  {
+    "delivery_id": "DEL-2026-000023",
+    "order_id": "ORD-2026-000021",
+    "weight_kg": 14.63,
+    "volume_m3": 0.178,
+    "units": 2,
+    "service_minutes": 11
+  },
+  {
+    "delivery_id": "DEL-2026-000024",
+    "order_id": "ORD-2026-000022",
+    "weight_kg": 101.58,
+    "volume_m3": 0.994,
+    "units": 14,
+    "service_minutes": 19
+  },
+  {
+    "delivery_id": "DEL-2026-000025",
+    "order_id": "ORD-2026-000023",
+    "weight_kg": 17.22,
+    "volume_m3": 0.147,
+    "units": 2,
+    "service_minutes": 10
+  },
+  {
+    "delivery_id": "DEL-2026-000026",
+    "order_id": "ORD-2026-000023",
+    "weight_kg": 67.03,
+    "volume_m3": 1.306,
+    "units": 9,
+    "service_minutes": 14
+  },
+  {
+    "delivery_id": "DEL-2026-000027",
+    "order_id": "ORD-2026-000024",
+    "weight_kg": 81.17,
+    "volume_m3": 0.621,
+    "units": 8,
+    "service_minutes": 12
+  },
+  {
+    "delivery_id": "DEL-2026-000028",
+    "order_id": "ORD-2026-000025",
+    "weight_kg": 86.61,
+    "volume_m3": 1.249,
+    "units": 17,
+    "service_minutes": 12
+  },
+  {
+    "delivery_id": "DEL-2026-000029",
+    "order_id": "ORD-2026-000026",
+    "weight_kg": 302.94,
+    "volume_m3": 2.805,
+    "units": 40,
+    "service_minutes": 21
+  },
+  {
+    "delivery_id": "DEL-2026-000030",
+    "order_id": "ORD-2026-000027",
+    "weight_kg": 31.81,
+    "volume_m3": 0.357,
+    "units": 6,
+    "service_minutes": 12
+  },
+  {
+    "delivery_id": "DEL-2026-000031",
+    "order_id": "ORD-2026-000028",
+    "weight_kg": 500.0,
+    "volume_m3": 4.0,
+    "units": 40,
+    "service_minutes": 34
+  },
+  {
+    "delivery_id": "DEL-2026-000032",
+    "order_id": "ORD-2026-000029",
+    "weight_kg": 339.28,
+    "volume_m3": 2.191,
+    "units": 28,
+    "service_minutes": 17
+  },
+  {
+    "delivery_id": "DEL-2026-000033",
+    "order_id": "ORD-2026-000030",
+    "weight_kg": 135.37,
+    "volume_m3": 2.109,
+    "units": 8,
+    "service_minutes": 17
+  },
+  {
+    "delivery_id": "DEL-2026-000034",
+    "order_id": "ORD-2026-000031",
+    "weight_kg": 218.47,
+    "volume_m3": 2.171,
+    "units": 31,
+    "service_minutes": 23
+  },
+  {
+    "delivery_id": "DEL-2026-000035",
+    "order_id": "ORD-2026-000032",
+    "weight_kg": 138.25,
+    "volume_m3": 1.443,
+    "units": 37,
+    "service_minutes": 18
+  },
+  {
+    "delivery_id": "DEL-2026-000036",
+    "order_id": "ORD-2026-000033",
+    "weight_kg": 48.59,
+    "volume_m3": 0.777,
+    "units": 4,
+    "service_minutes": 8
+  },
+  {
+    "delivery_id": "DEL-2026-000037",
+    "order_id": "ORD-2026-000034",
+    "weight_kg": 306.87,
+    "volume_m3": 4.0,
+    "units": 29,
+    "service_minutes": 27
+  },
+  {
+    "delivery_id": "DEL-2026-000038",
+    "order_id": "ORD-2026-000035",
+    "weight_kg": 29.03,
+    "volume_m3": 0.381,
+    "units": 2,
+    "service_minutes": 5
+  },
+  {
+    "delivery_id": "DEL-2026-000039",
+    "order_id": "ORD-2026-000036",
+    "weight_kg": 26.33,
+    "volume_m3": 0.313,
+    "units": 4,
+    "service_minutes": 7
+  },
+  {
+    "delivery_id": "DEL-2026-000040",
+    "order_id": "ORD-2026-000037",
+    "weight_kg": 276.76,
+    "volume_m3": 3.277,
+    "units": 22,
+    "service_minutes": 23
+  },
+  {
+    "delivery_id": "DEL-2026-000041",
+    "order_id": "ORD-2026-000038",
+    "weight_kg": 115.55,
+    "volume_m3": 0.763,
+    "units": 13,
+    "service_minutes": 21
+  },
+  {
+    "delivery_id": "DEL-2026-000042",
+    "order_id": "ORD-2026-000039",
+    "weight_kg": 84.3,
+    "volume_m3": 1.042,
+    "units": 10,
+    "service_minutes": 16
+  },
+  {
+    "delivery_id": "DEL-2026-000043",
+    "order_id": "ORD-2026-000040",
+    "weight_kg": 223.42,
+    "volume_m3": 3.425,
+    "units": 36,
+    "service_minutes": 21
+  },
+  {
+    "delivery_id": "DEL-2026-000044",
+    "order_id": "ORD-2026-000041",
+    "weight_kg": 93.96,
+    "volume_m3": 0.77,
+    "units": 12,
+    "service_minutes": 15
+  },
+  {
+    "delivery_id": "DEL-2026-000045",
+    "order_id": "ORD-2026-000041",
+    "weight_kg": 45.19,
+    "volume_m3": 0.85,
+    "units": 7,
+    "service_minutes": 13
+  },
+  {
+    "delivery_id": "DEL-2026-000046",
+    "order_id": "ORD-2026-000042",
+    "weight_kg": 230.8,
+    "volume_m3": 1.929,
+    "units": 40,
+    "service_minutes": 16
+  },
+  {
+    "delivery_id": "DEL-2026-000047",
+    "order_id": "ORD-2026-000043",
+    "weight_kg": 191.1,
+    "volume_m3": 2.11,
+    "units": 17,
+    "service_minutes": 21
+  },
+  {
+    "delivery_id": "DEL-2026-000048",
+    "order_id": "ORD-2026-000044",
+    "weight_kg": 85.52,
+    "volume_m3": 0.819,
+    "units": 16,
+    "service_minutes": 15
+  },
+  {
+    "delivery_id": "DEL-2026-000049",
+    "order_id": "ORD-2026-000044",
+    "weight_kg": 62.33,
+    "volume_m3": 0.636,
+    "units": 9,
+    "service_minutes": 12
+  },
+  {
+    "delivery_id": "DEL-2026-000050",
+    "order_id": "ORD-2026-000045",
+    "weight_kg": 60.71,
+    "volume_m3": 1.111,
+    "units": 11,
+    "service_minutes": 14
+  },
+  {
+    "delivery_id": "DEL-2026-000051",
+    "order_id": "ORD-2026-000046",
+    "weight_kg": 38.5,
+    "volume_m3": 0.415,
+    "units": 3,
+    "service_minutes": 5
+  },
+  {
+    "delivery_id": "DEL-2026-000052",
+    "order_id": "ORD-2026-000047",
+    "weight_kg": 139.56,
+    "volume_m3": 1.522,
+    "units": 24,
+    "service_minutes": 10
+  },
+  {
+    "delivery_id": "DEL-2026-000053",
+    "order_id": "ORD-2026-000048",
+    "weight_kg": 168.22,
+    "volume_m3": 2.64,
+    "units": 11,
+    "service_minutes": 14
+  },
+  {
+    "delivery_id": "DEL-2026-000054",
+    "order_id": "ORD-2026-000049",
+    "weight_kg": 86.46,
+    "volume_m3": 1.282,
+    "units": 16,
+    "service_minutes": 17
+  },
+  {
+    "delivery_id": "DEL-2026-000055",
+    "order_id": "ORD-2026-000050",
+    "weight_kg": 26.24,
+    "volume_m3": 0.577,
+    "units": 5,
+    "service_minutes": 11
+  },
+  {
+    "delivery_id": "DEL-2026-000056",
+    "order_id": "ORD-2026-000051",
+    "weight_kg": 52.03,
+    "volume_m3": 0.876,
+    "units": 5,
+    "service_minutes": 12
+  },
+  {
+    "delivery_id": "DEL-2026-000057",
+    "order_id": "ORD-2026-000052",
+    "weight_kg": 73.58,
+    "volume_m3": 1.194,
+    "units": 13,
+    "service_minutes": 16
+  },
+  {
+    "delivery_id": "DEL-2026-000058",
+    "order_id": "ORD-2026-000053",
+    "weight_kg": 53.88,
+    "volume_m3": 0.613,
+    "units": 9,
+    "service_minutes": 12
+  },
+  {
+    "delivery_id": "DEL-2026-000059",
+    "order_id": "ORD-2026-000054",
+    "weight_kg": 96.48,
+    "volume_m3": 1.109,
+    "units": 8,
+    "service_minutes": 11
+  },
+  {
+    "delivery_id": "DEL-2026-000060",
+    "order_id": "ORD-2026-000055",
+    "weight_kg": 68.48,
+    "volume_m3": 0.784,
+    "units": 15,
+    "service_minutes": 15
+  },
+  {
+    "delivery_id": "DEL-2026-000061",
+    "order_id": "ORD-2026-000056",
+    "weight_kg": 108.94,
+    "volume_m3": 1.169,
+    "units": 18,
+    "service_minutes": 16
+  },
+  {
+    "delivery_id": "DEL-2026-000062",
+    "order_id": "ORD-2026-000057",
+    "weight_kg": 77.75,
+    "volume_m3": 1.518,
+    "units": 4,
+    "service_minutes": 14
+  },
+  {
+    "delivery_id": "DEL-2026-000063",
+    "order_id": "ORD-2026-000058",
+    "weight_kg": 108.49,
+    "volume_m3": 2.627,
+    "units": 11,
+    "service_minutes": 18
+  },
+  {
+    "delivery_id": "DEL-2026-000064",
+    "order_id": "ORD-2026-000059",
+    "weight_kg": 44.82,
+    "volume_m3": 0.422,
+    "units": 3,
+    "service_minutes": 10
+  },
+  {
+    "delivery_id": "DEL-2026-000065",
+    "order_id": "ORD-2026-000060",
+    "weight_kg": 119.9,
+    "volume_m3": 0.902,
+    "units": 14,
+    "service_minutes": 14
+  },
+  {
+    "delivery_id": "DEL-2026-000066",
+    "order_id": "ORD-2026-000061",
+    "weight_kg": 50.32,
+    "volume_m3": 0.744,
+    "units": 6,
+    "service_minutes": 13
+  },
+  {
+    "delivery_id": "DEL-2026-000067",
+    "order_id": "ORD-2026-000062",
+    "weight_kg": 89.49,
+    "volume_m3": 0.844,
+    "units": 15,
+    "service_minutes": 20
+  },
+  {
+    "delivery_id": "DEL-2026-000068",
+    "order_id": "ORD-2026-000062",
+    "weight_kg": 87.11,
+    "volume_m3": 1.527,
+    "units": 11,
+    "service_minutes": 19
+  },
+  {
+    "delivery_id": "DEL-2026-000069",
+    "order_id": "ORD-2026-000063",
+    "weight_kg": 80.42,
+    "volume_m3": 1.11,
+    "units": 14,
+    "service_minutes": 15
+  },
+  {
+    "delivery_id": "DEL-2026-000070",
+    "order_id": "ORD-2026-000064",
+    "weight_kg": 97.23,
+    "volume_m3": 3.039,
+    "units": 8,
+    "service_minutes": 16
+  },
+  {
+    "delivery_id": "DEL-2026-000071",
+    "order_id": "ORD-2026-000065",
+    "weight_kg": 294.82,
+    "volume_m3": 2.984,
+    "units": 40,
+    "service_minutes": 22
+  },
+  {
+    "delivery_id": "DEL-2026-000072",
+    "order_id": "ORD-2026-000066",
+    "weight_kg": 130.01,
+    "volume_m3": 1.805,
+    "units": 12,
+    "service_minutes": 13
+  },
+  {
+    "delivery_id": "DEL-2026-000073",
+    "order_id": "ORD-2026-000067",
+    "weight_kg": 13.83,
+    "volume_m3": 0.112,
+    "units": 1,
+    "service_minutes": 15
+  },
+  {
+    "delivery_id": "DEL-2026-000074",
+    "order_id": "ORD-2026-000068",
+    "weight_kg": 178.67,
+    "volume_m3": 2.365,
+    "units": 22,
+    "service_minutes": 18
+  },
+  {
+    "delivery_id": "DEL-2026-000075",
+    "order_id": "ORD-2026-000069",
+    "weight_kg": 135.0,
+    "volume_m3": 2.525,
+    "units": 11,
+    "service_minutes": 22
+  },
+  {
+    "delivery_id": "DEL-2026-000076",
+    "order_id": "ORD-2026-000070",
+    "weight_kg": 142.18,
+    "volume_m3": 1.404,
+    "units": 15,
+    "service_minutes": 17
+  },
+  {
+    "delivery_id": "DEL-2026-000077",
+    "order_id": "ORD-2026-000071",
+    "weight_kg": 17.93,
+    "volume_m3": 0.187,
+    "units": 2,
+    "service_minutes": 12
+  },
+  {
+    "delivery_id": "DEL-2026-000078",
+    "order_id": "ORD-2026-000072",
+    "weight_kg": 443.24,
+    "volume_m3": 4.0,
+    "units": 40,
+    "service_minutes": 34
+  },
+  {
+    "delivery_id": "DEL-2026-000079",
+    "order_id": "ORD-2026-000072",
+    "weight_kg": 17.81,
+    "volume_m3": 0.199,
+    "units": 2,
+    "service_minutes": 9
+  },
+  {
+    "delivery_id": "DEL-2026-000080",
+    "order_id": "ORD-2026-000073",
+    "weight_kg": 116.29,
+    "volume_m3": 1.562,
+    "units": 25,
+    "service_minutes": 14
+  },
+  {
+    "delivery_id": "DEL-2026-000081",
+    "order_id": "ORD-2026-000074",
+    "weight_kg": 140.08,
+    "volume_m3": 1.539,
+    "units": 10,
+    "service_minutes": 15
+  },
+  {
+    "delivery_id": "DEL-2026-000082",
+    "order_id": "ORD-2026-000075",
+    "weight_kg": 67.03,
+    "volume_m3": 0.411,
+    "units": 13,
+    "service_minutes": 12
+  },
+  {
+    "delivery_id": "DEL-2026-000083",
+    "order_id": "ORD-2026-000076",
+    "weight_kg": 103.97,
+    "volume_m3": 1.448,
+    "units": 14,
+    "service_minutes": 13
+  },
+  {
+    "delivery_id": "DEL-2026-000084",
+    "order_id": "ORD-2026-000077",
+    "weight_kg": 85.73,
+    "volume_m3": 0.613,
+    "units": 26,
+    "service_minutes": 15
+  },
+  {
+    "delivery_id": "DEL-2026-000085",
+    "order_id": "ORD-2026-000078",
+    "weight_kg": 29.36,
+    "volume_m3": 0.522,
+    "units": 3,
+    "service_minutes": 13
+  },
+  {
+    "delivery_id": "DEL-2026-000086",
+    "order_id": "ORD-2026-000079",
+    "weight_kg": 500.0,
+    "volume_m3": 4.0,
+    "units": 40,
+    "service_minutes": 32
+  },
+  {
+    "delivery_id": "DEL-2026-000087",
+    "order_id": "ORD-2026-000080",
+    "weight_kg": 234.59,
+    "volume_m3": 3.141,
+    "units": 20,
+    "service_minutes": 16
+  },
+  {
+    "delivery_id": "DEL-2026-000088",
+    "order_id": "ORD-2026-000081",
+    "weight_kg": 86.14,
+    "volume_m3": 0.739,
+    "units": 17,
+    "service_minutes": 14
+  },
+  {
+    "delivery_id": "DEL-2026-000089",
+    "order_id": "ORD-2026-000082",
+    "weight_kg": 495.57,
+    "volume_m3": 4.0,
+    "units": 40,
+    "service_minutes": 35
+  },
+  {
+    "delivery_id": "DEL-2026-000090",
+    "order_id": "ORD-2026-000083",
+    "weight_kg": 74.52,
+    "volume_m3": 0.571,
+    "units": 8,
+    "service_minutes": 9
+  },
+  {
+    "delivery_id": "DEL-2026-000091",
+    "order_id": "ORD-2026-000084",
+    "weight_kg": 274.63,
+    "volume_m3": 4.0,
+    "units": 40,
+    "service_minutes": 28
+  },
+  {
+    "delivery_id": "DEL-2026-000092",
+    "order_id": "ORD-2026-000084",
+    "weight_kg": 56.42,
+    "volume_m3": 0.629,
+    "units": 9,
+    "service_minutes": 19
+  },
+  {
+    "delivery_id": "DEL-2026-000093",
+    "order_id": "ORD-2026-000085",
+    "weight_kg": 51.6,
+    "volume_m3": 0.736,
+    "units": 5,
+    "service_minutes": 12
+  },
+  {
+    "delivery_id": "DEL-2026-000094",
+    "order_id": "ORD-2026-000086",
+    "weight_kg": 36.05,
+    "volume_m3": 0.318,
+    "units": 6,
+    "service_minutes": 17
+  },
+  {
+    "delivery_id": "DEL-2026-000095",
+    "order_id": "ORD-2026-000087",
+    "weight_kg": 82.39,
+    "volume_m3": 1.068,
+    "units": 9,
+    "service_minutes": 18
+  },
+  {
+    "delivery_id": "DEL-2026-000096",
+    "order_id": "ORD-2026-000088",
+    "weight_kg": 36.94,
+    "volume_m3": 0.38,
+    "units": 6,
+    "service_minutes": 17
+  },
+  {
+    "delivery_id": "DEL-2026-000097",
+    "order_id": "ORD-2026-000089",
+    "weight_kg": 205.01,
+    "volume_m3": 3.023,
+    "units": 25,
+    "service_minutes": 27
+  },
+  {
+    "delivery_id": "DEL-2026-000098",
+    "order_id": "ORD-2026-000090",
+    "weight_kg": 42.31,
+    "volume_m3": 0.68,
+    "units": 6,
+    "service_minutes": 15
+  },
+  {
+    "delivery_id": "DEL-2026-000099",
+    "order_id": "ORD-2026-000090",
+    "weight_kg": 87.56,
+    "volume_m3": 1.111,
+    "units": 7,
+    "service_minutes": 16
+  },
+  {
+    "delivery_id": "DEL-2026-000100",
+    "order_id": "ORD-2026-000091",
+    "weight_kg": 500.0,
+    "volume_m3": 4.0,
+    "units": 40,
+    "service_minutes": 29
+  },
+  {
+    "delivery_id": "DEL-2026-000101",
+    "order_id": "ORD-2026-000092",
+    "weight_kg": 106.34,
+    "volume_m3": 1.015,
+    "units": 10,
+    "service_minutes": 16
+  },
+  {
+    "delivery_id": "DEL-2026-000102",
+    "order_id": "ORD-2026-000093",
+    "weight_kg": 159.7,
+    "volume_m3": 3.039,
+    "units": 21,
+    "service_minutes": 16
+  },
+  {
+    "delivery_id": "DEL-2026-000103",
+    "order_id": "ORD-2026-000094",
+    "weight_kg": 90.09,
+    "volume_m3": 1.579,
+    "units": 18,
+    "service_minutes": 14
+  },
+  {
+    "delivery_id": "DEL-2026-000104",
+    "order_id": "ORD-2026-000095",
+    "weight_kg": 40.38,
+    "volume_m3": 0.544,
+    "units": 5,
+    "service_minutes": 12
+  },
+  {
+    "delivery_id": "DEL-2026-000105",
+    "order_id": "ORD-2026-000096",
+    "weight_kg": 323.63,
+    "volume_m3": 3.321,
+    "units": 40,
+    "service_minutes": 29
+  },
+  {
+    "delivery_id": "DEL-2026-000106",
+    "order_id": "ORD-2026-000097",
+    "weight_kg": 56.26,
+    "volume_m3": 0.789,
+    "units": 11,
+    "service_minutes": 13
+  },
+  {
+    "delivery_id": "DEL-2026-000107",
+    "order_id": "ORD-2026-000098",
+    "weight_kg": 28.49,
+    "volume_m3": 0.242,
+    "units": 7,
+    "service_minutes": 8
+  },
+  {
+    "delivery_id": "DEL-2026-000108",
+    "order_id": "ORD-2026-000099",
+    "weight_kg": 157.81,
+    "volume_m3": 1.769,
+    "units": 17,
+    "service_minutes": 13
+  },
+  {
+    "delivery_id": "DEL-2026-000109",
+    "order_id": "ORD-2026-000100",
+    "weight_kg": 34.89,
+    "volume_m3": 0.488,
+    "units": 7,
+    "service_minutes": 6
+  },
+  {
+    "delivery_id": "DEL-2026-000110",
+    "order_id": "ORD-2026-000101",
+    "weight_kg": 181.28,
+    "volume_m3": 2.421,
+    "units": 31,
+    "service_minutes": 19
+  },
+  {
+    "delivery_id": "DEL-2026-000111",
+    "order_id": "ORD-2026-000102",
+    "weight_kg": 185.77,
+    "volume_m3": 0.967,
+    "units": 25,
+    "service_minutes": 22
+  },
+  {
+    "delivery_id": "DEL-2026-000112",
+    "order_id": "ORD-2026-000103",
+    "weight_kg": 36.79,
+    "volume_m3": 0.302,
+    "units": 5,
+    "service_minutes": 11
+  },
+  {
+    "delivery_id": "DEL-2026-000113",
+    "order_id": "ORD-2026-000104",
+    "weight_kg": 178.37,
+    "volume_m3": 2.036,
+    "units": 14,
+    "service_minutes": 18
+  },
+  {
+    "delivery_id": "DEL-2026-000114",
+    "order_id": "ORD-2026-000104",
+    "weight_kg": 56.08,
+    "volume_m3": 0.557,
+    "units": 7,
+    "service_minutes": 14
+  },
+  {
+    "delivery_id": "DEL-2026-000115",
+    "order_id": "ORD-2026-000105",
+    "weight_kg": 428.28,
+    "volume_m3": 4.0,
+    "units": 40,
+    "service_minutes": 29
+  },
+  {
+    "delivery_id": "DEL-2026-000116",
+    "order_id": "ORD-2026-000106",
+    "weight_kg": 149.41,
+    "volume_m3": 1.676,
+    "units": 21,
+    "service_minutes": 17
+  },
+  {
+    "delivery_id": "DEL-2026-000117",
+    "order_id": "ORD-2026-000107",
+    "weight_kg": 209.96,
+    "volume_m3": 2.437,
+    "units": 25,
+    "service_minutes": 21
+  },
+  {
+    "delivery_id": "DEL-2026-000118",
+    "order_id": "ORD-2026-000108",
+    "weight_kg": 67.19,
+    "volume_m3": 0.42,
+    "units": 15,
+    "service_minutes": 13
+  },
+  {
+    "delivery_id": "DEL-2026-000119",
+    "order_id": "ORD-2026-000109",
+    "weight_kg": 205.98,
+    "volume_m3": 2.745,
+    "units": 29,
+    "service_minutes": 21
+  },
+  {
+    "delivery_id": "DEL-2026-000120",
+    "order_id": "ORD-2026-000110",
+    "weight_kg": 99.09,
+    "volume_m3": 0.687,
+    "units": 9,
+    "service_minutes": 11
+  },
+  {
+    "delivery_id": "DEL-2026-000121",
+    "order_id": "ORD-2026-000111",
+    "weight_kg": 17.25,
+    "volume_m3": 0.251,
+    "units": 5,
+    "service_minutes": 13
+  },
+  {
+    "delivery_id": "DEL-2026-000122",
+    "order_id": "ORD-2026-000112",
+    "weight_kg": 38.63,
+    "volume_m3": 1.136,
+    "units": 4,
+    "service_minutes": 14
+  },
+  {
+    "delivery_id": "DEL-2026-000123",
+    "order_id": "ORD-2026-000113",
+    "weight_kg": 96.34,
+    "volume_m3": 0.882,
+    "units": 22,
+    "service_minutes": 18
+  },
+  {
+    "delivery_id": "DEL-2026-000124",
+    "order_id": "ORD-2026-000113",
+    "weight_kg": 15.46,
+    "volume_m3": 0.225,
+    "units": 3,
+    "service_minutes": 16
+  },
+  {
+    "delivery_id": "DEL-2026-000125",
+    "order_id": "ORD-2026-000114",
+    "weight_kg": 98.0,
+    "volume_m3": 1.279,
+    "units": 20,
+    "service_minutes": 21
+  },
+  {
+    "delivery_id": "DEL-2026-000126",
+    "order_id": "ORD-2026-000115",
+    "weight_kg": 80.98,
+    "volume_m3": 0.697,
+    "units": 7,
+    "service_minutes": 13
+  },
+  {
+    "delivery_id": "DEL-2026-000127",
+    "order_id": "ORD-2026-000116",
+    "weight_kg": 51.14,
+    "volume_m3": 0.823,
+    "units": 2,
+    "service_minutes": 9
+  },
+  {
+    "delivery_id": "DEL-2026-000128",
+    "order_id": "ORD-2026-000117",
+    "weight_kg": 51.77,
+    "volume_m3": 0.812,
+    "units": 9,
+    "service_minutes": 8
+  },
+  {
+    "delivery_id": "DEL-2026-000129",
+    "order_id": "ORD-2026-000118",
+    "weight_kg": 61.59,
+    "volume_m3": 1.005,
+    "units": 10,
+    "service_minutes": 8
+  },
+  {
+    "delivery_id": "DEL-2026-000130",
+    "order_id": "ORD-2026-000119",
+    "weight_kg": 189.21,
+    "volume_m3": 2.131,
+    "units": 16,
+    "service_minutes": 25
+  },
+  {
+    "delivery_id": "DEL-2026-000131",
+    "order_id": "ORD-2026-000120",
+    "weight_kg": 101.92,
+    "volume_m3": 1.863,
+    "units": 30,
+    "service_minutes": 16
+  },
+  {
+    "delivery_id": "DEL-2026-000132",
+    "order_id": "ORD-2026-000121",
+    "weight_kg": 86.23,
+    "volume_m3": 0.975,
+    "units": 17,
+    "service_minutes": 20
+  },
+  {
+    "delivery_id": "DEL-2026-000133",
+    "order_id": "ORD-2026-000122",
+    "weight_kg": 48.44,
+    "volume_m3": 1.68,
+    "units": 5,
+    "service_minutes": 13
+  },
+  {
+    "delivery_id": "DEL-2026-000134",
+    "order_id": "ORD-2026-000123",
+    "weight_kg": 144.02,
+    "volume_m3": 1.791,
+    "units": 20,
+    "service_minutes": 17
+  },
+  {
+    "delivery_id": "DEL-2026-000135",
+    "order_id": "ORD-2026-000124",
+    "weight_kg": 48.82,
+    "volume_m3": 0.738,
+    "units": 6,
+    "service_minutes": 14
+  },
+  {
+    "delivery_id": "DEL-2026-000136",
+    "order_id": "ORD-2026-000125",
+    "weight_kg": 156.71,
+    "volume_m3": 4.0,
+    "units": 19,
+    "service_minutes": 23
+  },
+  {
+    "delivery_id": "DEL-2026-000137",
+    "order_id": "ORD-2026-000126",
+    "weight_kg": 232.04,
+    "volume_m3": 2.211,
+    "units": 33,
+    "service_minutes": 22
+  },
+  {
+    "delivery_id": "DEL-2026-000138",
+    "order_id": "ORD-2026-000127",
+    "weight_kg": 488.36,
+    "volume_m3": 4.0,
+    "units": 40,
+    "service_minutes": 34
+  },
+  {
+    "delivery_id": "DEL-2026-000139",
+    "order_id": "ORD-2026-000128",
+    "weight_kg": 19.07,
+    "volume_m3": 0.321,
+    "units": 1,
+    "service_minutes": 8
+  },
+  {
+    "delivery_id": "DEL-2026-000140",
+    "order_id": "ORD-2026-000129",
+    "weight_kg": 35.42,
+    "volume_m3": 0.819,
+    "units": 7,
+    "service_minutes": 19
+  },
+  {
+    "delivery_id": "DEL-2026-000141",
+    "order_id": "ORD-2026-000130",
+    "weight_kg": 236.09,
+    "volume_m3": 3.776,
+    "units": 31,
+    "service_minutes": 26
+  },
+  {
+    "delivery_id": "DEL-2026-000142",
+    "order_id": "ORD-2026-000131",
+    "weight_kg": 80.41,
+    "volume_m3": 0.949,
+    "units": 5,
+    "service_minutes": 13
+  },
+  {
+    "delivery_id": "DEL-2026-000143",
+    "order_id": "ORD-2026-000132",
+    "weight_kg": 157.57,
+    "volume_m3": 2.047,
+    "units": 15,
+    "service_minutes": 17
+  },
+  {
+    "delivery_id": "DEL-2026-000144",
+    "order_id": "ORD-2026-000133",
+    "weight_kg": 81.47,
+    "volume_m3": 0.889,
+    "units": 9,
+    "service_minutes": 12
+  },
+  {
+    "delivery_id": "DEL-2026-000145",
+    "order_id": "ORD-2026-000134",
+    "weight_kg": 36.26,
+    "volume_m3": 0.322,
+    "units": 4,
+    "service_minutes": 4
+  },
+  {
+    "delivery_id": "DEL-2026-000146",
+    "order_id": "ORD-2026-000135",
+    "weight_kg": 311.9,
+    "volume_m3": 4.0,
+    "units": 27,
+    "service_minutes": 28
+  },
+  {
+    "delivery_id": "DEL-2026-000147",
+    "order_id": "ORD-2026-000136",
+    "weight_kg": 171.71,
+    "volume_m3": 2.021,
+    "units": 26,
+    "service_minutes": 13
+  },
+  {
+    "delivery_id": "DEL-2026-000148",
+    "order_id": "ORD-2026-000136",
+    "weight_kg": 42.27,
+    "volume_m3": 0.815,
+    "units": 3,
+    "service_minutes": 9
+  },
+  {
+    "delivery_id": "DEL-2026-000149",
+    "order_id": "ORD-2026-000137",
+    "weight_kg": 130.68,
+    "volume_m3": 2.148,
+    "units": 18,
+    "service_minutes": 17
+  },
+  {
+    "delivery_id": "DEL-2026-000150",
+    "order_id": "ORD-2026-000138",
+    "weight_kg": 381.91,
+    "volume_m3": 4.0,
+    "units": 40,
+    "service_minutes": 29
+  },
+  {
+    "delivery_id": "DEL-2026-000151",
+    "order_id": "ORD-2026-000139",
+    "weight_kg": 134.67,
+    "volume_m3": 1.686,
+    "units": 19,
+    "service_minutes": 19
+  },
+  {
+    "delivery_id": "DEL-2026-000152",
+    "order_id": "ORD-2026-000140",
+    "weight_kg": 186.54,
+    "volume_m3": 1.787,
+    "units": 12,
+    "service_minutes": 23
+  },
+  {
+    "delivery_id": "DEL-2026-000153",
+    "order_id": "ORD-2026-000141",
+    "weight_kg": 38.71,
+    "volume_m3": 0.455,
+    "units": 4,
+    "service_minutes": 13
+  },
+  {
+    "delivery_id": "DEL-2026-000154",
+    "order_id": "ORD-2026-000142",
+    "weight_kg": 49.4,
+    "volume_m3": 0.606,
+    "units": 11,
+    "service_minutes": 12
+  },
+  {
+    "delivery_id": "DEL-2026-000155",
+    "order_id": "ORD-2026-000142",
+    "weight_kg": 53.96,
+    "volume_m3": 0.844,
+    "units": 8,
+    "service_minutes": 13
+  },
+  {
+    "delivery_id": "DEL-2026-000156",
+    "order_id": "ORD-2026-000143",
+    "weight_kg": 22.14,
+    "volume_m3": 0.193,
+    "units": 2,
+    "service_minutes": 12
+  },
+  {
+    "delivery_id": "DEL-2026-000157",
+    "order_id": "ORD-2026-000143",
+    "weight_kg": 65.48,
+    "volume_m3": 0.582,
+    "units": 9,
+    "service_minutes": 16
+  },
+  {
+    "delivery_id": "DEL-2026-000158",
+    "order_id": "ORD-2026-000144",
+    "weight_kg": 22.27,
+    "volume_m3": 0.122,
+    "units": 3,
+    "service_minutes": 8
+  },
+  {
+    "delivery_id": "DEL-2026-000159",
+    "order_id": "ORD-2026-000145",
+    "weight_kg": 50.33,
+    "volume_m3": 0.667,
+    "units": 4,
+    "service_minutes": 18
+  },
+  {
+    "delivery_id": "DEL-2026-000160",
+    "order_id": "ORD-2026-000146",
+    "weight_kg": 136.83,
+    "volume_m3": 1.27,
+    "units": 12,
+    "service_minutes": 17
+  },
+  {
+    "delivery_id": "DEL-2026-000161",
+    "order_id": "ORD-2026-000147",
+    "weight_kg": 326.49,
+    "volume_m3": 1.531,
+    "units": 40,
+    "service_minutes": 33
+  },
+  {
+    "delivery_id": "DEL-2026-000162",
+    "order_id": "ORD-2026-000148",
+    "weight_kg": 500.0,
+    "volume_m3": 4.0,
+    "units": 40,
+    "service_minutes": 35
+  },
+  {
+    "delivery_id": "DEL-2026-000163",
+    "order_id": "ORD-2026-000149",
+    "weight_kg": 27.0,
+    "volume_m3": 0.201,
+    "units": 2,
+    "service_minutes": 13
+  },
+  {
+    "delivery_id": "DEL-2026-000164",
+    "order_id": "ORD-2026-000150",
+    "weight_kg": 142.88,
+    "volume_m3": 1.251,
+    "units": 24,
+    "service_minutes": 12
+  },
+  {
+    "delivery_id": "DEL-2026-000165",
+    "order_id": "ORD-2026-000151",
+    "weight_kg": 163.63,
+    "volume_m3": 3.845,
+    "units": 26,
+    "service_minutes": 19
+  },
+  {
+    "delivery_id": "DEL-2026-000166",
+    "order_id": "ORD-2026-000152",
+    "weight_kg": 56.26,
+    "volume_m3": 0.499,
+    "units": 5,
+    "service_minutes": 10
+  },
+  {
+    "delivery_id": "DEL-2026-000167",
+    "order_id": "ORD-2026-000153",
+    "weight_kg": 27.9,
+    "volume_m3": 0.485,
+    "units": 7,
+    "service_minutes": 6
+  },
+  {
+    "delivery_id": "DEL-2026-000168",
+    "order_id": "ORD-2026-000154",
+    "weight_kg": 104.26,
+    "volume_m3": 0.98,
+    "units": 15,
+    "service_minutes": 16
+  },
+  {
+    "delivery_id": "DEL-2026-000169",
+    "order_id": "ORD-2026-000155",
+    "weight_kg": 269.94,
+    "volume_m3": 3.784,
+    "units": 40,
+    "service_minutes": 28
+  },
+  {
+    "delivery_id": "DEL-2026-000170",
+    "order_id": "ORD-2026-000156",
+    "weight_kg": 500.0,
+    "volume_m3": 4.0,
+    "units": 40,
+    "service_minutes": 34
+  },
+  {
+    "delivery_id": "DEL-2026-000171",
+    "order_id": "ORD-2026-000157",
+    "weight_kg": 51.22,
+    "volume_m3": 0.391,
+    "units": 6,
+    "service_minutes": 14
+  },
+  {
+    "delivery_id": "DEL-2026-000172",
+    "order_id": "ORD-2026-000158",
+    "weight_kg": 101.75,
+    "volume_m3": 1.564,
+    "units": 9,
+    "service_minutes": 16
+  },
+  {
+    "delivery_id": "DEL-2026-000173",
+    "order_id": "ORD-2026-000159",
+    "weight_kg": 137.67,
+    "volume_m3": 1.602,
+    "units": 8,
+    "service_minutes": 15
+  },
+  {
+    "delivery_id": "DEL-2026-000174",
+    "order_id": "ORD-2026-000160",
+    "weight_kg": 16.37,
+    "volume_m3": 0.218,
+    "units": 2,
+    "service_minutes": 9
+  },
+  {
+    "delivery_id": "DEL-2026-000175",
+    "order_id": "ORD-2026-000161",
+    "weight_kg": 69.89,
+    "volume_m3": 0.964,
+    "units": 10,
+    "service_minutes": 10
+  },
+  {
+    "delivery_id": "DEL-2026-000176",
+    "order_id": "ORD-2026-000162",
+    "weight_kg": 500.0,
+    "volume_m3": 4.0,
+    "units": 40,
+    "service_minutes": 42
+  },
+  {
+    "delivery_id": "DEL-2026-000177",
+    "order_id": "ORD-2026-000163",
+    "weight_kg": 53.05,
+    "volume_m3": 0.725,
+    "units": 7,
+    "service_minutes": 13
+  },
+  {
+    "delivery_id": "DEL-2026-000178",
+    "order_id": "ORD-2026-000164",
+    "weight_kg": 195.6,
+    "volume_m3": 1.866,
+    "units": 18,
+    "service_minutes": 19
+  },
+  {
+    "delivery_id": "DEL-2026-000179",
+    "order_id": "ORD-2026-000165",
+    "weight_kg": 131.58,
+    "volume_m3": 1.7,
+    "units": 25,
+    "service_minutes": 17
+  },
+  {
+    "delivery_id": "DEL-2026-000180",
+    "order_id": "ORD-2026-000166",
+    "weight_kg": 23.18,
+    "volume_m3": 0.483,
+    "units": 2,
+    "service_minutes": 9
+  },
+  {
+    "delivery_id": "DEL-2026-000181",
+    "order_id": "ORD-2026-000167",
+    "weight_kg": 30.28,
+    "volume_m3": 0.284,
+    "units": 2,
+    "service_minutes": 6
+  },
+  {
+    "delivery_id": "DEL-2026-000182",
+    "order_id": "ORD-2026-000167",
+    "weight_kg": 78.0,
+    "volume_m3": 1.067,
+    "units": 15,
+    "service_minutes": 10
+  },
+  {
+    "delivery_id": "DEL-2026-000183",
+    "order_id": "ORD-2026-000168",
+    "weight_kg": 26.17,
+    "volume_m3": 0.429,
+    "units": 1,
+    "service_minutes": 11
+  },
+  {
+    "delivery_id": "DEL-2026-000184",
+    "order_id": "ORD-2026-000169",
+    "weight_kg": 449.86,
+    "volume_m3": 4.0,
+    "units": 40,
+    "service_minutes": 32
+  },
+  {
+    "delivery_id": "DEL-2026-000185",
+    "order_id": "ORD-2026-000169",
+    "weight_kg": 20.23,
+    "volume_m3": 0.462,
+    "units": 2,
+    "service_minutes": 8
+  },
+  {
+    "delivery_id": "DEL-2026-000186",
+    "order_id": "ORD-2026-000170",
+    "weight_kg": 131.81,
+    "volume_m3": 1.352,
+    "units": 18,
+    "service_minutes": 8
+  },
+  {
+    "delivery_id": "DEL-2026-000187",
+    "order_id": "ORD-2026-000170",
+    "weight_kg": 569.53,
+    "volume_m3": 2.653,
+    "units": 19,
+    "service_minutes": 18
+  },
+  {
+    "delivery_id": "DEL-2026-000188",
+    "order_id": "ORD-2026-000171",
+    "weight_kg": 123.9,
+    "volume_m3": 1.967,
+    "units": 9,
+    "service_minutes": 16
+  },
+  {
+    "delivery_id": "DEL-2026-000189",
+    "order_id": "ORD-2026-000172",
+    "weight_kg": 224.56,
+    "volume_m3": 2.166,
+    "units": 27,
+    "service_minutes": 27
+  },
+  {
+    "delivery_id": "DEL-2026-000190",
+    "order_id": "ORD-2026-000172",
+    "weight_kg": 28.7,
+    "volume_m3": 0.368,
+    "units": 5,
+    "service_minutes": 15
+  },
+  {
+    "delivery_id": "DEL-2026-000191",
+    "order_id": "ORD-2026-000173",
+    "weight_kg": 38.0,
+    "volume_m3": 0.424,
+    "units": 7,
+    "service_minutes": 12
+  },
+  {
+    "delivery_id": "DEL-2026-000192",
+    "order_id": "ORD-2026-000174",
+    "weight_kg": 500.0,
+    "volume_m3": 4.0,
+    "units": 40,
+    "service_minutes": 34
+  },
+  {
+    "delivery_id": "DEL-2026-000193",
+    "order_id": "ORD-2026-000175",
+    "weight_kg": 263.39,
+    "volume_m3": 2.389,
+    "units": 19,
+    "service_minutes": 21
+  },
+  {
+    "delivery_id": "DEL-2026-000194",
+    "order_id": "ORD-2026-000176",
+    "weight_kg": 500.0,
+    "volume_m3": 4.0,
+    "units": 40,
+    "service_minutes": 34
+  },
+  {
+    "delivery_id": "DEL-2026-000195",
+    "order_id": "ORD-2026-000177",
+    "weight_kg": 177.04,
+    "volume_m3": 1.941,
+    "units": 18,
+    "service_minutes": 19
+  },
+  {
+    "delivery_id": "DEL-2026-000196",
+    "order_id": "ORD-2026-000177",
+    "weight_kg": 99.09,
+    "volume_m3": 1.117,
+    "units": 13,
+    "service_minutes": 18
+  },
+  {
+    "delivery_id": "DEL-2026-000197",
+    "order_id": "ORD-2026-000178",
+    "weight_kg": 180.95,
+    "volume_m3": 2.16,
+    "units": 33,
+    "service_minutes": 18
+  },
+  {
+    "delivery_id": "DEL-2026-000198",
+    "order_id": "ORD-2026-000179",
+    "weight_kg": 131.64,
+    "volume_m3": 1.662,
+    "units": 8,
+    "service_minutes": 17
+  },
+  {
+    "delivery_id": "DEL-2026-000199",
+    "order_id": "ORD-2026-000179",
+    "weight_kg": 68.32,
+    "volume_m3": 0.781,
+    "units": 8,
+    "service_minutes": 12
+  },
+  {
+    "delivery_id": "DEL-2026-000200",
+    "order_id": "ORD-2026-000180",
+    "weight_kg": 31.76,
+    "volume_m3": 0.288,
+    "units": 4,
+    "service_minutes": 11
+  }
+]

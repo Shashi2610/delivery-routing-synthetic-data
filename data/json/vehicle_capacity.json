@@ -1,0 +1,92 @@
+[
+  {
+    "capacity_id": "VCAP-000001",
+    "vehicle_id": "VEH-000001",
+    "max_weight_kg": 1000.7,
+    "max_volume_m3": 10.01,
+    "max_units": 120,
+    "effective_from": "2026-03-31",
+    "effective_to": null
+  },
+  {
+    "capacity_id": "VCAP-000002",
+    "vehicle_id": "VEH-000002",
+    "max_weight_kg": 8474.61,
+    "max_volume_m3": 51.1,
+    "max_units": 822,
+    "effective_from": "2023-03-15",
+    "effective_to": null
+  },
+  {
+    "capacity_id": "VCAP-000003",
+    "vehicle_id": "VEH-000003",
+    "max_weight_kg": 924.45,
+    "max_volume_m3": 9.24,
+    "max_units": 109,
+    "effective_from": "2025-06-27",
+    "effective_to": null
+  },
+  {
+    "capacity_id": "VCAP-000004",
+    "vehicle_id": "VEH-000004",
+    "max_weight_kg": 753.96,
+    "max_volume_m3": 7.54,
+    "max_units": 83,
+    "effective_from": "2023-10-21",
+    "effective_to": null
+  },
+  {
+    "capacity_id": "VCAP-000005",
+    "vehicle_id": "VEH-000005",
+    "max_weight_kg": 809.63,
+    "max_volume_m3": 8.1,
+    "max_units": 91,
+    "effective_from": "2025-04-19",
+    "effective_to": null
+  },
+  {
+    "capacity_id": "VCAP-000006",
+    "vehicle_id": "VEH-000006",
+    "max_weight_kg": 984.82,
+    "max_volume_m3": 9.85,
+    "max_units": 118,
+    "effective_from": "2024-07-19",
+    "effective_to": null
+  },
+  {
+    "capacity_id": "VCAP-000007",
+    "vehicle_id": "VEH-000007",
+    "max_weight_kg": 732.4,
+    "max_volume_m3": 7.32,
+    "max_units": 80,
+    "effective_from": "2023-05-29",
+    "effective_to": null
+  },
+  {
+    "capacity_id": "VCAP-000008",
+    "vehicle_id": "VEH-000008",
+    "max_weight_kg": 757.74,
+    "max_volume_m3": 7.58,
+    "max_units": 84,
+    "effective_from": "2024-10-07",
+    "effective_to": null
+  },
+  {
+    "capacity_id": "VCAP-000009",
+    "vehicle_id": "VEH-000009",
+    "max_weight_kg": 929.6,
+    "max_volume_m3": 9.3,
+    "max_units": 109,
+    "effective_from": "2026-07-15",
+    "effective_to": null
+  },
+  {
+    "capacity_id": "VCAP-000010",
+    "vehicle_id": "VEH-000010",
+    "max_weight_kg": 6953.83,
+    "max_volume_m3": 42.23,
+    "max_units": 645,
+    "effective_from": "2026-01-21",
+    "effective_to": null
+  }
+]

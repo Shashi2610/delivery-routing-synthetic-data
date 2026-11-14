@@ -1,0 +1,205 @@
+[
+  {
+    "route_id": "RTE-2026-000001",
+    "shift_id": "SHF-2026-000006",
+    "hub_id": "SITE-000001",
+    "route_date": "2026-11-02",
+    "planned_start": "2026-11-02T06:00:00"
+  },
+  {
+    "route_id": "RTE-2026-000002",
+    "shift_id": "SHF-2026-000003",
+    "hub_id": "SITE-000001",
+    "route_date": "2026-11-02",
+    "planned_start": "2026-11-02T06:30:00"
+  },
+  {
+    "route_id": "RTE-2026-000003",
+    "shift_id": "SHF-2026-000010",
+    "hub_id": "SITE-000001",
+    "route_date": "2026-11-02",
+    "planned_start": "2026-11-02T07:30:00"
+  },
+  {
+    "route_id": "RTE-2026-000004",
+    "shift_id": "SHF-2026-000005",
+    "hub_id": "SITE-000002",
+    "route_date": "2026-11-02",
+    "planned_start": "2026-11-02T07:00:00"
+  },
+  {
+    "route_id": "RTE-2026-000005",
+    "shift_id": "SHF-2026-000009",
+    "hub_id": "SITE-000002",
+    "route_date": "2026-11-02",
+    "planned_start": "2026-11-02T08:00:00"
+  },
+  {
+    "route_id": "RTE-2026-000006",
+    "shift_id": "SHF-2026-000002",
+    "hub_id": "SITE-000002",
+    "route_date": "2026-11-02",
+    "planned_start": "2026-11-02T08:30:00"
+  },
+  {
+    "route_id": "RTE-2026-000007",
+    "shift_id": "SHF-2026-000004",
+    "hub_id": "SITE-000003",
+    "route_date": "2026-11-02",
+    "planned_start": "2026-11-02T06:30:00"
+  },
+  {
+    "route_id": "RTE-2026-000008",
+    "shift_id": "SHF-2026-000001",
+    "hub_id": "SITE-000003",
+    "route_date": "2026-11-02",
+    "planned_start": "2026-11-02T09:00:00"
+  },
+  {
+    "route_id": "RTE-2026-000009",
+    "shift_id": "SHF-2026-000008",
+    "hub_id": "SITE-000004",
+    "route_date": "2026-11-02",
+    "planned_start": "2026-11-02T09:00:00"
+  },
+  {
+    "route_id": "RTE-2026-000010",
+    "shift_id": "SHF-2026-000007",
+    "hub_id": "SITE-000005",
+    "route_date": "2026-11-02",
+    "planned_start": "2026-11-02T08:00:00"
+  },
+  {
+    "route_id": "RTE-2026-000011",
+    "shift_id": "SHF-2026-000020",
+    "hub_id": "SITE-000001",
+    "route_date": "2026-11-03",
+    "planned_start": "2026-11-03T06:30:00"
+  },
+  {
+    "route_id": "RTE-2026-000012",
+    "shift_id": "SHF-2026-000016",
+    "hub_id": "SITE-000001",
+    "route_date": "2026-11-03",
+    "planned_start": "2026-11-03T07:00:00"
+  },
+  {
+    "route_id": "RTE-2026-000013",
+    "shift_id": "SHF-2026-000013",
+    "hub_id": "SITE-000001",
+    "route_date": "2026-11-03",
+    "planned_start": "2026-11-03T08:30:00"
+  },
+  {
+    "route_id": "RTE-2026-000014",
+    "shift_id": "SHF-2026-000012",
+    "hub_id": "SITE-000002",
+    "route_date": "2026-11-03",
+    "planned_start": "2026-11-03T06:00:00"
+  },
+  {
+    "route_id": "RTE-2026-000015",
+    "shift_id": "SHF-2026-000015",
+    "hub_id": "SITE-000002",
+    "route_date": "2026-11-03",
+    "planned_start": "2026-11-03T06:30:00"
+  },
+  {
+    "route_id": "RTE-2026-000016",
+    "shift_id": "SHF-2026-000019",
+    "hub_id": "SITE-000002",
+    "route_date": "2026-11-03",
+    "planned_start": "2026-11-03T06:30:00"
+  },
+  {
+    "route_id": "RTE-2026-000017",
+    "shift_id": "SHF-2026-000011",
+    "hub_id": "SITE-000003",
+    "route_date": "2026-11-03",
+    "planned_start": "2026-11-03T07:00:00"
+  },
+  {
+    "route_id": "RTE-2026-000018",
+    "shift_id": "SHF-2026-000014",
+    "hub_id": "SITE-000003",
+    "route_date": "2026-11-03",
+    "planned_start": "2026-11-03T07:30:00"
+  },
+  {
+    "route_id": "RTE-2026-000019",
+    "shift_id": "SHF-2026-000018",
+    "hub_id": "SITE-000004",
+    "route_date": "2026-11-03",
+    "planned_start": "2026-11-03T06:00:00"
+  },
+  {
+    "route_id": "RTE-2026-000020",
+    "shift_id": "SHF-2026-000026",
+    "hub_id": "SITE-000001",
+    "route_date": "2026-11-04",
+    "planned_start": "2026-11-04T06:00:00"
+  },
+  {
+    "route_id": "RTE-2026-000021",
+    "shift_id": "SHF-2026-000023",
+    "hub_id": "SITE-000001",
+    "route_date": "2026-11-04",
+    "planned_start": "2026-11-04T09:00:00"
+  },
+  {
+    "route_id": "RTE-2026-000022",
+    "shift_id": "SHF-2026-000030",
+    "hub_id": "SITE-000001",
+    "route_date": "2026-11-04",
+    "planned_start": "2026-11-04T09:00:00"
+  },
+  {
+    "route_id": "RTE-2026-000023",
+    "shift_id": "SHF-2026-000025",
+    "hub_id": "SITE-000002",
+    "route_date": "2026-11-04",
+    "planned_start": "2026-11-04T07:00:00"
+  },
+  {
+    "route_id": "RTE-2026-000024",
+    "shift_id": "SHF-2026-000022",
+    "hub_id": "SITE-000002",
+    "route_date": "2026-11-04",
+    "planned_start": "2026-11-04T07:30:00"
+  },
+  {
+    "route_id": "RTE-2026-000025",
+    "shift_id": "SHF-2026-000029",
+    "hub_id": "SITE-000002",
+    "route_date": "2026-11-04",
+    "planned_start": "2026-11-04T08:30:00"
+  },
+  {
+    "route_id": "RTE-2026-000026",
+    "shift_id": "SHF-2026-000021",
+    "hub_id": "SITE-000003",
+    "route_date": "2026-11-04",
+    "planned_start": "2026-11-04T08:00:00"
+  },
+  {
+    "route_id": "RTE-2026-000027",
+    "shift_id": "SHF-2026-000024",
+    "hub_id": "SITE-000003",
+    "route_date": "2026-11-04",
+    "planned_start": "2026-11-04T08:00:00"
+  },
+  {
+    "route_id": "RTE-2026-000028",
+    "shift_id": "SHF-2026-000028",
+    "hub_id": "SITE-000004",
+    "route_date": "2026-11-04",
+    "planned_start": "2026-11-04T07:00:00"
+  },
+  {
+    "route_id": "RTE-2026-000029",
+    "shift_id": "SHF-2026-000027",
+    "hub_id": "SITE-000005",
+    "route_date": "2026-11-04",
+    "planned_start": "2026-11-04T08:30:00"
+  }
+]
