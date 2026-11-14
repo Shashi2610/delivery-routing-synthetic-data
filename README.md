@@ -47,6 +47,7 @@ Reports written by the other scripts: `validation_report.md`, `docs/metrics_repo
 ```
 generate.py          entry point: builds all tables and writes the outputs
 validate.py          structural checks, anomaly detectors and scoring
+app.py               optional Streamlit page for the results (needs requirements-ui.txt)
 requirements.txt     pandas and numpy
 generator/           config, ids, seeded rng, master_data, transactions, travel, routing,
                      simulation, anomalies, schema, export
@@ -116,6 +117,17 @@ anomaly STOP_OMITTED_OR_DUPLICATED: 3
 ```
 
 The assigned, unserved and outcome lines describe the clean data before anomalies are injected.
+
+## Optional: web UI
+
+`app.py` is a Streamlit page for browsing the results. It reads the files in `data/` and needs one extra package. The generator, validator and scripts do not need it.
+
+```
+pip install -r requirements-ui.txt
+streamlit run app.py
+```
+
+Tabs: Overview (manifest, seed, command, files), Data (browse any table), Metrics (the numbers from `scripts/metrics.py` with charts), Validation (structural checks, rule detectors and scoring against the ground truth) and Reproducibility (the report and a button that runs the check). The sidebar has a Generate button that replaces the files in `data/`, `sql/` and `ground_truth/` with a new dataset.
 
 ## Data model
 
