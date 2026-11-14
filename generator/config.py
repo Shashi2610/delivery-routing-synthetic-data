@@ -10,8 +10,8 @@ TIMESTAMP_FORMAT = "%Y-%m-%dT%H:%M:%S"
 HUB_SHARES = (0.30, 0.25, 0.20, 0.15, 0.10)
 
 SCALES = {
-    "starter": {"sites": 50, "deliveries": 200, "vehicles": 10, "drivers": 12, "days": 3},
-    "full": {"sites": 500, "deliveries": 2000, "vehicles": 100, "drivers": 120, "days": 30},
+    "starter": {"sites": 50, "deliveries": 200, "vehicles": 10, "drivers": 12, "days": 3, "availability": {"weekday": 1.0, "weekend": 1.0}},
+    "full": {"sites": 500, "deliveries": 2000, "vehicles": 100, "drivers": 120, "days": 30, "availability": {"weekday": 0.40, "weekend": 0.15}},
 }
 
 REGION_BOUNDS = {
@@ -21,10 +21,10 @@ REGION_BOUNDS = {
     "lon_max": -73.75,
 }
 
-TRAVEL_NOISE_SIGMA = 0.15
-SERVICE_NOISE_SIGMA = 0.08
-INCIDENT_DELAY_MULTIPLIER = 1.3
-LATE_GRACE_MINUTES = 10
+TRAVEL_NOISE_SIGMA = 0.60
+SERVICE_NOISE_SIGMA = 0.35
+INCIDENT_DELAY_MULTIPLIER = 2.0
+LATE_GRACE_MINUTES = 5
 
 ANOMALY_MIN_COUNT = 3
 ANOMALY_RATES = {

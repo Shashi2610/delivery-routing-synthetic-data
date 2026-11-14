@@ -43,6 +43,18 @@ def hub_ids(sites):
     return sites.loc[sites["site_type"] == "hub", "site_id"].to_numpy()
 
 
+def hub_counts(total):
+    raw = np.array(HUB_SHARES) * total
+    counts = np.floor(raw).astype(int)
+    largest_remainders = np.argsort(-(raw - counts), kind="stable")
+    counts[largest_remainders[: total - counts.sum()]] += 1
+    return counts
+
+
+def shuffled_hub_indexes(rng, total):
+    return rng.permutation(np.repeat(np.arange(len(HUB_SHARES)), hub_counts(total)))
+
+
 def dates_before_start(rng, count, min_days, max_days):
     offsets = rng.integers(min_days, max_days + 1, count)
     earlier = pd.Timestamp(START_DATE) - pd.to_timedelta(offsets, unit="D")
@@ -99,7 +111,7 @@ def build_hub_rows(rng):
 
 
 def build_customer_rows(rng, hubs, count):
-    hub_index = rng.choice(len(hubs), size=count, p=HUB_SHARES)
+    hub_index = shuffled_hub_indexes(rng, count)
     lat, lon = offsets_inside_region(
         rng, hubs["lat"].to_numpy()[hub_index], hubs["lon"].to_numpy()[hub_index]
     )
@@ -130,9 +142,7 @@ def build_sites(rng, customer_count):
 
 
 def draw_home_hubs(rng, sites, count):
-    hubs = hub_ids(sites)
-    extra = rng.choice(hubs, size=count - len(hubs), p=HUB_SHARES)
-    return rng.permutation(np.concatenate([hubs, extra]))
+    return hub_ids(sites)[shuffled_hub_indexes(rng, count)]
 
 
 def build_vehicles(rng, sites, count):
@@ -213,11 +223,22 @@ def build_day_shifts(rng, day, drivers, vehicles):
     })
 
 
-def build_shifts(rng, drivers, vehicles, days):
+def available_vehicles(rng, day, vehicles, availability):
+    rate = availability["weekend" if day.weekday() >= 5 else "weekday"]
+    available = rng.random(len(vehicles)) < rate
+    home_hubs = vehicles["home_hub_id"].to_numpy()
+    for hub_id in np.unique(home_hubs):
+        positions = np.flatnonzero(home_hubs == hub_id)
+        if not available[positions].any():
+            available[rng.choice(positions)] = True
+    return vehicles[available]
+
+
+def build_shifts(rng, drivers, vehicles, days, availability):
     first_day = pd.Timestamp(START_DATE)
     day_frames = [
-        build_day_shifts(rng, first_day + pd.Timedelta(days=offset), drivers, vehicles)
-        for offset in range(days)
+        build_day_shifts(rng, day, drivers, available_vehicles(rng, day, vehicles, availability))
+        for day in (first_day + pd.Timedelta(days=offset) for offset in range(days))
     ]
     shifts = pd.concat(day_frames, ignore_index=True)
     years = pd.to_datetime(shifts["shift_start"]).dt.year

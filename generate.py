@@ -3,6 +3,7 @@ from pathlib import Path
 
 from generator.anomalies import inject_anomalies
 from generator.config import DEFAULT_SEED, SCALES
+from generator.export import export_dataset
 from generator.master_data import (
     build_drivers,
     build_shifts,
@@ -20,16 +21,13 @@ from generator.transactions import (
 )
 from generator.travel import build_traffic_scenarios, build_travel_time_matrix
 
-DATA_DIR = Path(__file__).parent / "data"
-GROUND_TRUTH_DIR = Path(__file__).parent / "ground_truth"
-GROUND_TRUTH_FILE = "ground_truth.csv"
-
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Generate the synthetic delivery-routing dataset.")
     parser.add_argument("--seed", type=int, default=DEFAULT_SEED)
     parser.add_argument("--scale", choices=sorted(SCALES), default="starter")
     parser.add_argument("--no-anomalies", action="store_true")
+    parser.add_argument("--output-dir", type=Path, default=Path(__file__).parent)
     return parser.parse_args()
 
 
@@ -38,7 +36,7 @@ def build_tables(rng, sizes):
     vehicles = build_vehicles(rng, sites, sizes["vehicles"])
     capacities = build_vehicle_capacity(rng, vehicles)
     drivers = build_drivers(rng, sites, vehicles, sizes["drivers"])
-    shifts = build_shifts(rng, drivers, vehicles, sizes["days"])
+    shifts = build_shifts(rng, drivers, vehicles, sizes["days"], sizes["availability"])
     travel_matrix = build_travel_time_matrix(sites)
     scenarios = build_traffic_scenarios(rng, sizes["days"])
     orders, deliveries = build_orders_and_deliveries(rng, sites, sizes["deliveries"], sizes["days"])
@@ -62,17 +60,8 @@ def build_tables(rng, sizes):
     return tables
 
 
-def with_lowercase_booleans(table):
-    table = table.copy()
-    for column in table.select_dtypes("bool"):
-        table[column] = table[column].map({True: "true", False: "false"})
-    return table
-
-
-def write_tables(tables):
-    DATA_DIR.mkdir(exist_ok=True)
+def print_row_counts(tables):
     for name, table in tables.items():
-        with_lowercase_booleans(table).to_csv(DATA_DIR / f"{name}.csv", index=False)
         print(f"{name}: {len(table)}")
 
 
@@ -92,9 +81,7 @@ def print_outcome_counts(outcomes, windows):
         print(f"outcome failed {reason}: {count}")
 
 
-def write_ground_truth(ground_truth):
-    GROUND_TRUTH_DIR.mkdir(exist_ok=True)
-    ground_truth.to_csv(GROUND_TRUTH_DIR / GROUND_TRUTH_FILE, index=False)
+def print_anomaly_counts(ground_truth):
     for issue_type, count in ground_truth.groupby("issue_type")["anomaly_id"].nunique().items():
         print(f"anomaly {issue_type}: {count}")
 
@@ -104,15 +91,15 @@ def main():
     rng = make_rng(args.seed)
     clean_tables = build_tables(rng, SCALES[args.scale])
     if args.no_anomalies:
-        (GROUND_TRUTH_DIR / GROUND_TRUTH_FILE).unlink(missing_ok=True)
-        tables = clean_tables
+        tables, ground_truth = clean_tables, None
     else:
         tables, ground_truth = inject_anomalies(rng, clean_tables)
-    write_tables(tables)
+    export_dataset(tables, ground_truth, args.output_dir, args.seed, args.scale)
+    print_row_counts(tables)
     print_assignment_counts(clean_tables["delivery_status_event"])
     print_outcome_counts(clean_tables["delivery_outcome"], clean_tables["time_window"])
-    if not args.no_anomalies:
-        write_ground_truth(ground_truth)
+    if ground_truth is not None:
+        print_anomaly_counts(ground_truth)
 
 
 if __name__ == "__main__":
