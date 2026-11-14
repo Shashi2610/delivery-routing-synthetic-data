@@ -204,7 +204,7 @@ def inject_arrival_before_departure(work):
     tables = work.tables
     outcomes = outcomes_in_route_order(tables)
     outcomes["previous_departure"] = outcomes.groupby("route_id")["actual_departure"].shift(1)
-    eligible = outcomes[outcomes["previous_departure"].notna() & outcomes["actual_arrival"].notna()]
+    eligible = outcomes[outcomes["previous_departure"].notna() & (outcomes["status"] == "delivered")]
     target = target_count(issue_type, len(outcomes))
     for route_id in work.claim_routes(eligible["route_id"].unique(), target):
         rows = eligible[eligible["route_id"] == route_id]
