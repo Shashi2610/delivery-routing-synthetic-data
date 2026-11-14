@@ -189,6 +189,12 @@ def build_time_windows(rng, deliveries, orders, sites):
     })
 
 
+def assign_event_ids(events):
+    years = pd.to_datetime(events["event_time"]).dt.year
+    events["event_id"] = ids.assign_yearly(ids.status_event_id, years)
+    return events
+
+
 def build_status_events(rng, deliveries, orders):
     context = deliveries[["delivery_id", "order_id"]]
     context = context.merge(orders[["order_id", "order_datetime"]], on="order_id", how="left")

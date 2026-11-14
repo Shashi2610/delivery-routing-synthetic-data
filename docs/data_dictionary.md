@@ -192,6 +192,8 @@ One row per delivery attempt. Rows are never edited; a retry is a new row with t
 | status | enum | Y | delivered, failed | none | no | none |
 | reason_code | enum | N | LATE_MISSED_WINDOW, SHIFT_EXCEEDED, CAPACITY, SITE_CLOSED, VEHICLE_RESTRICTED | none | no | required when status is failed, null when delivered |
 
+Lateness is not stored. It is computed as the minutes by which actual_arrival is after the delivery's latest_arrival (zero if not later). A delivered row with lateness above zero was late but inside the grace period. A stop that was never reached has null actual_arrival and actual_departure. A stop where the vehicle arrived but did not serve has actual_departure equal to actual_arrival.
+
 ### 13. DeliveryStatusEvent (added)
 
 Not in the original list of 12. It holds the delivery lifecycle as append-only rows, because Delivery has no status field to overwrite.
@@ -216,6 +218,7 @@ Not in the original list of 12. It holds the traffic multiplier for one date and
 | scenario_date | date | Y | within simulation period | date | unique with hour_band | none |
 | hour_band | enum | Y | 00-06, 06-10, 10-16, 16-20, 20-24 | local hours | unique with scenario_date | none |
 | traffic_factor | decimal(4,2) | Y | 0.8 to 2.0 | multiplier | no | 1.0 is free flow; below 1.0 is lighter than free-flow baseline |
+| is_incident | bool | Y | true, false | none | no | true only for daytime bands on an incident day; execution adds extra delay to travel in these bands |
 
 Every date in the simulation period has one row per hour band, so a leg always finds its factor.
 

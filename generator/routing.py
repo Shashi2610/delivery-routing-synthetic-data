@@ -7,7 +7,7 @@ import pandas as pd
 
 from generator import ids
 from generator.config import DATE_FORMAT, TIMESTAMP_FORMAT
-from generator.transactions import add_minutes, minutes_of_day
+from generator.transactions import add_minutes, assign_event_ids, minutes_of_day
 from generator.travel import HOUR_BAND_BASE_FACTORS, HOUR_BAND_START_MINUTES
 
 PRIORITY_RANK = {"critical": 0, "high": 1, "normal": 2, "low": 3}
@@ -277,10 +277,7 @@ def append_routing_events(planned, day_of, route_of, reason_of):
         "route_id": delivery_ids.map(route_of),
         "reason_code": delivery_ids.map(reason_of),
     })
-    events = pd.concat([planned, new_events], ignore_index=True)
-    years = pd.to_datetime(events["event_time"]).dt.year
-    events["event_id"] = ids.assign_yearly(ids.status_event_id, years)
-    return events
+    return assign_event_ids(pd.concat([planned, new_events], ignore_index=True))
 
 
 def plan_routes(tables):

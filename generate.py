@@ -11,6 +11,7 @@ from generator.master_data import (
 )
 from generator.rng import make_rng
 from generator.routing import plan_routes
+from generator.simulation import count_late_deliveries, simulate_execution
 from generator.transactions import (
     build_orders_and_deliveries,
     build_status_events,
@@ -53,6 +54,7 @@ def build_tables(rng, sizes):
         "delivery_status_event": status_events,
     }
     tables.update(plan_routes(tables))
+    tables.update(simulate_execution(rng, tables))
     return tables
 
 
@@ -71,12 +73,19 @@ def write_tables(tables):
 
 
 def print_assignment_counts(status_events):
-    latest = status_events.loc[status_events.groupby("delivery_id")["event_seq"].idxmax()]
-    unserved = latest[latest["status"] == "unserved"]
-    print(f"assigned: {(latest['status'] == 'assigned').sum()}")
+    unserved = status_events[status_events["status"] == "unserved"]
+    print(f"assigned: {(status_events['status'] == 'assigned').sum()}")
     print(f"unserved: {len(unserved)}")
     for reason, count in unserved["reason_code"].value_counts().sort_index().items():
         print(f"unserved {reason}: {count}")
+
+
+def print_outcome_counts(outcomes, windows):
+    for status, count in outcomes["status"].value_counts().sort_index().items():
+        print(f"outcome {status}: {count}")
+    print(f"outcome delivered late: {count_late_deliveries(outcomes, windows)}")
+    for reason, count in outcomes["reason_code"].value_counts().sort_index().items():
+        print(f"outcome failed {reason}: {count}")
 
 
 def main():
@@ -85,6 +94,7 @@ def main():
     tables = build_tables(rng, SCALES[args.scale])
     write_tables(tables)
     print_assignment_counts(tables["delivery_status_event"])
+    print_outcome_counts(tables["delivery_outcome"], tables["time_window"])
 
 
 if __name__ == "__main__":

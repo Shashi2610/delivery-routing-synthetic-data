@@ -73,4 +73,5 @@ def build_traffic_scenarios(rng, days):
         "scenario_date": dates.strftime(DATE_FORMAT),
         "hour_band": band_names,
         "traffic_factor": factor.clip(*FACTOR_RANGE).round(2),
+        "is_incident": is_incident,
     })
