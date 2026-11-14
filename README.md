@@ -9,6 +9,97 @@ The data is intended for:
 - **Analysts**, to measure service level and to test data-quality and anomaly detection against known labels.
 - **Operations managers**, to look at on-time delivery, failure reasons and vehicle and shift utilisation.
 
+## Quick start
+
+Tested on Windows with PowerShell, Python 3.14.3, pandas 3.1.1 and numpy 2.5.4. Run every command from the repository root.
+
+**1. Get the code**
+
+```
+git clone <repository-url>
+cd delivery-routing-synthetic-data
+```
+
+**2. Create the environment and install the requirements**
+
+```
+py -m venv .venv
+.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+```
+
+If PowerShell blocks the activation script, run `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` and activate again. Or skip the activation and start each command below with `.venv\Scripts\` (for example `.venv\Scripts\python generate.py`).
+
+**3. Generate the dataset (about 2 seconds)**
+
+```
+python generate.py --seed 20261022 --scale starter
+```
+
+The data files are not stored in the repository, so run this step first. The next steps read its output. It prints the row count of each of the 14 tables (from `customer_site: 55` to `delivery_outcome: 105`), then the assigned, unserved and outcome counts and five `anomaly ...: 3` lines.
+
+**4. Validate (about 2 seconds)**
+
+```
+python validate.py
+```
+
+```
+structural checks: 115/115 passed
+ROUTE_CAPACITY_EXCEEDED: detections 3, recall 100.0%, precision 100.0%
+STOP_OMITTED_OR_DUPLICATED: detections 3, recall 100.0%, precision 100.0%
+ARRIVAL_BEFORE_PREVIOUS_DEPARTURE: detections 3, recall 100.0%, precision 100.0%
+DRIVER_SHIFT_EXCEEDED: detections 3, recall 100.0%, precision 100.0%
+COORDINATE_OUTSIDE_REGION: detections 3, recall 100.0%, precision 100.0%
+result: PASS
+```
+
+This writes `validation_report.md`.
+
+**5. Metrics (about 1 second)**
+
+```
+python scripts/metrics.py
+```
+
+```
+deliveries: 200, assigned: 107, unserved: 93
+attempted: 105, on time: 98, late: 0, failed: 7
+on-time % of attempted: 93.3%
+service rate: 53.5%
+mean weight utilisation: 49.3%, mean volume utilisation: 53.9%
+average lateness of late deliveries: n/a minutes
+```
+
+This writes `docs/metrics_report.md`.
+
+**6. Reproducibility check (about 7 seconds)**
+
+```
+python scripts/check_reproducibility.py --scale starter
+```
+
+```
+same seed, 32 files: all identical
+different seed: checksums changed as expected
+manifest checksums match files: True
+result: PASS
+```
+
+This writes `docs/reproducibility_report.md`.
+
+**Full dataset (optional)**
+
+The full dataset (2000 deliveries) takes about 7 seconds to generate and is about 61 MB, so write it to a separate folder:
+
+```
+python generate.py --seed 20261022 --scale full --output-dir <folder>
+python validate.py --data-dir <folder>\data --ground-truth <folder>\ground_truth\ground_truth.csv
+python scripts/metrics.py --data-dir <folder>\data
+```
+
+Add `--no-anomalies` to `generate.py` for a clean dataset without ground truth. Use `--seed <number>` for a different dataset.
+
 ## What the project produces
 
 Row counts with anomalies injected (the default), for seed 20261022:
@@ -34,7 +125,7 @@ Outputs of `generate.py`:
 
 | Output | Location |
 |---|---|
-| One CSV per table | `data/*.csv` |
+| One CSV per table (created by step 3, not stored in the repository) | `data/*.csv` |
 | The same tables as JSON records | `data/json/*.json` |
 | Manifest with seed, scale, command, row counts and SHA-256 of every file | `data/manifest.json` |
 | SQL schema and seed statements (generated, not loaded by the pipeline) | `sql/schema.sql`, `sql/seed.sql` |
@@ -60,67 +151,9 @@ ai_prompts/          log of the prompts used
 tests/               empty
 ```
 
-## Setup and run
-
-Verified with Python 3.14.3, pandas 3.1.1 and numpy 2.5.4 on Windows (PowerShell). The generator, validator and scripts need only pandas and numpy. The optional web UI needs one more package (see Optional: web UI).
-
-```
-py -m venv .venv
-.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-```
-
-After activation, `python` runs the environment's interpreter. The commands below were run from the repository root, with the times measured once on the author's machine.
-
-| Step | Command | Starter | Full |
-|---|---|---|---|
-| Generate | `python generate.py --seed 20261022 --scale starter` (or `--scale full`) | 2 s | 7 s |
-| Validate | `python validate.py` | 2 s | 3 s |
-| Metrics | `python scripts/metrics.py` | 1 s | 2 s |
-| Reproducibility | `python scripts/check_reproducibility.py --scale starter` (or `--scale full`) | 7 s | 24 s |
-
-`validate.py` and `scripts/metrics.py` read whatever is currently in `data/`, so run them after the matching generate command. Add `--no-anomalies` to `generate.py` to write the clean dataset and no ground truth. `--output-dir <folder>` writes everything to another folder.
-
-Output of the generate command at starter scale:
-
-```
-customer_site: 55
-vehicle: 10
-vehicle_capacity: 10
-driver: 12
-shift: 30
-travel_time_matrix: 2970
-traffic_scenario: 15
-order: 180
-delivery: 200
-time_window: 200
-delivery_status_event: 614
-route: 29
-route_stop: 106
-delivery_outcome: 105
-assigned: 107
-unserved: 93
-unserved CAPACITY: 3
-unserved LATE_MISSED_WINDOW: 49
-unserved SHIFT_EXCEEDED: 13
-unserved VEHICLE_RESTRICTED: 28
-outcome delivered: 100
-outcome failed: 7
-outcome delivered late: 0
-outcome failed LATE_MISSED_WINDOW: 3
-outcome failed SHIFT_EXCEEDED: 4
-anomaly ARRIVAL_BEFORE_PREVIOUS_DEPARTURE: 3
-anomaly COORDINATE_OUTSIDE_REGION: 3
-anomaly DRIVER_SHIFT_EXCEEDED: 3
-anomaly ROUTE_CAPACITY_EXCEEDED: 3
-anomaly STOP_OMITTED_OR_DUPLICATED: 3
-```
-
-The assigned, unserved and outcome lines describe the clean data before anomalies are injected.
-
 ## Optional: web UI
 
-`app.py` is a Streamlit page for browsing the results. It reads the files in `data/` and needs one extra package (tested with Streamlit 1.67.0). The generator, validator and scripts do not need it.
+`app.py` is a Streamlit page for browsing the results. It reads the files in `data/` (run step 3 first) and needs one extra package (tested with Streamlit 1.67.0). The generator, validator and scripts do not need it.
 
 ```
 pip install -r requirements-ui.txt
